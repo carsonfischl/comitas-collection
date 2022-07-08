@@ -18,7 +18,7 @@ const subcategory = ({ result }) => {
 
 export const getStaticProps = async ({ params: { subcategory } }) => {
   const result = items.filter(items => items.subcategory === subcategory)
-  console.log(result)
+  //console.log(result)
   return {
     props: {
       result,
@@ -27,15 +27,12 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
-
-  const categories = items.map((item) => item.subcategory)
-  const paths = categories.map((subcategory) => ({ params: { subcategory: subcategory.toString() } }))
+  const subcategories = ['argead', 'antigonid', 'seleucid', 'pergamon','thrace', 'ptolemaic', 'greek', 'imperial', 'imperatorial', 'republican', 'byzantine', 'french', 'german', 'spanish', 'dutch', 'english']
+  const paths = subcategories.map((sc) => ({ params: { subcategory: sc } }))
 
   return {
     paths,
-    fallback: blogging,
+    fallback: false,
   }
 }
 

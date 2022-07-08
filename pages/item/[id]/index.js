@@ -4,17 +4,18 @@ import { useRouter } from 'next/router'
 import Meta from '../../../components/Meta'
 import Image from 'next/image'
 import { Card, Grid, Text } from "@nextui-org/react";
+import { items } from '../../../data'
 
-const item = ({ item }) => {
+const item = ({ result }) => {
 
   return (
     <>
-      <Meta title={item.title} description={item.excerpt} />
+      <Meta title={result.title} description={result.excerpt} />
       <Card css={{alignItems:'center', padding:'1rem'}}>
-        <Card.Image src={item.pic} alt={item.id} layout='fill'/>
+        <Card.Image src={result.pic} alt={result.id} layout='fill'/>
         <Card.Body>
-        <h1>{item.title}</h1>
-        <p>{item.body}</p>
+        <h1>{result.title}</h1>
+        <p>{result.body}</p>
         </Card.Body>
       </Card>
       <br />
@@ -23,27 +24,30 @@ const item = ({ item }) => {
   )
 }
 
-export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/items/${context.params.id}`)
-  const item = await res.json()
-
+export const getStaticProps = async ({ params: { id } }) => {
+  const single = items.filter(items => items.id === id)
+  const result = single[0]
+  //console.log(result)
   return {
     props: {
-      item,
+      result,
     },
   }
 }
 
+function* range(start, end, step) {
+  while (start < end) {
+    yield start;
+    start += step;
+  }
+}
+
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
-
-  const ids = items.map((item) => item.id)
-  const paths = ids.map((id) => ({ params: { id: id.toString() } }))
-
+  const ids = Array.from(range(1,40))
+  const paths = ids.map((i) => ({params:{ id: String(i)}}))
   return {
     paths,
-    fallback: blogging,
+    fallback: false,
   }
 }
 

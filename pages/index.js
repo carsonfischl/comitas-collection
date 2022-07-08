@@ -4,6 +4,7 @@ import homeStyles from '../styles/Layout.module.css'
 import Header from '../components/Header'
 import { server } from '../config'
 import ItemList from '../components/ItemList'
+import items from '../data.js'
 
 export default function Home({items}) {
   return (
@@ -13,13 +14,12 @@ export default function Home({items}) {
   )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
+// export const getStaticProps = async () => {
+//   const res = items.json;
 
-  return {
-    props: {
-      items,
-    },
-  }
-}
+//   return {
+//     props: {
+//       res,
+//     },
+//   }
+// }

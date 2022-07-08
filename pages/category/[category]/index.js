@@ -19,7 +19,7 @@ const category = ({ result }) => {
 
 export const getStaticProps = async ({ params: { category } }) => {
   const result = items.filter(items => items.category === category)
-  console.log(result)
+  //console.log(result)
   return {
     props: {
       result,
@@ -28,13 +28,13 @@ export const getStaticProps = async ({ params: { category } }) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
-  
-  const paths = items.map(({ category, locale }) => ({ params: { category: category }, locale }))
+  const categories = ['roman', 'earlymodern', 'medieval', 'hellenistic']
+
+  const paths = categories.map((c) => ({ params: { category: c } }))
+
   return {
-      fallback: blogging,
-      paths,
+    paths,
+    fallback: false,
   }
 }
 
