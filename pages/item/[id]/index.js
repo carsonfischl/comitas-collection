@@ -9,7 +9,7 @@ const item = ({ item }) => {
   return (
     <>
       <Meta title={item.title} description={item.excerpt} />
-      <Image src={item.pic}/>
+      <Image src={item.pic} alt={item.title}/>
       <h1>{item.title}</h1>
       <p>{item.body}</p>
       <br />
