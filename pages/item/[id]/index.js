@@ -9,7 +9,7 @@ const item = ({ item }) => {
   return (
     <>
       <Meta title={item.title} description={item.excerpt} />
-      <Image src={item.pic} alt={item.title}/>
+      <Image src={item.pic} alt={item.id}/>
       <h1>{item.title}</h1>
       <p>{item.body}</p>
       <br />
@@ -30,8 +30,6 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
 
   const ids = items.map((item) => item.id)
   const paths = ids.map((id) => ({ params: { id: id.toString() } }))

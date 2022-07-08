@@ -27,8 +27,6 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
-  const items = await res.json()
 
   const categories = items.map((item) => item.subcategory)
   const paths = categories.map((subcategory) => ({ params: { subcategory: subcategory.toString() } }))
