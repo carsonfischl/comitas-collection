@@ -33,7 +33,7 @@ export const getStaticPaths = async () => {
   
   const paths = items.map(({ category, locale }) => ({ params: { category: category }, locale }))
   return {
-      fallback: true,
+      fallback: blogging,
       paths,
   }
 }
