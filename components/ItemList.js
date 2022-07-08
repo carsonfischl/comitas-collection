@@ -5,7 +5,7 @@ const ItemList = ({ items }) => {
   return (
     <div className={styles.itemgrid}>
       {items.map((item) => (
-        <Item item={item} />
+        <Item item={item} key={item.id}/>
       ))}
     </div>
   )
