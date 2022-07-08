@@ -27,7 +27,7 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
+  const res = await fetch(`comitas-collection.vercel.app/api/items`)
   const items = await res.json()
   
   const categories = items.map((item) => item.subcategory)

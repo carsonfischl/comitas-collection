@@ -19,7 +19,7 @@ const item = ({ item }) => {
 }
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/items/${context.params.id}`)
+  const res = await fetch(`comitas-collection.vercel.app/api/items/${context.params.id}`)
   const item = await res.json()
 
   return {
@@ -30,7 +30,7 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/items`)
+  const res = await fetch(`comitas-collection.vercel.app/api/items`)
   const items = await res.json()
 
   const ids = items.map((item) => item.id)

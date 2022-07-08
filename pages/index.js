@@ -14,7 +14,7 @@ export default function Home({items}) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/items`)
+  const res = await fetch(`comitas-collection.vercel.app/api/items`)
   const items = await res.json()
 
   return {

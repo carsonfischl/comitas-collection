@@ -28,6 +28,9 @@ export const getStaticProps = async ({ params: { category } }) => {
 }
 
 export const getStaticPaths = async () => {
+  const res = await fetch(`comitas-collection.vercel.app/api/items`)
+  const items = await res.json()
+
   const paths = items.map(({ category, locale }) => ({ params: { category: category }, locale }))
   return {
       fallback: true,
