@@ -2,13 +2,14 @@ import { server } from '../../../config'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Meta from '../../../components/Meta'
+import Image from 'next/image'
 
 const item = ({ item }) => {
 
   return (
     <>
       <Meta title={item.title} description={item.excerpt} />
-      <img src={item.pic}/>
+      <Image src={item.pic}/>
       <h1>{item.title}</h1>
       <p>{item.body}</p>
       <br />
