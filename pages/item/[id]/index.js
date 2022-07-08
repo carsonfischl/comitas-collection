@@ -26,8 +26,9 @@ const item = ({ result }) => {
 
 export const getStaticProps = async ({ params: { id } }) => {
   const single = items.filter(items => items.id === id)
+  console.log(single)
   const result = single[0]
-  //console.log(result)
+  console.log(result)
   return {
     props: {
       result,
@@ -43,7 +44,7 @@ function* range(start, end, step) {
 }
 
 export const getStaticPaths = async () => {
-  const ids = Array.from(range(1,40))
+  const ids = Array.from(range(1,40,1))
   const paths = ids.map((i) => ({params:{ id: String(i)}}))
   return {
     paths,
