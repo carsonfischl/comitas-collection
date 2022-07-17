@@ -1,6 +1,7 @@
 import { Dropdown, Navbar, Link, Button, Modal, Text } from "@nextui-org/react";
 import navStyles from "../styles/Nav.module.css";
 import React from "react";
+import Form from "./Form";
 
 export default function App() {
     const [visible, setVisible] = React.useState(false);
@@ -115,6 +116,7 @@ export default function App() {
           </Text>
         </Modal.Header>
         <Modal.Body>
+            <Form />
         </Modal.Body>
         <Modal.Footer css={{alignContent: "center", margin: "auto"}}>
             <Button onClick={closeHandler} css={{margin: '1rem', background: '$black', color: '$gray100'}}>Close</Button>
