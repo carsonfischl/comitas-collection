@@ -483,4 +483,32 @@ export const items = [
     obverse: 'Coat of Arms',
     reverse: 'Maltese cross',
   }, 
+  {
+    id: '42',
+    title: 'Philip II Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'argead',
+    pic: '/images/argead2.jpeg',
+    date:
+      '350 BCE',
+    mint: 'Amphipolis',
+    body:
+      'Tetradrachm of Philip II',
+    obverse: 'Laureate bust of Zeus',
+    reverse: 'Horseman',
+  }, 
+  {
+    id: '43',
+    title: 'Lysimachus Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'thrace',
+    pic: '/images/thrace3.jpeg',
+    date:
+      '281 BCE',
+    mint: 'Thrace',
+    body:
+      'Tetradrachm of Lysimachus',
+    obverse: 'Bust of Alexander with horns of Ammon',
+    reverse: 'Athena, seated',
+  }, 
 ]
