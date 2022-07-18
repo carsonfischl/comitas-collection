@@ -3,19 +3,19 @@ const Form = () => {
   return (
     <div>
         <form action="/api/form" method="post">
-            <div class="form-item">
+            <div className="form-item">
                 <label htmlFor="first">First Name</label>
             </div>
-            <div class="form-item">
+            <div className="form-item">
                 <input type="text" id="first" name="first" required />
             </div>
-            <div class="form-item">
+            <div className="form-item">
                 <label htmlFor="first">First Name</label>
             </div>
-            <div class="form-item">
+            <div className="form-item">
                 <input type="text" id="first" name="first" required />
             </div>
-            <div class="form-item">
+            <div className="form-item">
                 <button type="submit">Submit</button>
             </div>
         </form>
