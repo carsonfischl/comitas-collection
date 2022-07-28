@@ -6,10 +6,10 @@ const Item = ({ item }) => {
   const [isLoading, setIsLoading] = useState(false);
  
   useEffect(() => {
-    const fetchData = async (item) => {
+    const fetchData = async ({item}) => {
       setIsLoading(true);
  
-      const result = await item.pic;
+      const result = await {item};
       setIsLoading(false);
     };
     fetchData();
