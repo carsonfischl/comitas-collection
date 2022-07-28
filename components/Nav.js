@@ -17,6 +17,11 @@ export default function App() {
         <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Hellenistic</Dropdown.Button>
         <Dropdown.Menu aria-label="Static Actions">
             <Dropdown.Item>
+                <Link href="/category/hellenistic" css={{color: '$black'}}>
+                    All
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item withDivider>
                 <Link href="/subcategory/argead" css={{color: '$black'}}>
                     Argead
                 </Link>
@@ -24,6 +29,11 @@ export default function App() {
             <Dropdown.Item>
                 <Link href="/subcategory/antigonid" css={{color: '$black'}}>
                     Antigonid
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+                <Link href="/subcategory/bactria" css={{color: '$black'}}>
+                    Bactrian
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
@@ -57,6 +67,11 @@ export default function App() {
         <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Roman</Dropdown.Button>
         <Dropdown.Menu aria-label="Static Actions">
             <Dropdown.Item>
+                <Link href="/category/roman" css={{color: '$black'}}>
+                    All
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item withDivider>
                 <Link href="/subcategory/republican" css={{color: '$black'}}>
                     Republican
                 </Link>
@@ -82,6 +97,11 @@ export default function App() {
         <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Early Modern</Dropdown.Button>
         <Dropdown.Menu aria-label="Static Actions">
             <Dropdown.Item>
+                <Link href="/category/earlymodern" css={{color: '$black'}}>
+                    All
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item withDivider>
                 <Link href="/subcategory/french" css={{color: '$black'}}>
                     French
                 </Link>

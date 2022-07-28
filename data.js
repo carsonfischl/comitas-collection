@@ -511,4 +511,32 @@ export const items = [
     obverse: 'Bust of Alexander with horns of Ammon',
     reverse: 'Athena, seated',
   }, 
+  {
+    id: '44',
+    title: 'Eukratides Megas Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'bactria',
+    pic: '/images/bactria1.jpg',
+    date:
+      '160 BCE',
+    mint: 'Ai-khanoum',
+    body:
+      'Tetradrachm of Eukratides Megas',
+    obverse: 'Bust of Eukratides with helmet',
+    reverse: 'Dioscuri on horseback',
+  }, 
+  {
+    id: '45',
+    title: 'Antogonus II Gonatas Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'antigonid',
+    pic: '/images/antigonid2.jpg',
+    date:
+      '232 BCE',
+    mint: 'Amphipolis',
+    body:
+      'Tetradrachm of Antigonus II Gonatas',
+    obverse: 'Bust of Antigonus II within Macedonian shield',
+    reverse: 'Athena, striding forward with spear at the ready',
+  }, 
 ]
