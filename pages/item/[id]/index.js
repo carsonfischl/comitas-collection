@@ -8,25 +8,12 @@ import { items } from '../../../data'
 import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
- 
-      const i = await result;  
-      setIsLoading(false);
-    };
-    fetchData();
-  }, []);
 
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card>
-        { isLoading ? <Loading /> :
-          <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
-        }
+        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
         <Card.Body>
         {result.title} 
         {result.body}
