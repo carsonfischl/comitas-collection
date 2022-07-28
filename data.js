@@ -184,7 +184,7 @@ export const items = [
     id: '18',
     title: 'Greco-Bactrian Tetradrachm',
     category: 'hellenistic',
-    subcategory: 'bactria',
+    subcategory: 'bactrian',
     pic: '/images/hellenistic3.jpeg',
     date:
       '135 BCE',
@@ -516,8 +516,8 @@ export const items = [
     id: '44',
     title: 'Eukratides Megas Tetradrachm',
     category: 'hellenistic',
-    subcategory: 'bactria',
-    pic: '/images/bactria1.jpg',
+    subcategory: 'bactrian',
+    pic: '/images/bactrian1.jpg',
     date:
       '160 BCE',
     mint: 'Ai-khanoum',

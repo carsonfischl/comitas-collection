@@ -32,7 +32,7 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/subcategory/bactria" css={{color: '$black'}}>
+                <Link href="/subcategory/bactrian" css={{color: '$black'}}>
                     Bactrian
                 </Link>
             </Dropdown.Item>
@@ -66,7 +66,7 @@ export default function App() {
         <Dropdown>
         <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Roman</Dropdown.Button>
         <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item>
+            <Dropdown.Item href="/category/roman">
                 <Link href="/category/roman" css={{color: '$black'}}>
                     All
                 </Link>
