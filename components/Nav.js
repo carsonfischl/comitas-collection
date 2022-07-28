@@ -72,11 +72,6 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/subcategory/republican" css={{color: '$black'}}>
-                    Republican
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
                 <Link href="/subcategory/imperatorial" css={{color: '$black'}}>
                     Imperatorial
                 </Link>
@@ -114,11 +109,6 @@ export default function App() {
             <Dropdown.Item>
                 <Link href="/subcategory/german" css={{color: '$black'}}>
                     German
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/subcategory/english" css={{color: '$black'}}>
-                    English
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
