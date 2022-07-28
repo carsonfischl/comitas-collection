@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Card, Grid, Text } from "@nextui-org/react";
+
 const Item = ({ item }) => {
   return (
     <Link href={`/item/${item.id}`}>
