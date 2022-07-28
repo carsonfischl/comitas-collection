@@ -11,11 +11,11 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card css={{alignItems:'center', padding:'1rem', alignContent:'center'}}>
-        <Card.Image src={result.pic} alt={result.id} layout='fill'/>
+      <Card>
+        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
         <Card.Body>
-        <h1>{result.title}</h1>
-        <p>{result.body}</p>
+        {result.title} 
+        {result.body}
         </Card.Body>
       </Card>
       <br />
