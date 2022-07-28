@@ -16,6 +16,7 @@ const item = ({ result }) => {
         <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
         <Card.Body>
         {result.title} 
+        <br></br>
         {result.body}
         </Card.Body>
       </Card>
