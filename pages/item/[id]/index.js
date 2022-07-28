@@ -9,15 +9,11 @@ import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
 
-  const [isLoading, setIsLoading] = useState(false);
-
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card>
-        {isLoading ? <Loading /> :
-          <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
-        }
+        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
         <Card.Body>
         {result.title} 
         {result.body}
@@ -28,22 +24,10 @@ const item = ({ result }) => {
     </>
   )
 }
- 
-useEffect(() => {
-  const fetchData = async () => {
-    setIsLoading(true);
-
-    const result = await fetch(`${server}/api/items/${result.id}`);
-    setIsLoading(false);
-  };
-  fetchData();
-}, []);
 
 export const getStaticProps = async ({ params: { id } }) => {
   const single = items.filter(items => items.id === id)
-  console.log(single)
   const result = single[0]
-  console.log(result)
   return {
     props: {
       result,
