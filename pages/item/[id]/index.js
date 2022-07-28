@@ -9,6 +9,8 @@ import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
 
+  const [isLoading, setIsLoading] = useState(false);
+
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
@@ -26,18 +28,16 @@ const item = ({ result }) => {
     </>
   )
 }
+ 
+useEffect(() => {
+  const fetchData = async () => {
+    setIsLoading(true);
 
-const [isLoading, setIsLoading] = useState(false);
- 
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
- 
-      const result = await fetch(`${server}/api/items/${result.id}`);
-      setIsLoading(false);
-    };
-    fetchData();
-  }, []);
+    const result = await fetch(`${server}/api/items/${result.id}`);
+    setIsLoading(false);
+  };
+  fetchData();
+}, []);
 
 export const getStaticProps = async ({ params: { id } }) => {
   const single = items.filter(items => items.id === id)

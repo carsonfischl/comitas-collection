@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Card, Grid, Text } from "@nextui-org/react";
+import { Card, Grid, Text, Loading } from "@nextui-org/react";
 import { useState, useEffect } from 'react';
 
 const Item = ({ item }) => {
