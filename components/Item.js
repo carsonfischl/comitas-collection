@@ -9,7 +9,7 @@ const Item = ({ item }) => {
     const fetchData = async (item) => {
       setIsLoading(true);
  
-      const result = await item;
+      const result = await fetch(`${server}/item/${item.id}`);
       setIsLoading(false);
     };
     fetchData();
