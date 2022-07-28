@@ -366,19 +366,6 @@ export const items = [
     obverse: 'Stuff',
     reverse: 'Maltese cross, other stuff',
   }, {
-    id: '41',
-    title: 'Ptolemy II Tetradrachm',
-    category: 'hellenistic',
-    subcategory: 'ptolemaic',
-    pic: '/images/ptolemaic1.jpeg',
-    date:
-      '283 BCE',
-    mint: 'Alexandria',
-    body:
-      'Year 12 of the reign of Ptolemy II.',
-    obverse: 'Diademed bust of Ptolemy I Soter',
-    reverse: 'Eagle',
-  }, {
     id: '33',
     title: 'Quintus Cassius Longinus Tetradrachm',
     category: 'roman',
@@ -482,6 +469,20 @@ export const items = [
       '2 Escudos of Philip II',
     obverse: 'Coat of Arms',
     reverse: 'Maltese cross',
+  }, 
+  {
+    id: '41',
+    title: 'Ptolemy II Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'ptolemaic',
+    pic: '/images/ptolemaic1.jpeg',
+    date:
+      '283 BCE',
+    mint: 'Alexandria',
+    body:
+      'Year 12 of the reign of Ptolemy II.',
+    obverse: 'Diademed bust of Ptolemy I Soter',
+    reverse: 'Eagle',
   }, 
   {
     id: '42',
