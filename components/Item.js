@@ -5,11 +5,11 @@ import { useState, useEffect } from 'react';
 const Item = ({ item }) => {
   const [isLoading, setIsLoading] = useState(false);
  
-  useEffect(() => {
-    const fetchData = async () => {
+  useEffect((item) => {
+    const fetchData = async (item) => {
       setIsLoading(true);
  
-      const result = await fetch(`${server}/api/item/${item.id}`);
+      const result = await item;
       setIsLoading(false);
     };
     fetchData();
