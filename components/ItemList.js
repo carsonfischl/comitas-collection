@@ -1,5 +1,7 @@
 import Item from './Item'
 import styles from '../styles/Itemgrid.module.css'
+import { Loading } from '@nextui-org/react';
+import { useEffect, useState } from 'react';
 
 const ItemList = ({ items }) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -8,7 +10,7 @@ const ItemList = ({ items }) => {
     const fetchData = async () => {
       setIsLoading(true);
  
-      const result = await item;
+      const result = await items;
       setIsLoading(false);
     };
     fetchData();
