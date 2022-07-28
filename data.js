@@ -540,4 +540,18 @@ export const items = [
     obverse: 'Bust of Antigonus II within Macedonian shield',
     reverse: 'Athena, striding forward with spear at the ready',
   }, 
+  {
+    id: '46',
+    title: 'Anastasius I Dicorus Solidus',
+    category: 'roman',
+    subcategory: 'byzantine',
+    pic: '/images/byzantine2.jpg',
+    date:
+      '491-518 CE',
+    mint: 'Constantinople',
+    body:
+      'Anastasius I AV Solidus. Constantinople, AD 491-518. D N ANASTASIVS P P AVG, helmeted, pearl-diademed and cuirassed bust facing three-quarters to right, holding spear over shoulder and shield decorated with horseman motif / VICTORIA AVGGG S, Victory standing facing, head to left, holding voided cross; star in right field, CONOB in exergue. MIBE 4a; DOC 3f; Sear 3. 4.51g, 22mm, 6h.',
+    obverse: 'Bust of Anastasius I in military dress',
+    reverse: 'Nike with cross. CONOB in exergue',
+  }, 
 ]
