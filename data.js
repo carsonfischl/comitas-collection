@@ -85,29 +85,29 @@ export const items = [
     date:
       '135 BCE',
     body:
-      'Tetradrachm of Maroneia.',
+      'THRACE, Maroneia. Late 2nd-mid 1st centuries BC. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
     obverse: 'Head of the god Dionysus',
     reverse: 'Hercules standing holding grapes'
   },{
     id: '9',
-    title: 'Silver Rider',
+    title: 'Dutch Republic',
     category: 'earlymodern',
     subcategory: 'dutch',
     pic: '/images/dutch4.jpeg',
     date:
-      '1589',
+      '1581-1795 CE',
     body:
-      'Rider, 60 stuivers',
+      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). Zeeland. 1581-1795. AR Dukaton – zilveren rijder (43mm, 32.00 g, 10h). Middelburg mint; mm: castle. Dated 1668. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ze 43; CNM 2.49.56; KM 41.1. Sea salvaged. VF.',
   },    {
     id: '10',
-    title: 'Dutch Leeuwendaalder',
+    title: 'Dutch Republic',
     category: 'earlymodern',
     subcategory: 'dutch',
     pic: '/images/dutch3.jpeg',
     date:
-      '1640 CE',
+      '1581-1795 CE',
     body:
-      'Dutch Leeuwendaalder',
+      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). 1581-1795. AR Leeuwendaalder (41mm, 27.22 g, 2h). Dated 1589. Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Ho 22; CNM 2.28.66. Toned, some deposits, light marks, edge splits. Good VF.',
   },  {
     id: '11',
     title: 'Athenian tetradrachm',
@@ -145,9 +145,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/greek8.jpeg',
     date:
-      '330 BCE',
+      '363-338 BCE',
     body:
-      'Minted at the height of Theban hegemony, following the 371 BCE battle at Leuctra.',
+      'BOEOTIA, Thebes. Circa 363-338 BC. AR Stater (21.5mm, 12.03 g). Diok-, magistrate. Boeotian shield / Amphora; ΔI-OK across field; all within incuse concave circle. Hepworth 28; BCD Boiotia 550; HGC 4, 1334. Old collection tone, off center on reverse. VF.',
   }, {
     id: '15',
     title: 'Kyme, Aeolis Tetradrachm',
@@ -179,27 +179,27 @@ export const items = [
     date:
       '135 BCE',
     body:
-      'Cistophoric tetradrachm on Roman occupied Pergamon.',
+      'IONIA, Ephesos. Circa 180-67 BC. AR Tetradrachm (29.5mm, 12.36 g, 1h). Cistophoric standard. Dated CY 2 (133/2 BC). Cista mystica with serpent; all within ivy wreath / Two serpents entwined around bow and bowcase; bee above, B (date) to upper left, torch to right. Kleiner & Noe Series 41; SNG Copenhagen 316. Toned, traces of find patina, flan cracks, some smoothing on reverse. VF.',
   }, {
     id: '18',
-    title: 'Greco-Bactrian Tetradrachm',
+    title: 'Azes I',
     category: 'hellenistic',
     subcategory: 'bactrian',
     pic: '/images/hellenistic3.jpeg',
     date:
       '135 BCE',
     body:
-      'Tetradrachm from the Bactrian kingdom.',
+      'INDO-SKYTHIANS. Azes. Circa 58-12 BC. AR Tetradrachm (25mm, 9.56 g, 6h). Azes right on horseback, holding whip; jha in Kharosthi to right / Athena standing right, raising hand and holding spear and shield; monogram to left; to right, va in Kharosthi above second monogram. Senior 98.325T; HGC 12, 637. Toned. VF.',
   }, {
     id: '19',
     title: 'Attalos I Tetradrachm',
     category: 'hellenistic',
     subcategory: 'pergamon',
-    pic: '/images/hellenistic4.jpeg',
+    pic: '/images/hellenistic5.jpeg',
     date:
-      '250 BCE',
+      '269/8-263 BCE',
     body:
-      'Spectacular tetradrachm of Attalos I.',
+      'KINGS of PERGAMON. Philetairos. 282-263 BC. AR Tetradrachm (27mm, 16.80 g, 12h). Pergamon mint. Struck circa 269/8-263 BC. Diademed head right / Athena enthroned left, holding shield in right hand, left elbow resting on sphinx seated right; spear diagonally in background, bow to outer right, monogram on throne, ivy leaf in exergue. Westermark Group II, obv. die II; SNG BN 1603–5 (Eumenes I). Lightly toned, previously gilded, mount and bezel removed. VF. From the Dr. Jay M. Galst Collection.',
     obverse: 'Laureate bust of Philetairos',
     reverse: 'Athena, seated, crowning Attalos\' name',
   }, {
@@ -207,7 +207,7 @@ export const items = [
     title: 'Eumenes II Tetradrachm',
     category: 'hellenistic',
     subcategory: 'pergamon',
-    pic: '/images/hellenistic5.jpeg',
+    pic: '/images/hellenistic4.jpeg',
     date:
       '135 BCE',
     body:
@@ -235,7 +235,7 @@ export const items = [
     date:
       '39 BCE',
     body:
-      'Legionary denarius of Mark Antony, celebrating Legio IV.',
+      'The Triumvirs. Mark Antony. Autumn 32-spring 31 BC. AR Denarius (17mm, 3.34 g, 5h). Legionary issue. Patrae(?) mint. Praetorian galley right / Aquila between two signa; LEG IV across lower field. Crawford 544/17; CRI 352; Sydenham 1219; RSC 30; RBW –. Iridescent toning, graffito. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1255.',
     obverse: 'Trireme',
     reverse: 'Legionary standards and aquila',
   }, {
@@ -296,7 +296,7 @@ export const items = [
     date:
       '46 BCE',
     body:
-      'Denarius of Caesar.',
+      'The Caesarians. Julius Caesar. Late 46-early 45 BC. AR Denarius (20mm, 3.62 g, 3h). Military mint traveling with Caesar in Spain. Head of Venus right, wearing stephane, with Cupid over her shoulder / Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him. Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639. Toned, minor marks. Near VF. From the Kermit C. Smyth Collection, purchased from Brian Kritt, 19 April 1986.',
     obverse: 'Bust of Venus',
     reverse: 'Trophaeion - CAESAR in exergue',
   }, {
@@ -309,7 +309,7 @@ export const items = [
       '247 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Philip the Arab. Born in Syria, Philip was praetorian prefect at the time of the death of his predecessor, Gordian III, who was still a teenager. It is probable that Philip had a hand in Gordian\'s death. As Augustus, Philip oversaw the 1000th aniversary of Rome\'s mythical founding in 753 BCE.',
+      'SELEUCIS and PIERIA, Antioch. Philip I. AD 244-249. AR Tetradrachm (25.5mm, 11.66 g, 2h). Struck AD 247. Laureate, draped, and cuirassed bust right / Eagle standing right, wings spread with left wing behind leg, head right and holding wreath in beak; ANTIOXIA/S C in two lines in exergue. McAlee 908; Prieur 368. Lightly toned, typical light porosity, obverse lamination flaw. Near EF.',
     obverse: 'Laureate bust of Philip I',
     reverse: 'Imperial Eagle',
   }, {
@@ -385,10 +385,10 @@ export const items = [
     subcategory: 'seleucid',
     pic: '/images/seleucid1.jpeg',
     date:
-      '90 BCE',
+      '121/0-97/6 BCE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Antiochos VIII Grypos (the hook-nosed).',
+      'SELEUKID EMPIRE. Antiochos VIII Epiphanes (Grypos). 121/0-97/6 BC. AR Tetradrachm (29mm, 15.35 g, 12h). Antioch on the Orontes mint. Third reign at Antioch, circa 109-96 BC. Diademed head right / Zeus Nikephoros seated left, pellet within wreath of Nike; to outer left, monogram above A; monogram below throne; all within laurel wreath. SC 2309.1b; HGC 9, 1200. Toned, flan crack, light scratches and marks, struck with worn obverse die, double struck on reverse. VF.',
     obverse: 'Diademed bust of Antiochos VIII',
     reverse: 'Zeus enthroned, holding Nike',
   }, {
@@ -401,7 +401,7 @@ export const items = [
       '66 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Philip I Philadelphos, penultimate ruler of the Seleucid Empire.',
+      'SELEUKID EMPIRE. Philip I Philadelphos. Circa 95/4-76/5 BC. AR Tetrdrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Struck circa 88/7–76/5 BC. Diademed head right / Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath. SC 2463.2c; HGC 9, 1319. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
     obverse: 'Diademed bust of Philip I',
     reverse: 'Zeus enthroned, holding Nike',
   }, {
@@ -480,7 +480,7 @@ export const items = [
       '283 BCE',
     mint: 'Alexandria',
     body:
-      'Year 12 of the reign of Ptolemy II.',
+      'PTOLEMAIC KINGS of EGYPT. Ptolemy II Philadelphos. 285-246 BC. AR Tetradrachm (26.5mm, 13.72 g, 12h). Tyre mint. Dated RY 21 (265/4 BC). Diademed head of Ptolemy I right, wearing aegis around neck / Eagle standing left; to left, Tyre monogram above club; KA monogram (date) to right. CPE 563; Svoronos 646; SNG Copenhagen 484; DCA 20. Lightly toned, some redeposited silver. Good Fine.',
     obverse: 'Diademed bust of Ptolemy I Soter',
     reverse: 'Eagle',
   }, 
