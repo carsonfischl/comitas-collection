@@ -115,19 +115,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/athens1.png',
     date:
-      '135 BCE',
+      '165-150/49 BCE',
     body:
-      'Late style Athenian tetradrachm. Athens maintained its status as a cultural centre after the Roman conquest.',
-  }, {
-    id: '12',
-    title: 'Athenian tetradrachm',
-    category: 'hellenistic',
-    subcategory: 'greek',
-    pic: '/images/athens2.png',
-    date:
-      '454-405 BCE',
-    body:
-      'Classical style Athenian tetradrachm. These were minted by the thousands as Athens exploited its status as Greek hegemon to amass wealth from its allies. In addition, large silver deposits were found in the mines of Laurion in 479 BCE.',
+      'ATTICA. Athens. AR Tetradrachm (16.63 gms), ca. 165-150/49 B.C. VERY FINE. Flan Flaw. HGC-4, 1602; Thompson-37. New style type. Obverse: Helmeted head of Athena right; Reverse: Owl, with head facing, standing right on overturned amphora; trophy to left; all within wreath. This example has good luster with a beautiful obverse. An unfortune and prominent flan flaw in the form of lamination is centrally located on the reverse.',
   }, {
     id: '13',
     title: 'Akarnania (Tyrrhion) Stater',
@@ -157,7 +147,7 @@ export const items = [
     date:
       '146 BCE',
     body:
-      'Late style Athenian tetradrachm. Athens maintained its status as a cultural centre after the Roman conquest.',
+      'Aeolis, Cyme; c. 155-143 BC, Tetradrachm, 16.87g. SNG Cop-104. Obv: Head of Amazon Kyme r. wearing hairband. Rx: Horse stepping r., one-handled cup below horse\'s raised l. foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath. Purchased from Spink, 1 May 2005. Mint State',
     obverse: 'Bust of the Amazon Kyme',
     reverse: 'Image of a horse, reminiscent of the region\'s role in constructing the Trojan Horse of the Iliad',
   }, {
@@ -214,18 +204,6 @@ export const items = [
       'Kings of Pergamum, Attalos I, 241 – 197 Tetradrachm 241-197, AR 17.10 g. Laureate head of Philetarus r. Rev. ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes. SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R.– Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
     obverse: 'Diademed bust of Philetairos',
     reverse: 'Athena, seated, crowning Philetairos\' name',
-  }, {
-    id: '21',
-    title: 'Philip III Arhidaeus Tetradrachm',
-    category: 'hellenistic',
-    subcategory: 'argead',
-    pic: '/images/hellenistic9.jpeg',
-    date:
-      '320 BCE',
-    body:
-      'Tetradrachm of Philip III Arrhidaeus.',
-    obverse: 'Bust of Heracles, wearing the skin of the Nemean lion',
-    reverse: 'Zeus, enthroned',
   }, {
     id: '22',
     title: 'Marcus Antonius Denarius',
