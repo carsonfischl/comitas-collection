@@ -137,7 +137,7 @@ export const items = [
     date:
       '360 BCE',
     body:
-      'Stater from the Corinthian colony of Tyrrhion.',
+      'Akarnania, Thyrreion AR Stater. Circa 320-280 BC. Pegasos flying to left; ΘY below / Helmeted head of Athena to left; Θ-Y across fields, Boeotian shield behind. Pegasi 22; BCD Akarnania 370. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
   }, {
     id: '14',
     title: 'Theban Stater',
@@ -327,20 +327,20 @@ export const items = [
     reverse: 'Imperial eagle',
   }, {
     id: '30',
-    title: 'Trebonaius Gallus Tetradrachm',
+    title: 'Trajan Decius Tetradrachm',
     category: 'roman',
     subcategory: 'imperial',
     pic: '/images/imperial3.jpg',
     date:
-      '260 CE',
+      '249-251 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Trebonaius Gallus.',
-    obverse: 'Laureate bust of Trebonaius Gallus',
+      'Trajan Decius BI Tetradrachm of Antioch, Seleucis and Pieria. AD 249-251. AYT K Γ MЄ KY TPAIANOC ΔЄKIOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; uncertain mark below bust (two pellets?) / ΔHMAPX ЄΞOYCIAC, eagle standing to left on palm, with wings spread, holding wreath in beak; SC in exergue. Cf. RPC IX 1701; McAlee 1126; cf. Prieur 578. 13.48g, 26mm, 3h. Extremely Fine. From a private North American collection.',
+    obverse: 'Laureate bust of Trajan Decius',
     reverse: 'Imperial eagle',
   }, {
     id: '31',
-    title: 'Trajan Decius Tetradrachm',
+    title: 'Trebonianus Gallus Tetradrachm',
     category: 'roman',
     subcategory: 'imperial',
     pic: '/images/imperial4.jpg',
@@ -348,8 +348,8 @@ export const items = [
       '263 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Trajan Decius.',
-    obverse: 'Laureate bust of Trajan Decius',
+      'Trebonianus Gallus BI Tetradrachm of Antioch, Seleucis and Pieria. AD 252-253. AYTOK K Γ OYIB TPЄB ΓAΛΛOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; • below bust / ΔHMAPX ЄΞOYCIAC ΥΠΑ ΤΟ Β, eagle standing facing, head to left, with wings spread, holding wreath in beak; A between legs, SC below. RPC IX 1822; McAlee 1176a; Prieur 671. 11.44g, 24mm, 12h. Extremely Fine. From a private North American collection.',
+    obverse: 'Laureate bust of Trebonianus Gallus',
     reverse: 'Imperial eagle',
   }, 
   {
@@ -427,7 +427,7 @@ export const items = [
       '155 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Antiochus III the Great. Despite eventually losing the Roman-Seleucid War against the expanding Roman Empire, Antiochos was significantly more successful than his predecessors, who had allowed the kingdom to stagnate.',
+      'Seleukid Empire, Antiochos III \'the Great\' AR Tetradrachm. Antioch, circa 223-210 BC. Diademed head to right / Apollo Delphios seated to left on omphalos; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΟΧΟΥ to left, monogram to outer left. SC 1041.1; HGC 9, 447u. 17.00g, 29mm, 12h. Very Fine. From the Neil Collection.',
     obverse: 'Diademed bust of Antiochos III',
     reverse: 'God Apollo, sitting on the Amphalos',
   }, {
@@ -522,7 +522,7 @@ export const items = [
       '160 BCE',
     mint: 'Ai-khanoum',
     body:
-      'Tetradrachm of Eukratides Megas',
+      'Greco-Baktrian Kingdom, Eukratides I Megas AR Tetradrachm. Circa 170-145 BC. Draped and cuirassed bust to right, wearing crested helmet adorned with bull\'s horn and ear; all within bead-and-reel border / The Dioskouroi on horses prancing to right, each holding spear and palm; ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ above, ΕΥΚΡΑΤΙΔΟΥ below, monogram in right field. Bopearachchi 6U; Mitchiner 177w; Bopearachchi & Rahman 244; SNG ANS -; HGC 12, 131. 16.86g, 33mm, 12h. Extremely Fine. From a private European collection.',
     obverse: 'Bust of Eukratides with helmet',
     reverse: 'Dioscuri on horseback',
   }, 
@@ -536,7 +536,7 @@ export const items = [
       '232 BCE',
     mint: 'Amphipolis',
     body:
-      'Tetradrachm of Antigonus II Gonatas',
+      'Kingdom of Macedon, Antigonos II Gonatas AR Tetradrachm. Amphipolis, struck circa 252/1-246 BC. Horned head of Pan to left, lagobolon over shoulder, on boss of Macedonian shield / Athena Alkidemos advancing to left, holding shield decorated with aegis, preparing to cast thunderbolt; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΓΟΝΟΥ to left, crested Macedonian helmet to inner left, monogram to inner right. Panagopoulou Period II, 63 (O10/R62); HGC 3.1, 1042 (Pella). 17.05g, 31mm, 11h. Extremely Fine; lightly toned. From a private UK collection.',
     obverse: 'Bust of Antigonus II within Macedonian shield',
     reverse: 'Athena, striding forward with spear at the ready',
   }, 
@@ -550,7 +550,7 @@ export const items = [
       '491-518 CE',
     mint: 'Constantinople',
     body:
-      'Anastasius I AV Solidus. Constantinople, AD 491-518. D N ANASTASIVS P P AVG, helmeted, pearl-diademed and cuirassed bust facing three-quarters to right, holding spear over shoulder and shield decorated with horseman motif / VICTORIA AVGGG S, Victory standing facing, head to left, holding voided cross; star in right field, CONOB in exergue. MIBE 4a; DOC 3f; Sear 3. 4.51g, 22mm, 6h.',
+      'Anastasius I AV Solidus. Constantinople, AD 491-518. D N ANASTASIVS P P AVG, helmeted, pearl-diademed and cuirassed bust facing three-quarters to right, holding spear over shoulder and shield decorated with horseman motif / VICTORIA AVGGG S, Victory standing facing, head to left, holding voided cross; star in right field, CONOB in exergue. MIBE 4a; DOC 3f; Sear 3. 4.51g, 22mm, 6h. Good Extremely Fine. From the inventory of Roma Numismatics Ltd.',
     obverse: 'Bust of Anastasius I in military dress',
     reverse: 'Nike with cross. CONOB in exergue',
   }, 
