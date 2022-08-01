@@ -505,7 +505,7 @@ export const items = [
     reverse: 'Dioscuri on horseback',
   }, 
   {
-    id: '45',
+    id: '12',
     title: 'Antogonus II Gonatas Tetradrachm',
     category: 'hellenistic',
     subcategory: 'antigonid',
@@ -519,7 +519,7 @@ export const items = [
     reverse: 'Athena, striding forward with spear at the ready',
   }, 
   {
-    id: '46',
+    id: '21',
     title: 'Anastasius I Dicorus Solidus',
     category: 'roman',
     subcategory: 'byzantine',
