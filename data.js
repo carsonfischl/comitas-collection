@@ -8,7 +8,7 @@ export const items = [
       date:
         '323 BCE',
       body:
-        'Antipater tetradrachm, in the style of Alexander the Great',
+        'KINGS OF MACEDON. Alexander III ‘the Great’, 336-323 BC. Tetradrachm (Silver, 25 mm, 17.10 g, 7 h), Amphipolis, struck under Antipater, circa 320-319. Head of Herakles to right, wearing lion skin headdress. Rev. ΒΑΣΙΛΕΩΣ AΛEΞANΔPOY Zeus seated left on low throne, holding long scepter in his left hand and eagle standing right with closed wings in his right; to left, monogram. Price 118 var. (slightly differing monogram). The reverse struck slightly off center, otherwise, good fine.',
       obverse: 'Bust of Heracles, wearing the skin of the Nemean lion',
       reverse: 'Zeus, enthroned',
     },
@@ -21,7 +21,7 @@ export const items = [
       date:
         '400 CE',
       body:
-        'Constantius II solidus',
+        'Constantius II augustus, 337 – 361 Solidus, Antiochia 355-361, AV 4.43 g. FL IVL CONSTAN – TIVS PERP AVG Helmeted, diademed, draped and cuirassed bust facing, holding spear and shield ornamented with horseman and fallen enemy motif. Rev. GLORIA – REI – PVBLICAE Roma and Constantinopolis, enthroned facing, supporting a wreath between them inscribed VOT / XXX / MVLT / XXXX; in exergue, •SMANΔ•. C –. Depeyrot 11/1. RIC 168. Minor mark on obverse field, otherwise extremely fine',
     },    {
       id: '3',
       title: 'Silver Rider',
@@ -52,7 +52,7 @@ export const items = [
       date:
         '1700 CE',
       body:
-        'Antipater tetradrachm, in the style of Alexander the Great',
+        'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier 1726, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
     },
     {
       id: '6',
@@ -63,7 +63,7 @@ export const items = [
       date:
         '1769 CE',
       body:
-        'Maximilian, great elector, madonnenthaler',
+        'GERMANY. Bavaria. Maximilian III Joseph (1745-1777). Madonnentaler (1769).Obv: D G MAX IOS U B D S RIA & EL L L. Draped and armored bust right. Rev: PATRONA BAVARIAE. The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. Davenport 1953. Condition: Near very fine. Weight: 27.80 g. Diameter: 43 mm.',
   },
   {
     id: '7',
@@ -74,7 +74,7 @@ export const items = [
     date:
       '350 BCE',
     body:
-      'Side tetradrachm. Side, modern day turkey, was a major slave trading center in antiquity.',
+      'PAMPHYLIA. Side. Tetradrachm (Circa 205-100 BC). Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
   },
   {
     id: '8',
@@ -169,7 +169,7 @@ export const items = [
     date:
       '305 BCE',
     body:
-      'Tetradrachm of Lysimachus.',
+      'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 31 mm, 17.16 g, 11 h), Lampsakos, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟY Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; to outer left, herm to left; in inner left field, monogram. Müller 91. Thompson 50. Slightly porous, otherwise, very fine.',
   }, {
     id: '17',
     title: 'Cistophoric Tetradrachm',
@@ -211,7 +211,7 @@ export const items = [
     date:
       '135 BCE',
     body:
-      'Tetradrachm of Eumenes II.',
+      'Kings of Pergamum, Attalos I, 241 – 197 Tetradrachm 241-197, AR 17.10 g. Laureate head of Philetarus r. Rev. ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes. SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R.– Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
     obverse: 'Diademed bust of Philetairos',
     reverse: 'Athena, seated, crowning Philetairos\' name',
   }, {
@@ -247,8 +247,8 @@ export const items = [
     date:
       '46 BCE',
     body:
-      'Denarius minted by Caesar during his Illyrian campaign, preceding the battle of Dyrrachium.',
-    obverse: 'Bust of Venus',
+      'Julius Caesar, 49-44 BC. Denarius (Silver, 18 mm, 3.63 g, 1 h), military mint traveling with Caesar in Illyria (Apollonia?), early to mid 48 BC. Diademed female head (Clementia?) to right, wearing oak wreath; behind, III. Rev. CAESAR Trophy of Gallic arms; oval shield to left, axe surmounted by animal’s head to right. Babelon (Julia) 26. Crawford 452/2. RBW -. Sydenham 1009. Minor deposits and with light marks, otherwise, nearly very fine.',
+    obverse: 'Bust of Clementia',
     reverse: 'Trophy, shields - CAESAR in exergue',
   }, 
   {
@@ -260,7 +260,7 @@ export const items = [
     date:
       '81 BCE',
     body:
-      'Minted by Sulla, following his victory over the Marian faction in the Civil War.',
+      '. Manlius Torquatus, 82 BC. Denarius (Silver, 17.5 mm, 3.93 g, 7 h), with L. Cornelius Sulla, military mint moving with Sulla. L•MANLI – PRO Q Head of Roma to right, wearing crested and winged helmet. Rev. L•SVLLA•IMP Sulla driving triumphal quadriga to right, holding branch and scepter: above, Victory flying left, crowning him with laurel wreath. Babelon (Manlia) 7 and (Cornelia) 42. Crawford 367/3. RBW 1384. Sydenham 759. Lightly toned. Minor marks, otherwise, nearly very fine.',
     obverse: 'Bust of Dea Roma',
     reverse: 'Chariot - SULLA in exergue',
   }, {
@@ -272,7 +272,7 @@ export const items = [
     date:
       '56 BCE',
     body:
-      'Denarius of M. Aemilius Scaurus, propraetor of Syria under Pompey Magnus.',
+      'M. Aemilius Scaurus and Pub. Plautius Hypsaeus, 58 BC. Denarius (Silver, 18 mm, 3.84 g, 4 h), Rome. M SCAVR / AED CVR / [EX] - S C / [REX] ARETAS Nabatean king Aretas kneeling right, holding olive branch and reins of camel standing beside him. Rev. P HVPSAE / AED CVR / CAPTV / C HVPSAE COS / PREIVE Jupiter in quadriga left, holding reins in his left hand and hurling thunderbolt with his right; below the horses, scorpion. Babelon (Aemilia) 9 and (Plautia) 10. Crawford 422/1b. RBW 1519. Sydenham 912. Minor nicks, otherwise, about very fine.',
     obverse: 'King paying tribute',
     reverse: 'Charioteer',
   }, {
@@ -284,7 +284,7 @@ export const items = [
     date:
       '48 BCE',
     body:
-      'Denarius minted by Decimus Brutus in support of Caesar. Decimus had supported Caesar throughout the Gallic Wars and continued to do so, until turning on Caesar shortly before Caesar\'s assassination. Brutus was a main conspirator, despite being nominated for the post of propraetor of Cisapline Gaul by Caesar.',
+      'Albinus Bruti f, 48 BC. Denarius (Silver, 20 mm, 3.16 g, 6 h), Rome. PIETAS Head of Pietas to right. Rev. ALBINVS•BRVTI•F Two right hands clasped around winged caduceus. Babelon (Junia) 25 and (Postumia) 10. Crawford 450/2. RBW 1577. Sydenham 942. Somewhat crystallized , otherwise, very fine.',
     obverse: 'Bust of Venus?',
     reverse: 'Shaking hands - ALBINI in exergue',
   }, {
@@ -322,7 +322,7 @@ export const items = [
       '202 CE',
     mint: 'Seleucia Pieria',
     body:
-      'Tetradrachm of Caracalla.',
+      'SYRIA, Seleucis and Pieria. Seleucia Pieria. Caracalla, 198-217. Tetradrachm (Billon, 28 mm, 13.35 g, 6 h), 215-217. ΑΥΤ•Κ•Μ•Α••ΑΝΤΩΝЄΙΝΟC CЄΒ Laureate head of Caracalla to right. Rev. ΔΗΜΑΡΧ•ЄΞ•ΥΠΑ ΤΟ Δ Eagle with spread wings standing facing on thunderbolt, head to right and holding wreath in beak. Prieur 1188. Some doubling on the reverse, otherwise, good very fine.',
     obverse: 'Laureate bust of Caracalla',
     reverse: 'Imperial eagle',
   }, {
@@ -414,7 +414,7 @@ export const items = [
       '104 CE',
     mint: 'Antioch',
     body:
-      'Tetradrachm of Antiochos VII Epiphanes.',
+      'SELEUKID KINGS OF SYRIA. Antiochos VII Euergetes (Sidetes), 138-129 BC. Tetradrachm (Silver, 29 mm, 15.75 g, 12 h), Antiochia on the Orontes. Diademed head of Antiochos VII to right. Rev. ΒΑΣΙΛΕΩΣ / ΑΝΤΙΟΧΟY - EYEPΓETOY Athena standing front, head to left, holding Nike in her right hand and resting her left on shield decorated with gorgoneion and set on ground; spear leaning against her left arm; to outer left, monogram above A; in inner right field, Φ; all within laurel wreath. SC 2061.4b. Somewhat rough, otherwise, very fine.',
     obverse: 'Diademed bust of Antiochos VII',
     reverse: 'Goddess Athena standing, holding Nike',
   }, {
@@ -463,10 +463,10 @@ export const items = [
     subcategory: 'spanish',
     pic: '/images/spanish3.jpeg',
     date:
-      '1645 CE',
-    mint: 'Mexico City',
+      '1556-1598 CE',
+    mint: 'Sevilla',
     body:
-      '2 Escudos of Philip II',
+      'SPAIN, Reino de España. Felipe II el Prudente, 1556-1598. 2 Escudos (Gold, 21 mm, 6.68 g), Sevilla. Crowned coat of arms. Rev. Coat of arms within polylobe. Friedberg 169. Very fine.',
     obverse: 'Coat of Arms',
     reverse: 'Maltese cross',
   }, 
@@ -486,7 +486,7 @@ export const items = [
   }, 
   {
     id: '42',
-    title: 'Philip II Tetradrachm',
+    title: 'Philip III Tetradrachm',
     category: 'hellenistic',
     subcategory: 'argead',
     pic: '/images/argead2.jpeg',
@@ -494,7 +494,7 @@ export const items = [
       '350 BCE',
     mint: 'Amphipolis',
     body:
-      'Tetradrachm of Philip II',
+      'KINGS OF MACEDON. Philip II, 359-336 BC. Tetradrachm (Silver, 23 mm, 14.41 g, 6 h), Amphipolis, struck under Antipater, Polyperchon, or Kassander, circa 323/2-316/5. Laureate head of Zeus to right. Rev. ΦΙΛΙΠΠΟΥ Young jockey, holding palm frond in his right hand and reins in his left, riding horse to right; below horse, Macedonian shield; below raised foreleg, Π. Le Rider p. 124 and pl. 46, 7. Flan crack on the obverse and test cut on the reverse, otherwise, good very fine.',
     obverse: 'Laureate bust of Zeus',
     reverse: 'Horseman',
   }, 
@@ -505,10 +505,10 @@ export const items = [
     subcategory: 'thrace',
     pic: '/images/thrace3.jpeg',
     date:
-      '281 BCE',
+      '305-281 BCE',
     mint: 'Thrace',
     body:
-      'Tetradrachm of Lysimachus',
+      'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 27 mm, 16.94 g, 1 h), Magnesia ad Maeandrum, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟ[Υ] Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; behind, transverse spear; to outer left, monogram in wreath; to inner left, Σ; on throne, ornament. Müller -. Thompson 102. Beautifully toned and with a fantastic portrait. Flan crack and with a scuff on the obverse, otherwise, good very fine.',
     obverse: 'Bust of Alexander with horns of Ammon',
     reverse: 'Athena, seated',
   }, 
