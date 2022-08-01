@@ -31,17 +31,17 @@ export const items = [
       date:
         '1526',
       body:
-        'Dutch leeuwendaalder, from the shipwreck',
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. 1581-1795. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ov49; CNM 2.38.79; KM 80. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
     },    {
       id: '4',
-      title: 'Dutch Leeuwendaalder',
+      title: 'Dutch Republic',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch2.jpeg',
       date:
-        '1640 CE',
+        '1581-1795 CE',
       body:
-        'Dutch Leeuwendaalder',
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Westfalia. 1581-1795. AR Leeuwendaalder (40mm, 26.95 g, 4h). Enkhuizen; mm : lis. Dated 1640. Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Fr24; CNM 2.46.24 ; KM 14.2. Deposits, scratches. Near VF.',
     },    
     {
       id: '5',
@@ -359,10 +359,10 @@ export const items = [
     subcategory: 'french',
     pic: '/images/medieval1.jpeg',
     date:
-      '1243 CE',
+      '1422-1461 CE',
     mint: 'Paris',
     body:
-      'Blanc de la Couronne of Charles IV.',
+      'FRANCE, Royal. Charles VII le Victorieux (the Victorious). 1422-1461. AR Blanc à la couronne (26mm, 2.15 g, 9h). Toulouse mint; mm: annulet under 5th letter. 1st emission, authorized 28 January 1346. Coat-of-arms within trilobe; crowns in voids / Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe. Duplessy 519; Ciani 686. Toned, green and brown deposits. Near VF. From the Todd Hansen Collection, purchased from Alex G. Malloy.',
     obverse: 'Stuff',
     reverse: 'Maltese cross, other stuff',
   }, {
@@ -375,7 +375,7 @@ export const items = [
       '61 BCE',
     mint: 'Rome',
     body:
-      'Denarius of Quintus Cassius Longinus, brother of Caesar\'s assassin. The gens Cassii liked to depict the goddess Vesta on their coins, harkening back to the trial of the Vestal Virgins in 113 BCE, in which a Cassii was the lead prosecutor. The trial ended with four aristocratic men and two Vestal Virgins being buried alive at the Forum Boarium.',
+      'L. Cassius Longinus. 60 BC. AR Denarius (19mm, 3.79 g, 6h). Rome mint. Veiled and draped bust of Vesta left; C (or G) to left, cylix to right / Voter standing left, dropping tablet inscribed V (Uti rogas) into cista to left. Crawford 413/1; Sydenham 935; Cassia 10; RBW 1493 var. (letter on obv.). Toned, scratches, graffiti on the reverse. VF. From the Peter J. Merani Collection. Ex Malloy XLVIII (17 April 1998), lot 483.',
     obverse: 'Bust of the Goddess Vesta',
     reverse: 'Voter casting his ballot',
   }, {
@@ -440,7 +440,7 @@ export const items = [
       '1713 CE',
     mint: 'Mexico City',
     body:
-      '8 Reales, recovered off the coast of Vero Beach, Florida, from the wreck of the 1715 Spanish treasure Fleet.',
+      'BOLIVIA, Colonial (as Alto Perú). Felipe IV. King of Spain, 1621-1665. AR 8 Reales (41mm, 26.92 g, 12h). Cob issue. Potosí mint. Struck 16302-1640s. Crowned coat-of-arms; P/(TR) to left / Arms of Spain within angled quadrilobe. Calicó y Trigo 480-490 (for type); KM 19a. Sea salvaged, rough. Fine.',
     obverse: 'Coat of Arms',
     reverse: 'Coat of Arms',
   }, {
@@ -453,7 +453,7 @@ export const items = [
       '1713 CE',
     mint: 'Mexico City',
     body:
-      '8 reales',
+      'MEXICO, Colonial. Felipe V. King of Spain, first reign, 1700-1724. AR 8 Reales (40mm, 26.34 g, 2h). Ciudad de México (Mexico City) mint. Crowned coat-of-arms; [J to right] / Quartered arms within polylobe. BW 15.7; KM 47. Toned, cleaned scratches. VF. Usual crude strike. From the Todd Hansen Collection, purchased from Stack’s. Reportedly ex 1715 Plate Fleet Hoard.',
     obverse: 'Coat of Arms',
     reverse: 'Coat of Arms',
   }, {
