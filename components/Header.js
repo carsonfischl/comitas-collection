@@ -1,14 +1,15 @@
 import headerStyles from '../styles/Header.module.css'
 import { Button } from '@nextui-org/react';
+import { handleClientScriptLoad } from 'next/script';
 
-const Header = () => {
+const Header = ( {header} ) => {
+  const text = JSON.parse(header);
   return (
     <div>
       <h1 className={headerStyles.title}>
-          Comitas Collection
+          {text.title}
       </h1>
-      <h3 className={headerStyles.subtitle}>A global historiography through numismatics</h3>
-      <h3 className={headerStyles.contruction}>UNDER CONSTRUCTION</h3>
+      <h3 className={headerStyles.subtitle}>{text.body}</h3>
     </div>
   )
 }

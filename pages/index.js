@@ -9,7 +9,6 @@ import items from '../data.js'
 export default function Home({items}) {
   return (
     <div className={homeStyles.container}>
-      <Header/>
     </div>
   )
 }
