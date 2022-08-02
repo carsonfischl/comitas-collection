@@ -13,7 +13,7 @@ const item = ({ result }) => {
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card>
-        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem' }}/>
+        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }}/>
         <Card.Body>
         {result.title} 
         <br></br>

@@ -17,9 +17,9 @@ const Item = ({ item }) => {
 
   return (
     <Link href={`/item/${item.id}`}>
-      <Card flat isHoverable isPressable css={{ mw: "400px" }}>
+      <Card flat isHoverable isPressable css={{ mw: "400px", alignContent: 'center'}}>
         {/* {isLoading ? <Loading /> : */}
-          <Card.Image src={item.pic} css={{ padding:'1rem' }}/>
+          <Card.Image src={item.pic} css={{ padding:'1rem'}}/>
         {/* } */}
             <Card.Body>
                 <Text>{item.title}</Text>
