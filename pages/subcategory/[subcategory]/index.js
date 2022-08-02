@@ -11,7 +11,7 @@ const subcategory = ({ result }) => {
       <div>
         <ItemList items={result}/>
       </div>
-      <Link href='/' css={{color: '$black'}}>Go Back</Link>
+      <Link href='/' css={{color: '$black', paddingBottom: '1rem'}}>Go Back</Link>
     </>
   )
 }

@@ -21,7 +21,7 @@ const item = ({ result }) => {
         </Card.Body>
       </Card>
       <br />
-      <Link href='/' css={{color: '$black'}}>Go Back</Link>
+      <Link href='/' css={{color: '$black', paddingBottom: '1rem' }}>Go Back</Link>
     </>
   )
 }

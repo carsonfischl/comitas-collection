@@ -9,7 +9,7 @@ const Header = ( {header} ) => {
       <h1 className={headerStyles.title}>
           {text.title}
       </h1>
-      <Image src={text.pic} alt='mainphoto' style={{ width: '80%', borderRadius: '10%', padding: '1rem' }} />
+      <Image src={text.pic} alt='mainphoto' style={{ width: '100%', borderRadius: '10%', padding: '1rem' }} />
       <h3 className={headerStyles.subtitle}>{text.body}</h3>
     </div>
   )
