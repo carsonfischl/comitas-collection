@@ -17,7 +17,7 @@ const category = ({ result, header }) => {
       <div>
         <ItemList items={result}/>
       </div>
-      <Link href='/' css={{color: '$black', paddingBottom: 'center'}}>Go Back</Link>
+      <Link style={{color: '$black', paddingBottom: 'center'}} href='/'>Go Back</Link>
     </>
   )
 }
