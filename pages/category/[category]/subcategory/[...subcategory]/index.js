@@ -1,9 +1,9 @@
-import { server } from '../../../config'
+import { server } from '../../../../../config'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Meta from '../../../components/Meta'
-import { items } from '../../../data'
-import ItemList from '../../../components/ItemList'
+import Meta from '../../../../../components/Meta'
+import { items } from '../../../../../data'
+import ItemList from '../../../../../components/ItemList'
 
 const subcategory = ({ result }) => {
   return (
@@ -16,8 +16,8 @@ const subcategory = ({ result }) => {
   )
 }
 
-export const getStaticProps = async ({ params: { subcategory } }) => {
-  const result = items.filter(items => items.subcategory === subcategory)
+export const getStaticProps = async ({ params: { category, subcategory } }) => {
+  const result = items.filter(items => items.subcategory === subcategory && items.category === category)
   //console.log(result)
   return {
     props: {
@@ -27,11 +27,13 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
 }
 
 export const getStaticPaths = async () => {
+  const categories = ['roman', 'earlymodern', 'medieval', 'hellenistic']
   const subcategories = ['argead', 'antigonid','bactrian', 'seleucid', 'pergamon', 'thrace', 'ptolemaic', 'greek', 'imperial', 'imperatorial', 'republican', 'byzantine', 'french', 'german', 'spanish', 'dutch', 'english']
-  const paths = subcategories.map((sc) => ({ params: { subcategory: sc } }))
-
+  const paths = categories.map((c) => ({ params: { category: c } }))
+  const subpaths = paths.map((p) => subcategories.map((s) => ({ params: { subcategory: s } })))
+  
   return {
-    paths,
+    subpaths,
     fallback: false,
   }
 }

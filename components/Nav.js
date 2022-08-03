@@ -97,7 +97,7 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/subcategory/french" css={{color: '$black'}}>
+                <Link href="/category/medieval/subcategory/french" css={{color: '$black'}}>
                     French
                 </Link>
             </Dropdown.Item>
