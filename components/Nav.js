@@ -89,6 +89,21 @@ export default function App() {
         </Dropdown.Menu>
         </Dropdown>
         <Dropdown>
+        <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Medieval</Dropdown.Button>
+        <Dropdown.Menu aria-label="Static Actions">
+            <Dropdown.Item>
+                <Link href="/category/medieval" css={{color: '$black'}}>
+                    All
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item withDivider>
+                <Link href="/subcategory/french" css={{color: '$black'}}>
+                    French
+                </Link>
+            </Dropdown.Item>
+        </Dropdown.Menu>
+        </Dropdown>
+        <Dropdown>
         <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Early Modern</Dropdown.Button>
         <Dropdown.Menu aria-label="Static Actions">
             <Dropdown.Item>
