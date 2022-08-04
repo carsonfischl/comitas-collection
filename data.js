@@ -29,9 +29,9 @@ export const items = [
       subcategory: 'dutch',
       pic: '/images/dutch1.jpeg',
       date:
-        '1526',
+        '1581-1795 CE',
       body:
-        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. 1581-1795. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ov49; CNM 2.38.79; KM 80. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ov49; CNM 2.38.79; KM 80. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
     },    {
       id: '4',
       title: 'Dutch Republic',
@@ -50,9 +50,9 @@ export const items = [
       subcategory: 'french',
       pic: '/images/french1.jpeg',
       date:
-        '1700 CE',
+        '1726 CE',
       body:
-        'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier 1726, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
+        'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
     },
     {
       id: '6',
@@ -72,9 +72,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/greek1.jpeg',
     date:
-      '350 BCE',
+      '205-100 BCE',
     body:
-      'PAMPHYLIA. Side. Tetradrachm (Circa 205-100 BC). Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
+      'PAMPHYLIA. Side. Tetradrachm. Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
   },
   {
     id: '8',
@@ -83,9 +83,9 @@ export const items = [
     subcategory: 'thrace',
     pic: '/images/greek3.jpeg',
     date:
-      '135 BCE',
+      'Late 2nd-mid 1st centuries BCE',
     body:
-      'THRACE, Maroneia. Late 2nd-mid 1st centuries BC. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
+      'THRACE, Maroneia. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
     obverse: 'Head of the god Dionysus',
     reverse: 'Hercules standing holding grapes'
   },{
