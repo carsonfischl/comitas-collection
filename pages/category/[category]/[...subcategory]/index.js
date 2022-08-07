@@ -1,9 +1,9 @@
-import { server } from '../../../../../config'
+import { server } from '../../../../config'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Meta from '../../../../../components/Meta'
-import { items } from '../../../../../data'
-import ItemList from '../../../../../components/ItemList'
+import Meta from '../../../../components/Meta'
+import { items } from '../../../../data'
+import ItemList from '../../../../components/ItemList'
 
 const subcategory = ({ result }) => {
   return (
@@ -29,11 +29,10 @@ export const getStaticProps = async ({ params: { category, subcategory } }) => {
 export const getStaticPaths = async () => {
   const categories = ['roman', 'earlymodern', 'medieval', 'hellenistic']
   const subcategories = ['argead', 'antigonid','bactrian', 'seleucid', 'pergamon', 'thrace', 'ptolemaic', 'greek', 'imperial', 'imperatorial', 'republican', 'byzantine', 'french', 'german', 'spanish', 'dutch', 'english']
-  const paths = categories.map((c) => ({ params: { category: c } }))
-  const subpaths = paths.map((p) => subcategories.map((s) => ({ params: { subcategory: s } })))
+  const paths = subcategories.map((s) => ({ params: { category: categories[0], subcategory: subcategories } }))
   
   return {
-    subpaths,
+    paths,
     fallback: false,
   }
 }
