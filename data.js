@@ -8,9 +8,10 @@ export const items = [
       date:
         '320-319 BCE',
       body:
-        'KINGS OF MACEDON. Alexander III ‘the Great’, 336-323 BC. Tetradrachm (Silver, 25 mm, 17.10 g, 7 h), Amphipolis, struck under Antipater, circa 320-319. Head of Herakles to right, wearing lion skin headdress. Rev. ΒΑΣΙΛΕΩΣ AΛEΞANΔPOY Zeus seated left on low throne, holding long scepter in his left hand and eagle standing right with closed wings in his right; to left, monogram. Price 118 var. (slightly differing monogram). The reverse struck slightly off center, otherwise, good fine.',
-      obverse: 'Bust of Heracles, wearing the skin of the Nemean lion',
-      reverse: 'Zeus, enthroned',
+        'KINGS OF MACEDON. Alexander III ‘the Great’, 336-323 BC. Tetradrachm (Silver, 25 mm, 17.10 g, 7 h), Amphipolis, struck under Antipater, circa 320-319. The reverse struck slightly off center, otherwise, good fine.',
+      obverse: 'Bust of Herakles to right, wearing skin of the Nemean lion',
+      reverse: 'ΒΑΣΙΛΕΩΣ AΛEΞANΔPOY Zeus seated left on low throne, holding long scepter in his left hand and eagle standing right with closed wings in his right; to left, monogram',
+      references: 'Price 118 variant (slightly differing monogram)',
     },
     {
       id: '2',
@@ -21,27 +22,38 @@ export const items = [
       date:
         '337–361 CE',
       body:
-        'Constantius II augustus, 337–361 Solidus, Antiochia 355-361, AV 4.43 g. FL IVL CONSTAN – TIVS PERP AVG Helmeted, diademed, draped and cuirassed bust facing, holding spear and shield ornamented with horseman and fallen enemy motif. Rev. GLORIA – REI – PVBLICAE Roma and Constantinopolis, enthroned facing, supporting a wreath between them inscribed VOT / XXX / MVLT / XXXX; in exergue, •SMANΔ•. C –. Depeyrot 11/1. RIC 168. Minor mark on obverse field, otherwise extremely fine',
-    },    {
+        'Constantius II augustus, 337–361 Solidus, Antiochia 355-361, AV 4.43 g. Minor mark on obverse field, otherwise extremely fine',
+      obverse: 'FL IVL CONSTAN – TIVS PERP AVG Helmeted, diademed, draped and cuirassed bust facing, holding spear and shield ornamented with horseman and fallen enemy motif',
+      reverse: 'GLORIA – REI – PVBLICAE Roma and Constantinopolis, enthroned facing, supporting a wreath between them inscribed VOT / XXX / MVLT / XXXX; in exergue, •SMANΔ• -',
+      references: 'Depeyrot 11/1, RIC 168',
+    },    
+    {
       id: '3',
       title: 'Silver Rider',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch1.jpeg',
       date:
-        '1581-1795 CE',
+        '1733 CE',
       body:
-        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ov49; CNM 2.38.79; KM 80. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
-    },    {
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
+      obverse: 'Knight right on galloping horse; coat-of-arms below',
+      reverse: 'Crowned coat-of-arms with leonine supporters',
+      references: 'P&W Ov49, CNM 2.38.79, KM 80',
+    },    
+    {
       id: '4',
       title: 'Dutch Republic',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch2.jpeg',
       date:
-        '1581-1795 CE',
+        '1640 CE',
       body:
-        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Westfalia. 1581-1795. AR Leeuwendaalder (40mm, 26.95 g, 4h). Enkhuizen; mm : lis. Dated 1640. Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Fr24; CNM 2.46.24 ; KM 14.2. Deposits, scratches. Near VF.',
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Westfalia. 1581-1795. AR Leeuwendaalder (40mm, 26.95 g, 4h). Enkhuizen; mm : lis. Deposits, scratches. Near VF.',
+      obverse: 'Armored half-length figure of soldier standing left, head right',
+      reverse: 'Dutch lion',
+      references: 'P&W Fr24, CNM 2.46.24, KM 14.2',
     },    
     {
       id: '5',
