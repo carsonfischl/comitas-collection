@@ -8,9 +8,10 @@ export const items = [
       date:
         '320-319 BCE',
       body:
-        'KINGS OF MACEDON. Alexander III ‘the Great’, 336-323 BC. Tetradrachm (Silver, 25 mm, 17.10 g, 7 h), Amphipolis, struck under Antipater, circa 320-319. Head of Herakles to right, wearing lion skin headdress. Rev. ΒΑΣΙΛΕΩΣ AΛEΞANΔPOY Zeus seated left on low throne, holding long scepter in his left hand and eagle standing right with closed wings in his right; to left, monogram. Price 118 var. (slightly differing monogram). The reverse struck slightly off center, otherwise, good fine.',
-      obverse: 'Bust of Heracles, wearing the skin of the Nemean lion',
-      reverse: 'Zeus, enthroned',
+        'KINGS OF MACEDON. Alexander III ‘the Great’, 336-323 BC. Tetradrachm (Silver, 25 mm, 17.10 g, 7 h), Amphipolis, struck under Antipater, circa 320-319. The reverse struck slightly off center, otherwise, good fine.',
+      obverse: 'Bust of Herakles to right, wearing skin of the Nemean lion',
+      reverse: 'ΒΑΣΙΛΕΩΣ AΛEΞANΔPOY Zeus seated left on low throne, holding long scepter in his left hand and eagle standing right with closed wings in his right; to left, monogram',
+      references: 'Price 118 variant (slightly differing monogram)',
     },
     {
       id: '2',
@@ -21,27 +22,38 @@ export const items = [
       date:
         '337–361 CE',
       body:
-        'Constantius II augustus, 337–361 Solidus, Antiochia 355-361, AV 4.43 g. FL IVL CONSTAN – TIVS PERP AVG Helmeted, diademed, draped and cuirassed bust facing, holding spear and shield ornamented with horseman and fallen enemy motif. Rev. GLORIA – REI – PVBLICAE Roma and Constantinopolis, enthroned facing, supporting a wreath between them inscribed VOT / XXX / MVLT / XXXX; in exergue, •SMANΔ•. C –. Depeyrot 11/1. RIC 168. Minor mark on obverse field, otherwise extremely fine',
-    },    {
+        'Constantius II augustus, 337–361 Solidus, Antiochia 355-361, AV 4.43 g. Minor mark on obverse field, otherwise extremely fine',
+      obverse: 'FL IVL CONSTAN – TIVS PERP AVG Helmeted, diademed, draped and cuirassed bust facing, holding spear and shield ornamented with horseman and fallen enemy motif',
+      reverse: 'GLORIA – REI – PVBLICAE Roma and Constantinopolis, enthroned facing, supporting a wreath between them inscribed VOT / XXX / MVLT / XXXX; in exergue, •SMANΔ• -',
+      references: 'Depeyrot 11/1, RIC 168',
+    },    
+    {
       id: '3',
       title: 'Silver Rider',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch1.jpeg',
       date:
-        '1526',
+        '1733 CE',
       body:
-        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. 1581-1795. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ov49; CNM 2.38.79; KM 80. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
-    },    {
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Overijssel. AR Dukaton (38mm, 25.69 g, 12h). Kampen mint. Dated 1733. Ragged edge, sea-salvaged, deposits. Good VF. From the Crescent Collection. Reportedly ex 1735 Vliegenthart wreck.',
+      obverse: 'Knight right on galloping horse; coat-of-arms below',
+      reverse: 'Crowned coat-of-arms with leonine supporters',
+      references: 'P&W Ov49, CNM 2.38.79, KM 80',
+    },    
+    {
       id: '4',
       title: 'Dutch Republic',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch2.jpeg',
       date:
-        '1581-1795 CE',
+        '1640 CE',
       body:
-        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Westfalia. 1581-1795. AR Leeuwendaalder (40mm, 26.95 g, 4h). Enkhuizen; mm : lis. Dated 1640. Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Fr24; CNM 2.46.24 ; KM 14.2. Deposits, scratches. Near VF.',
+        'LOW COUNTRIES, Republiek der Zeven Verenigde Nederlanden (Dutch Republic). Westfalia. 1581-1795. AR Leeuwendaalder (40mm, 26.95 g, 4h). Enkhuizen; mm : lis. Deposits, scratches. Near VF.',
+      obverse: 'Armored half-length figure of soldier standing left, head right',
+      reverse: 'Dutch lion',
+      references: 'P&W Fr24, CNM 2.46.24, KM 14.2',
     },    
     {
       id: '5',
@@ -50,9 +62,9 @@ export const items = [
       subcategory: 'french',
       pic: '/images/french1.jpeg',
       date:
-        '1700 CE',
+        '1726 CE',
       body:
-        'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier 1726, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
+        'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
     },
     {
       id: '6',
@@ -72,9 +84,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/greek1.jpeg',
     date:
-      '350 BCE',
+      '205-100 BCE',
     body:
-      'PAMPHYLIA. Side. Tetradrachm (Circa 205-100 BC). Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
+      'PAMPHYLIA. Side. Tetradrachm. Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
   },
   {
     id: '8',
@@ -83,9 +95,9 @@ export const items = [
     subcategory: 'thrace',
     pic: '/images/greek3.jpeg',
     date:
-      '135 BCE',
+      'Late 2nd-mid 1st centuries BCE',
     body:
-      'THRACE, Maroneia. Late 2nd-mid 1st centuries BC. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
+      'THRACE, Maroneia. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
     obverse: 'Head of the god Dionysus',
     reverse: 'Hercules standing holding grapes'
   },{
@@ -95,9 +107,9 @@ export const items = [
     subcategory: 'dutch',
     pic: '/images/dutch4.jpeg',
     date:
-      '1581-1795 CE',
+      '1668 CE',
     body:
-      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). Zeeland. 1581-1795. AR Dukaton – zilveren rijder (43mm, 32.00 g, 10h). Middelburg mint; mm: castle. Dated 1668. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ze 43; CNM 2.49.56; KM 41.1. Sea salvaged. VF.',
+      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). Zeeland. 1581-1795. AR Dukaton – zilveren rijder (43mm, 32.00 g, 10h). Middelburg mint; mm: castle. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ze 43; CNM 2.49.56; KM 41.1. Sea salvaged. VF.',
   },    {
     id: '10',
     title: 'Dutch Republic',
@@ -105,9 +117,9 @@ export const items = [
     subcategory: 'dutch',
     pic: '/images/dutch3.jpeg',
     date:
-      '1581-1795 CE',
+      '1589 CE',
     body:
-      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). 1581-1795. AR Leeuwendaalder (41mm, 27.22 g, 2h). Dated 1589. Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Ho 22; CNM 2.28.66. Toned, some deposits, light marks, edge splits. Good VF.',
+      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). 1581-1795. AR Leeuwendaalder (41mm, 27.22 g, 2h). Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Ho 22; CNM 2.28.66. Toned, some deposits, light marks, edge splits. Good VF.',
   },  {
     id: '11',
     title: 'Athenian tetradrachm',
@@ -117,7 +129,7 @@ export const items = [
     date:
       '165-150/49 BCE',
     body:
-      'ATTICA. Athens. AR Tetradrachm (16.63 gms), ca. 165-150/49 B.C. VERY FINE. Flan Flaw. HGC-4, 1602; Thompson-37. New style type. Obverse: Helmeted head of Athena right; Reverse: Owl, with head facing, standing right on overturned amphora; trophy to left; all within wreath. This example has good luster with a beautiful obverse. An unfortune and prominent flan flaw in the form of lamination is centrally located on the reverse.',
+      'ATTICA. Athens. AR Tetradrachm (16.63 gms), VERY FINE. Flan Flaw. HGC-4, 1602; Thompson-37. New style type. Obverse: Helmeted head of Athena right; Reverse: Owl, with head facing, standing right on overturned amphora; trophy to left; all within wreath. This example has good luster with a beautiful obverse. An unfortune and prominent flan flaw in the form of lamination is centrally located on the reverse.',
   }, {
     id: '13',
     title: 'Akarnania (Tyrrhion) Stater',
@@ -125,9 +137,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/greek3.jpg',
     date:
-      '360 BCE',
+      '320-280 BCsE',
     body:
-      'Akarnania, Thyrreion AR Stater. Circa 320-280 BC. Pegasos flying to left; ΘY below / Helmeted head of Athena to left; Θ-Y across fields, Boeotian shield behind. Pegasi 22; BCD Akarnania 370. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
+      'Akarnania, Thyrreion AR Stater. Pegasos flying to left; ΘY below / Helmeted head of Athena to left; Θ-Y across fields, Boeotian shield behind. Pegasi 22; BCD Akarnania 370. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
   }, {
     id: '14',
     title: 'Theban Stater',
@@ -145,9 +157,9 @@ export const items = [
     subcategory: 'greek',
     pic: '/images/greek9.jpeg',
     date:
-      '146 BCE',
+      '155-143 BCE',
     body:
-      'Aeolis, Cyme; c. 155-143 BC, Tetradrachm, 16.87g. SNG Cop-104. Obv: Head of Amazon Kyme r. wearing hairband. Rx: Horse stepping r., one-handled cup below horse\'s raised l. foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath. Purchased from Spink, 1 May 2005. Mint State',
+      'Aeolis, Cyme, Tetradrachm, 16.87g. SNG Cop-104. Obv: Head of Amazon Kyme r. wearing hairband. Rx: Horse stepping r., one-handled cup below horse\'s raised l. foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath. Purchased from Spink, 1 May 2005. Mint State',
     obverse: 'Bust of the Amazon Kyme',
     reverse: 'Image of a horse, reminiscent of the region\'s role in constructing the Trojan Horse of the Iliad',
   }, {
@@ -157,9 +169,9 @@ export const items = [
     subcategory: 'thrace',
     pic: '/images/hellenistic1.jpeg',
     date:
-      '305 BCE',
+      '305-281 BCE',
     body:
-      'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 31 mm, 17.16 g, 11 h), Lampsakos, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟY Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; to outer left, herm to left; in inner left field, monogram. Müller 91. Thompson 50. Slightly porous, otherwise, very fine.',
+      'KINGS OF THRACE. Lysimachos, Tetradrachm (Silver, 31 mm, 17.16 g, 11 h), Lampsakos, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟY Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; to outer left, herm to left; in inner left field, monogram. Müller 91. Thompson 50. Slightly porous, otherwise, very fine.',
   }, {
     id: '17',
     title: 'Cistophoric Tetradrachm',
@@ -167,9 +179,9 @@ export const items = [
     subcategory: 'pergamon',
     pic: '/images/hellenistic2.jpeg',
     date:
-      '135 BCE',
+      '180-67 BCE',
     body:
-      'IONIA, Ephesos. Circa 180-67 BC. AR Tetradrachm (29.5mm, 12.36 g, 1h). Cistophoric standard. Dated CY 2 (133/2 BC). Cista mystica with serpent; all within ivy wreath / Two serpents entwined around bow and bowcase; bee above, B (date) to upper left, torch to right. Kleiner & Noe Series 41; SNG Copenhagen 316. Toned, traces of find patina, flan cracks, some smoothing on reverse. VF.',
+      'IONIA, Ephesos. AR Tetradrachm (29.5mm, 12.36 g, 1h). Cistophoric standard. Dated CY 2 (133/2 BC). Cista mystica with serpent; all within ivy wreath / Two serpents entwined around bow and bowcase; bee above, B (date) to upper left, torch to right. Kleiner & Noe Series 41; SNG Copenhagen 316. Toned, traces of find patina, flan cracks, some smoothing on reverse. VF.',
   }, {
     id: '18',
     title: 'Azes I',
@@ -177,9 +189,9 @@ export const items = [
     subcategory: 'bactrian',
     pic: '/images/hellenistic3.jpeg',
     date:
-      '135 BCE',
+      '58-12 BCE',
     body:
-      'INDO-SKYTHIANS. Azes. Circa 58-12 BC. AR Tetradrachm (25mm, 9.56 g, 6h). Azes right on horseback, holding whip; jha in Kharosthi to right / Athena standing right, raising hand and holding spear and shield; monogram to left; to right, va in Kharosthi above second monogram. Senior 98.325T; HGC 12, 637. Toned. VF.',
+      'INDO-SKYTHIANS. Azes. AR Tetradrachm (25mm, 9.56 g, 6h). Azes right on horseback, holding whip; jha in Kharosthi to right / Athena standing right, raising hand and holding spear and shield; monogram to left; to right, va in Kharosthi above second monogram. Senior 98.325T; HGC 12, 637. Toned. VF.',
   }, {
     id: '19',
     title: 'Attalos I Tetradrachm',
@@ -199,9 +211,9 @@ export const items = [
     subcategory: 'pergamon',
     pic: '/images/hellenistic4.jpeg',
     date:
-      '135 BCE',
+      '241-197 BCE',
     body:
-      'Kings of Pergamum, Attalos I, 241 – 197 Tetradrachm 241-197, AR 17.10 g. Laureate head of Philetarus r. Rev. ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes. SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R.– Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
+      'Kings of Pergamum, Attalos I, Tetradrachm, AR 17.10 g. Laureate head of Philetarus r. Rev. ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes. SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R.– Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
     obverse: 'Diademed bust of Philetairos',
     reverse: 'Athena, seated, crowning Philetairos\' name',
   }, {
@@ -211,9 +223,9 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial2.jpeg',
     date:
-      '39 BCE',
+      'Autumn 32-Spring 31 BCE',
     body:
-      'The Triumvirs. Mark Antony. Autumn 32-spring 31 BC. AR Denarius (17mm, 3.34 g, 5h). Legionary issue. Patrae(?) mint. Praetorian galley right / Aquila between two signa; LEG IV across lower field. Crawford 544/17; CRI 352; Sydenham 1219; RSC 30; RBW –. Iridescent toning, graffito. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1255.',
+      'The Triumvirs. Mark Antony. AR Denarius (17mm, 3.34 g, 5h). Legionary issue. Patrae(?) mint. Praetorian galley right / Aquila between two signa; LEG IV across lower field. Crawford 544/17; CRI 352; Sydenham 1219; RSC 30; RBW –. Iridescent toning, graffito. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1255.',
     obverse: 'Trireme',
     reverse: 'Legionary standards and aquila',
   }, {
@@ -223,9 +235,9 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial3.jpeg',
     date:
-      '46 BCE',
+      '49-44 BCE',
     body:
-      'Julius Caesar, 49-44 BC. Denarius (Silver, 18 mm, 3.63 g, 1 h), military mint traveling with Caesar in Illyria (Apollonia?), early to mid 48 BC. Diademed female head (Clementia?) to right, wearing oak wreath; behind, III. Rev. CAESAR Trophy of Gallic arms; oval shield to left, axe surmounted by animal’s head to right. Babelon (Julia) 26. Crawford 452/2. RBW -. Sydenham 1009. Minor deposits and with light marks, otherwise, nearly very fine.',
+      'Julius Caesar. Denarius (Silver, 18 mm, 3.63 g, 1 h), military mint traveling with Caesar in Illyria (Apollonia?), early to mid 48 BC. Diademed female head (Clementia?) to right, wearing oak wreath; behind, III. Rev. CAESAR Trophy of Gallic arms; oval shield to left, axe surmounted by animal’s head to right. Babelon (Julia) 26. Crawford 452/2. RBW -. Sydenham 1009. Minor deposits and with light marks, otherwise, nearly very fine.',
     obverse: 'Bust of Clementia',
     reverse: 'Trophy, shields - CAESAR in exergue',
   }, 
@@ -236,9 +248,9 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial4.jpeg',
     date:
-      '81 BCE',
+      '82 BCE',
     body:
-      '. Manlius Torquatus, 82 BC. Denarius (Silver, 17.5 mm, 3.93 g, 7 h), with L. Cornelius Sulla, military mint moving with Sulla. L•MANLI – PRO Q Head of Roma to right, wearing crested and winged helmet. Rev. L•SVLLA•IMP Sulla driving triumphal quadriga to right, holding branch and scepter: above, Victory flying left, crowning him with laurel wreath. Babelon (Manlia) 7 and (Cornelia) 42. Crawford 367/3. RBW 1384. Sydenham 759. Lightly toned. Minor marks, otherwise, nearly very fine.',
+      '. Manlius Torquatus. Denarius (Silver, 17.5 mm, 3.93 g, 7 h), with L. Cornelius Sulla, military mint moving with Sulla. L•MANLI – PRO Q Head of Roma to right, wearing crested and winged helmet. Rev. L•SVLLA•IMP Sulla driving triumphal quadriga to right, holding branch and scepter: above, Victory flying left, crowning him with laurel wreath. Babelon (Manlia) 7 and (Cornelia) 42. Crawford 367/3. RBW 1384. Sydenham 759. Lightly toned. Minor marks, otherwise, nearly very fine.',
     obverse: 'Bust of Dea Roma',
     reverse: 'Chariot - SULLA in exergue',
   }, {
@@ -248,9 +260,9 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial5.jpeg',
     date:
-      '56 BCE',
+      '58 BCE',
     body:
-      'M. Aemilius Scaurus and Pub. Plautius Hypsaeus, 58 BC. Denarius (Silver, 18 mm, 3.84 g, 4 h), Rome. M SCAVR / AED CVR / [EX] - S C / [REX] ARETAS Nabatean king Aretas kneeling right, holding olive branch and reins of camel standing beside him. Rev. P HVPSAE / AED CVR / CAPTV / C HVPSAE COS / PREIVE Jupiter in quadriga left, holding reins in his left hand and hurling thunderbolt with his right; below the horses, scorpion. Babelon (Aemilia) 9 and (Plautia) 10. Crawford 422/1b. RBW 1519. Sydenham 912. Minor nicks, otherwise, about very fine.',
+      'M. Aemilius Scaurus and Pub. Plautius Hypsaeus, Denarius (Silver, 18 mm, 3.84 g, 4 h), Rome. M SCAVR / AED CVR / [EX] - S C / [REX] ARETAS Nabatean king Aretas kneeling right, holding olive branch and reins of camel standing beside him. Rev. P HVPSAE / AED CVR / CAPTV / C HVPSAE COS / PREIVE Jupiter in quadriga left, holding reins in his left hand and hurling thunderbolt with his right; below the horses, scorpion. Babelon (Aemilia) 9 and (Plautia) 10. Crawford 422/1b. RBW 1519. Sydenham 912. Minor nicks, otherwise, about very fine.',
     obverse: 'King paying tribute',
     reverse: 'Charioteer',
   }, {
@@ -262,7 +274,7 @@ export const items = [
     date:
       '48 BCE',
     body:
-      'Albinus Bruti f, 48 BC. Denarius (Silver, 20 mm, 3.16 g, 6 h), Rome. PIETAS Head of Pietas to right. Rev. ALBINVS•BRVTI•F Two right hands clasped around winged caduceus. Babelon (Junia) 25 and (Postumia) 10. Crawford 450/2. RBW 1577. Sydenham 942. Somewhat crystallized , otherwise, very fine.',
+      'Albinus Bruti f. Denarius (Silver, 20 mm, 3.16 g, 6 h), Rome. PIETAS Head of Pietas to right. Rev. ALBINVS•BRVTI•F Two right hands clasped around winged caduceus. Babelon (Junia) 25 and (Postumia) 10. Crawford 450/2. RBW 1577. Sydenham 942. Somewhat crystallized , otherwise, very fine.',
     obverse: 'Bust of Venus?',
     reverse: 'Shaking hands - ALBINI in exergue',
   }, {
@@ -272,9 +284,9 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial7.jpeg',
     date:
-      '46 BCE',
+      'Late 46-early 45 BCE',
     body:
-      'The Caesarians. Julius Caesar. Late 46-early 45 BC. AR Denarius (20mm, 3.62 g, 3h). Military mint traveling with Caesar in Spain. Head of Venus right, wearing stephane, with Cupid over her shoulder / Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him. Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639. Toned, minor marks. Near VF. From the Kermit C. Smyth Collection, purchased from Brian Kritt, 19 April 1986.',
+      'The Caesarians. Julius Caesar. AR Denarius (20mm, 3.62 g, 3h). Military mint traveling with Caesar in Spain. Head of Venus right, wearing stephane, with Cupid over her shoulder / Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him. Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639. Toned, minor marks. Near VF. From the Kermit C. Smyth Collection, purchased from Brian Kritt, 19 April 1986.',
     obverse: 'Bust of Venus',
     reverse: 'Trophaeion - CAESAR in exergue',
   }, {
@@ -287,7 +299,7 @@ export const items = [
       '247 CE',
     mint: 'Antioch',
     body:
-      'SELEUCIS and PIERIA, Antioch. Philip I. AD 244-249. AR Tetradrachm (25.5mm, 11.66 g, 2h). Struck AD 247. Laureate, draped, and cuirassed bust right / Eagle standing right, wings spread with left wing behind leg, head right and holding wreath in beak; ANTIOXIA/S C in two lines in exergue. McAlee 908; Prieur 368. Lightly toned, typical light porosity, obverse lamination flaw. Near EF.',
+      'SELEUCIS and PIERIA, Antioch. Philip I. AR Tetradrachm (25.5mm, 11.66 g, 2h). Laureate, draped, and cuirassed bust right / Eagle standing right, wings spread with left wing behind leg, head right and holding wreath in beak; ANTIOXIA/S C in two lines in exergue. McAlee 908; Prieur 368. Lightly toned, typical light porosity, obverse lamination flaw. Near EF.',
     obverse: 'Laureate bust of Philip I',
     reverse: 'Imperial Eagle',
   }, {
@@ -297,10 +309,10 @@ export const items = [
     subcategory: 'imperial',
     pic: '/images/imperial2.jpeg',
     date:
-      '202 CE',
+      '198-217 CE',
     mint: 'Seleucia Pieria',
     body:
-      'SYRIA, Seleucis and Pieria. Seleucia Pieria. Caracalla, 198-217. Tetradrachm (Billon, 28 mm, 13.35 g, 6 h), 215-217. ΑΥΤ•Κ•Μ•Α••ΑΝΤΩΝЄΙΝΟC CЄΒ Laureate head of Caracalla to right. Rev. ΔΗΜΑΡΧ•ЄΞ•ΥΠΑ ΤΟ Δ Eagle with spread wings standing facing on thunderbolt, head to right and holding wreath in beak. Prieur 1188. Some doubling on the reverse, otherwise, good very fine.',
+      'SYRIA, Seleucis and Pieria. Seleucia Pieria. Caracalla. Tetradrachm (Billon, 28 mm, 13.35 g, 6 h), 215-217. ΑΥΤ•Κ•Μ•Α••ΑΝΤΩΝЄΙΝΟC CЄΒ Laureate head of Caracalla to right. Rev. ΔΗΜΑΡΧ•ЄΞ•ΥΠΑ ΤΟ Δ Eagle with spread wings standing facing on thunderbolt, head to right and holding wreath in beak. Prieur 1188. Some doubling on the reverse, otherwise, good very fine.',
     obverse: 'Laureate bust of Caracalla',
     reverse: 'Imperial eagle',
   }, {
@@ -313,7 +325,7 @@ export const items = [
       '249-251 CE',
     mint: 'Antioch',
     body:
-      'Trajan Decius BI Tetradrachm of Antioch, Seleucis and Pieria. AD 249-251. AYT K Γ MЄ KY TPAIANOC ΔЄKIOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; uncertain mark below bust (two pellets?) / ΔHMAPX ЄΞOYCIAC, eagle standing to left on palm, with wings spread, holding wreath in beak; SC in exergue. Cf. RPC IX 1701; McAlee 1126; cf. Prieur 578. 13.48g, 26mm, 3h. Extremely Fine. From a private North American collection.',
+      'Trajan Decius BI Tetradrachm of Antioch, Seleucis and Pieria. AYT K Γ MЄ KY TPAIANOC ΔЄKIOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; uncertain mark below bust (two pellets?) / ΔHMAPX ЄΞOYCIAC, eagle standing to left on palm, with wings spread, holding wreath in beak; SC in exergue. Cf. RPC IX 1701; McAlee 1126; cf. Prieur 578. 13.48g, 26mm, 3h. Extremely Fine. From a private North American collection.',
     obverse: 'Laureate bust of Trajan Decius',
     reverse: 'Imperial eagle',
   }, {
@@ -323,10 +335,10 @@ export const items = [
     subcategory: 'imperial',
     pic: '/images/imperial4.jpg',
     date:
-      '263 CE',
+      '252-253 CE',
     mint: 'Antioch',
     body:
-      'Trebonianus Gallus BI Tetradrachm of Antioch, Seleucis and Pieria. AD 252-253. AYTOK K Γ OYIB TPЄB ΓAΛΛOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; • below bust / ΔHMAPX ЄΞOYCIAC ΥΠΑ ΤΟ Β, eagle standing facing, head to left, with wings spread, holding wreath in beak; A between legs, SC below. RPC IX 1822; McAlee 1176a; Prieur 671. 11.44g, 24mm, 12h. Extremely Fine. From a private North American collection.',
+      'Trebonianus Gallus BI Tetradrachm of Antioch, Seleucis and Pieria. AYTOK K Γ OYIB TPЄB ΓAΛΛOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; • below bust / ΔHMAPX ЄΞOYCIAC ΥΠΑ ΤΟ Β, eagle standing facing, head to left, with wings spread, holding wreath in beak; A between legs, SC below. RPC IX 1822; McAlee 1176a; Prieur 671. 11.44g, 24mm, 12h. Extremely Fine. From a private North American collection.',
     obverse: 'Laureate bust of Trebonianus Gallus',
     reverse: 'Imperial eagle',
   }, 
@@ -340,7 +352,7 @@ export const items = [
       '1422-1461 CE',
     mint: 'Paris',
     body:
-      'FRANCE, Royal. Charles VII le Victorieux (the Victorious). 1422-1461. AR Blanc à la couronne (26mm, 2.15 g, 9h). Toulouse mint; mm: annulet under 5th letter. 1st emission, authorized 28 January 1346. Coat-of-arms within trilobe; crowns in voids / Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe. Duplessy 519; Ciani 686. Toned, green and brown deposits. Near VF. From the Todd Hansen Collection, purchased from Alex G. Malloy.',
+      'FRANCE, Royal. Charles VII le Victorieux (the Victorious). AR Blanc à la couronne (26mm, 2.15 g, 9h). Toulouse mint; mm: annulet under 5th letter. 1st emission, authorized 28 January 1346. Coat-of-arms within trilobe; crowns in voids / Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe. Duplessy 519; Ciani 686. Toned, green and brown deposits. Near VF. From the Todd Hansen Collection, purchased from Alex G. Malloy.',
     obverse: 'Stuff',
     reverse: 'Maltese cross, other stuff',
   }, {
@@ -350,10 +362,10 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/republican2.jpeg',
     date:
-      '61 BCE',
+      '60 BCE',
     mint: 'Rome',
     body:
-      'L. Cassius Longinus. 60 BC. AR Denarius (19mm, 3.79 g, 6h). Rome mint. Veiled and draped bust of Vesta left; C (or G) to left, cylix to right / Voter standing left, dropping tablet inscribed V (Uti rogas) into cista to left. Crawford 413/1; Sydenham 935; Cassia 10; RBW 1493 var. (letter on obv.). Toned, scratches, graffiti on the reverse. VF. From the Peter J. Merani Collection. Ex Malloy XLVIII (17 April 1998), lot 483.',
+      'L. Cassius Longinus. AR Denarius (19mm, 3.79 g, 6h). Rome mint. Veiled and draped bust of Vesta left; C (or G) to left, cylix to right / Voter standing left, dropping tablet inscribed V (Uti rogas) into cista to left. Crawford 413/1; Sydenham 935; Cassia 10; RBW 1493 var. (letter on obv.). Toned, scratches, graffiti on the reverse. VF. From the Peter J. Merani Collection. Ex Malloy XLVIII (17 April 1998), lot 483.',
     obverse: 'Bust of the Goddess Vesta',
     reverse: 'Voter casting his ballot',
   }, {
@@ -363,10 +375,10 @@ export const items = [
     subcategory: 'seleucid',
     pic: '/images/seleucid1.jpeg',
     date:
-      '121/0-97/6 BCE',
+      '109-96 BCE',
     mint: 'Antioch',
     body:
-      'SELEUKID EMPIRE. Antiochos VIII Epiphanes (Grypos). 121/0-97/6 BC. AR Tetradrachm (29mm, 15.35 g, 12h). Antioch on the Orontes mint. Third reign at Antioch, circa 109-96 BC. Diademed head right / Zeus Nikephoros seated left, pellet within wreath of Nike; to outer left, monogram above A; monogram below throne; all within laurel wreath. SC 2309.1b; HGC 9, 1200. Toned, flan crack, light scratches and marks, struck with worn obverse die, double struck on reverse. VF.',
+      'SELEUKID EMPIRE. Antiochos VIII Epiphanes (Grypos). AR Tetradrachm (29mm, 15.35 g, 12h). Antioch on the Orontes mint. Third reign at Antioch, Diademed head right / Zeus Nikephoros seated left, pellet within wreath of Nike; to outer left, monogram above A; monogram below throne; all within laurel wreath. SC 2309.1b; HGC 9, 1200. Toned, flan crack, light scratches and marks, struck with worn obverse die, double struck on reverse. VF.',
     obverse: 'Diademed bust of Antiochos VIII',
     reverse: 'Zeus enthroned, holding Nike',
   }, {
@@ -376,10 +388,10 @@ export const items = [
     subcategory: 'seleucid',
     pic: '/images/seleucid2.jpeg',
     date:
-      '66 CE',
+      '88-75 CE',
     mint: 'Antioch',
     body:
-      'SELEUKID EMPIRE. Philip I Philadelphos. Circa 95/4-76/5 BC. AR Tetrdrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Struck circa 88/7–76/5 BC. Diademed head right / Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath. SC 2463.2c; HGC 9, 1319. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
+      'SELEUKID EMPIRE. Philip I Philadelphos. AR Tetrdrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Diademed head right / Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath. SC 2463.2c; HGC 9, 1319. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
     obverse: 'Diademed bust of Philip I',
     reverse: 'Zeus enthroned, holding Nike',
   }, {
@@ -389,10 +401,10 @@ export const items = [
     subcategory: 'seleucid',
     pic: '/images/seleucid3.jpeg',
     date:
-      '104 CE',
+      '138-129 BCE',
     mint: 'Antioch',
     body:
-      'SELEUKID KINGS OF SYRIA. Antiochos VII Euergetes (Sidetes), 138-129 BC. Tetradrachm (Silver, 29 mm, 15.75 g, 12 h), Antiochia on the Orontes. Diademed head of Antiochos VII to right. Rev. ΒΑΣΙΛΕΩΣ / ΑΝΤΙΟΧΟY - EYEPΓETOY Athena standing front, head to left, holding Nike in her right hand and resting her left on shield decorated with gorgoneion and set on ground; spear leaning against her left arm; to outer left, monogram above A; in inner right field, Φ; all within laurel wreath. SC 2061.4b. Somewhat rough, otherwise, very fine.',
+      'SELEUKID KINGS OF SYRIA. Antiochos VII Euergetes (Sidetes), Tetradrachm (Silver, 29 mm, 15.75 g, 12 h), Antiochia on the Orontes. Diademed head of Antiochos VII to right. Rev. ΒΑΣΙΛΕΩΣ / ΑΝΤΙΟΧΟY - EYEPΓETOY Athena standing front, head to left, holding Nike in her right hand and resting her left on shield decorated with gorgoneion and set on ground; spear leaning against her left arm; to outer left, monogram above A; in inner right field, Φ; all within laurel wreath. SC 2061.4b. Somewhat rough, otherwise, very fine.',
     obverse: 'Diademed bust of Antiochos VII',
     reverse: 'Goddess Athena standing, holding Nike',
   }, {
@@ -402,10 +414,10 @@ export const items = [
     subcategory: 'seleucid',
     pic: '/images/seleucid4.jpg',
     date:
-      '155 CE',
+      '223-210 CE',
     mint: 'Antioch',
     body:
-      'Seleukid Empire, Antiochos III \'the Great\' AR Tetradrachm. Antioch, circa 223-210 BC. Diademed head to right / Apollo Delphios seated to left on omphalos; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΟΧΟΥ to left, monogram to outer left. SC 1041.1; HGC 9, 447u. 17.00g, 29mm, 12h. Very Fine. From the Neil Collection.',
+      'Seleukid Empire, Antiochos III \'the Great\' AR Tetradrachm. Antioch. Diademed head to right / Apollo Delphios seated to left on omphalos; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΟΧΟΥ to left, monogram to outer left. SC 1041.1; HGC 9, 447u. 17.00g, 29mm, 12h. Very Fine. From the Neil Collection.',
     obverse: 'Diademed bust of Antiochos III',
     reverse: 'God Apollo, sitting on the Amphalos',
   }, {
@@ -415,10 +427,10 @@ export const items = [
     subcategory: 'spanish',
     pic: '/images/spanish1.jpeg',
     date:
-      '1713 CE',
+      '1621-1665 CE',
     mint: 'Mexico City',
     body:
-      'BOLIVIA, Colonial (as Alto Perú). Felipe IV. King of Spain, 1621-1665. AR 8 Reales (41mm, 26.92 g, 12h). Cob issue. Potosí mint. Struck 16302-1640s. Crowned coat-of-arms; P/(TR) to left / Arms of Spain within angled quadrilobe. Calicó y Trigo 480-490 (for type); KM 19a. Sea salvaged, rough. Fine.',
+      'BOLIVIA, Colonial (as Alto Perú). Felipe IV. King of Spain. AR 8 Reales (41mm, 26.92 g, 12h). Cob issue. Potosí mint. Struck 16302-1640s. Crowned coat-of-arms; P/(TR) to left / Arms of Spain within angled quadrilobe. Calicó y Trigo 480-490 (for type); KM 19a. Sea salvaged, rough. Fine.',
     obverse: 'Coat of Arms',
     reverse: 'Coat of Arms',
   }, {
@@ -428,10 +440,10 @@ export const items = [
     subcategory: 'spanish',
     pic: '/images/spanish2.jpeg',
     date:
-      '1713 CE',
+      '1700-1724 CE',
     mint: 'Mexico City',
     body:
-      'MEXICO, Colonial. Felipe V. King of Spain, first reign, 1700-1724. AR 8 Reales (40mm, 26.34 g, 2h). Ciudad de México (Mexico City) mint. Crowned coat-of-arms; [J to right] / Quartered arms within polylobe. BW 15.7; KM 47. Toned, cleaned scratches. VF. Usual crude strike. From the Todd Hansen Collection, purchased from Stack’s. Reportedly ex 1715 Plate Fleet Hoard.',
+      'MEXICO, Colonial. Felipe V. King of Spain, first reign. AR 8 Reales (40mm, 26.34 g, 2h). Ciudad de México (Mexico City) mint. Crowned coat-of-arms; [J to right] / Quartered arms within polylobe. BW 15.7; KM 47. Toned, cleaned scratches. VF. Usual crude strike. From the Todd Hansen Collection, purchased from Stack’s. Reportedly ex 1715 Plate Fleet Hoard.',
     obverse: 'Coat of Arms',
     reverse: 'Coat of Arms',
   }, {
@@ -444,7 +456,7 @@ export const items = [
       '1556-1598 CE',
     mint: 'Sevilla',
     body:
-      'SPAIN, Reino de España. Felipe II el Prudente, 1556-1598. 2 Escudos (Gold, 21 mm, 6.68 g), Sevilla. Crowned coat of arms. Rev. Coat of arms within polylobe. Friedberg 169. Very fine.',
+      'SPAIN, Reino de España. Felipe II el Prudente. 2 Escudos (Gold, 21 mm, 6.68 g), Sevilla. Crowned coat of arms. Rev. Coat of arms within polylobe. Friedberg 169. Very fine.',
     obverse: 'Coat of Arms',
     reverse: 'Maltese cross',
   }, 
@@ -455,10 +467,10 @@ export const items = [
     subcategory: 'ptolemaic',
     pic: '/images/ptolemaic1.jpeg',
     date:
-      '283 BCE',
+      '265 BCE',
     mint: 'Alexandria',
     body:
-      'PTOLEMAIC KINGS of EGYPT. Ptolemy II Philadelphos. 285-246 BC. AR Tetradrachm (26.5mm, 13.72 g, 12h). Tyre mint. Dated RY 21 (265/4 BC). Diademed head of Ptolemy I right, wearing aegis around neck / Eagle standing left; to left, Tyre monogram above club; KA monogram (date) to right. CPE 563; Svoronos 646; SNG Copenhagen 484; DCA 20. Lightly toned, some redeposited silver. Good Fine.',
+      'PTOLEMAIC KINGS of EGYPT. Ptolemy II Philadelphos. 285-246 BC. AR Tetradrachm (26.5mm, 13.72 g, 12h). Tyre mint. Dated regnal year 21. Diademed head of Ptolemy I right, wearing aegis around neck / Eagle standing left; to left, Tyre monogram above club; KA monogram (date) to right. CPE 563; Svoronos 646; SNG Copenhagen 484; DCA 20. Lightly toned, some redeposited silver. Good Fine.',
     obverse: 'Diademed bust of Ptolemy I Soter',
     reverse: 'Eagle',
   }, 
@@ -469,7 +481,7 @@ export const items = [
     subcategory: 'argead',
     pic: '/images/argead2.jpeg',
     date:
-      '350 BCE',
+      '323-315 BCE',
     mint: 'Amphipolis',
     body:
       'KINGS OF MACEDON. Philip II, 359-336 BC. Tetradrachm (Silver, 23 mm, 14.41 g, 6 h), Amphipolis, struck under Antipater, Polyperchon, or Kassander, circa 323/2-316/5. Laureate head of Zeus to right. Rev. ΦΙΛΙΠΠΟΥ Young jockey, holding palm frond in his right hand and reins in his left, riding horse to right; below horse, Macedonian shield; below raised foreleg, Π. Le Rider p. 124 and pl. 46, 7. Flan crack on the obverse and test cut on the reverse, otherwise, good very fine.',
@@ -483,7 +495,7 @@ export const items = [
     subcategory: 'thrace',
     pic: '/images/thrace3.jpeg',
     date:
-      '305-281 BCE',
+      '297-281 BCE',
     mint: 'Thrace',
     body:
       'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 27 mm, 16.94 g, 1 h), Magnesia ad Maeandrum, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟ[Υ] Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; behind, transverse spear; to outer left, monogram in wreath; to inner left, Σ; on throne, ornament. Müller -. Thompson 102. Beautifully toned and with a fantastic portrait. Flan crack and with a scuff on the obverse, otherwise, good very fine.',
@@ -497,7 +509,7 @@ export const items = [
     subcategory: 'bactrian',
     pic: '/images/bactrian1.jpg',
     date:
-      '160 BCE',
+      '170-145 BCE',
     mint: 'Ai-khanoum',
     body:
       'Greco-Baktrian Kingdom, Eukratides I Megas AR Tetradrachm. Circa 170-145 BC. Draped and cuirassed bust to right, wearing crested helmet adorned with bull\'s horn and ear; all within bead-and-reel border / The Dioskouroi on horses prancing to right, each holding spear and palm; ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ above, ΕΥΚΡΑΤΙΔΟΥ below, monogram in right field. Bopearachchi 6U; Mitchiner 177w; Bopearachchi & Rahman 244; SNG ANS -; HGC 12, 131. 16.86g, 33mm, 12h. Extremely Fine. From a private European collection.',
@@ -511,10 +523,10 @@ export const items = [
     subcategory: 'antigonid',
     pic: '/images/antigonid2.jpg',
     date:
-      '232 BCE',
+      '252-246 BCE',
     mint: 'Amphipolis',
     body:
-      'Kingdom of Macedon, Antigonos II Gonatas AR Tetradrachm. Amphipolis, struck circa 252/1-246 BC. Horned head of Pan to left, lagobolon over shoulder, on boss of Macedonian shield / Athena Alkidemos advancing to left, holding shield decorated with aegis, preparing to cast thunderbolt; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΓΟΝΟΥ to left, crested Macedonian helmet to inner left, monogram to inner right. Panagopoulou Period II, 63 (O10/R62); HGC 3.1, 1042 (Pella). 17.05g, 31mm, 11h. Extremely Fine; lightly toned. From a private UK collection.',
+      'Kingdom of Macedon, Antigonos II Gonatas AR Tetradrachm. Amphipolis. Horned head of Pan to left, lagobolon over shoulder, on boss of Macedonian shield / Athena Alkidemos advancing to left, holding shield decorated with aegis, preparing to cast thunderbolt; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΓΟΝΟΥ to left, crested Macedonian helmet to inner left, monogram to inner right. Panagopoulou Period II, 63 (O10/R62); HGC 3.1, 1042 (Pella). 17.05g, 31mm, 11h. Extremely Fine; lightly toned. From a private UK collection.',
     obverse: 'Bust of Antigonus II within Macedonian shield',
     reverse: 'Athena, striding forward with spear at the ready',
   }, 

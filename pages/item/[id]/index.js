@@ -18,6 +18,9 @@ const item = ({ result }) => {
         {result.title} 
         <br></br>
         {result.body}
+        Date: {result.date}
+        Obverse: {result.obverse}
+        Reverse: {result.reverse}
         </Card.Body>
       </Card>
       <br />
