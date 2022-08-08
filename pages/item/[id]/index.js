@@ -12,15 +12,22 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card>
+      <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
         <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }}/>
         <Card.Body>
-        {result.title} 
-        <br></br>
-        {result.body}
-        Date: {result.date}
-        Obverse: {result.obverse}
-        Reverse: {result.reverse}
+          <Card.Header>{result.title}</Card.Header>
+          <Card.Text>
+            {result.body}
+          </Card.Text>
+          <Card.Text>
+            <strong>Date: </strong>{result.date}
+          </Card.Text>
+          <Card.Text>
+            <strong>Obverse: </strong>{result.obverse}
+          </Card.Text>
+          <Card.Text>
+            <strong>Reverse: </strong>{result.reverse}
+          </Card.Text>
         </Card.Body>
       </Card>
       <br />
