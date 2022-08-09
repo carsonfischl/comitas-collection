@@ -15,7 +15,7 @@ export const headers = [
         subcategory: 'roman',
         pic: '/images/forum.jpeg',
         body:
-          'Hellenistic civilization is generally dated to the Death of Alexander III of Macedon in 323 BCE in Babylon. Following his death, the kingdoms left in the wake of his conquests continued to proselize Hellenistic values and culture acrooss the old world.',
+          'The legendary history of Rome is chronicled in Virgil\'s <i>Aeneid</i>. With the traditional founding of Rome dated to 753 BCE, Roman civilization lasted for over two millennia, with the fall of Constantinople to the Ottomans in 1453 CE under emperor Constantine X.',
       },
       {
         id: '3',
@@ -24,7 +24,7 @@ export const headers = [
         subcategory: 'medieval',
         pic: '/images/pergamonheader.jpeg',
         body:
-          'Hellenistic civilization is generally dated to the Death of Alexander III of Macedon in 323 BCE in Babylon. Following his death, the kingdoms left in the wake of his conquests continued to proselize Hellenistic values and culture acrooss the old world.',
+          'The fall of the Western Roman Empire to Germanic invaders in 476 CE resulted in the rise of petty kingdoms until the rise of the Frankish empire in the late 8th century. After centuries of dynastic feuding, the royal houses of Europe formed the proto-states that would become the precursors to many modern European countries.',
       },
       {
         id: '4',
@@ -33,6 +33,6 @@ export const headers = [
         subcategory: 'earlymodern',
         pic: '/images/ducalpalace.jpeg',
         body:
-          'Hellenistic civilization is generally dated to the Death of Alexander III of Macedon in 323 BCE in Babylon. Following his death, the kingdoms left in the wake of his conquests continued to proselize Hellenistic values and culture acrooss the old world.',
+          'Frequently dated to the fall of Constantinople in 1453 CE, the rise of the Ottomans resulted in European expansion and exploration around the Cape of Good Hope and, eventually, the colonization of the Americas. The American and French Revolutions in the late 18th century effectively ended the period and ushered in the rise of democratic institutions as the primary carriers of the western tradition.',
       },
 ]
