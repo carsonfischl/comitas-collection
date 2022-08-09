@@ -65,6 +65,8 @@ export const items = [
         '1726 CE',
       body:
         'FRANCE / CAPÉTIENS Louis XV (1715-1774). Écu aux rameaux d’olivier, K, Bordeaux. G.321 ; Argent - 29,15 g - 41 mm - 6 h. TTB.',
+      obverse: 'Bust of Louis XV',
+      reverse: 'Coats of Arms',
     },
     {
       id: '6',
@@ -75,7 +77,10 @@ export const items = [
       date:
         '1769 CE',
       body:
-        'GERMANY. Bavaria. Maximilian III Joseph (1745-1777). Madonnentaler (1769).Obv: D G MAX IOS U B D S RIA & EL L L. Draped and armored bust right. Rev: PATRONA BAVARIAE. The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. Davenport 1953. Condition: Near very fine. Weight: 27.80 g. Diameter: 43 mm.',
+        'GERMANY. Bavaria. Maximilian III Joseph (1745-1777). Condition: Near very fine. Weight: 27.80 g. Diameter: 43 mm.',
+      obverse: 'Bust of Maximilian III. D G MAX IOS U B D S RIA & EL L L.',
+      reverse: '.The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.',
+      references: 'Davenport 1953',
   },
   {
     id: '7',
@@ -86,7 +91,10 @@ export const items = [
     date:
       '205-100 BCE',
     body:
-      'PAMPHYLIA. Side. Tetradrachm. Diod-, magistrate. Obv: Helmeted head of Athena right. Rev: ΔIOΔ.Nike advancing left, holding wreath; pomegranate to left. Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243.  Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
+      'PAMPHYLIA. Side. Tetradrachm. Diod-, magistrate. Condition: Very fine. Weight: 16.81 g. Diameter: 30 mm.',
+    obverse: 'Bust of Athena, helmeted',
+    reverse: 'ΔIOΔ. Nike advancing left, holding wreath; pomegranate to left',
+    references: 'Seyrig 15; SNG BN 690-1. Ex G. Hirsch Nachfolger 252, 243',
   },
   {
     id: '8',
@@ -97,9 +105,10 @@ export const items = [
     date:
       'Late 2nd-mid 1st centuries BCE',
     body:
-      'THRACE, Maroneia. AR Tetradrachm (30.5mm, 16.05 g, 12h). Wreathed head of young Dionysos right / Dionysos standing half-left, holding grapes and narthex stalks; monogram to inner left, Θ to inner right. Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
-    obverse: 'Head of the god Dionysus',
-    reverse: 'Hercules standing holding grapes'
+      'THRACE, Maroneia. AR Tetradrachm (30.5mm, 16.05 g, 12h). Deep iridescent tone, minor die wear on obverse. VF. From the Jim Gilman Collection, purchased from Art of Money, 21 February 2001.',
+    obverse: 'Bust of the young Dionysus',
+    reverse: 'Dionysos, holding grapes and narthex stalks, monogram to inner left, Θ to inner right',
+    references: 'Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies)',
   },{
     id: '9',
     title: 'Dutch Republic',
@@ -109,8 +118,12 @@ export const items = [
     date:
       '1668 CE',
     body:
-      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). Zeeland. 1581-1795. AR Dukaton – zilveren rijder (43mm, 32.00 g, 10h). Middelburg mint; mm: castle. Knight right on galloping horse; coat-of-arms below / Crowned coat-of-arms with leonine supporters. P&W Ze 43; CNM 2.49.56; KM 41.1. Sea salvaged. VF.',
-  },    {
+      'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). Zeeland. 1581-1795. AR Dukaton – zilveren rijder (43mm, 32.00 g, 10h). Middelburg mint; mm: castle. Sea salvaged. VF.',
+    obverse: 'Knight right on galloping horse; coat-of-arms below',
+    reverse: 'Crowned coat-of-arms with leonine supporters',
+    references: 'P&W Ze 43; CNM 2.49.56; KM 41.1',
+  },    
+  {
     id: '10',
     title: 'Dutch Republic',
     category: 'earlymodern',
@@ -120,6 +133,9 @@ export const items = [
       '1589 CE',
     body:
       'LOW COUNTRIES, Republic of the Seven Netherlands (Dutch Republic). 1581-1795. AR Leeuwendaalder (41mm, 27.22 g, 2h). Armored half-length figure of soldier standing left, head right; coat-of-arms below / Lion rampant left. P&W Ho 22; CNM 2.28.66. Toned, some deposits, light marks, edge splits. Good VF.',
+    obverse: 'KArmored half-length figure of soldier standing left, head right',
+    reverse: 'Dutch lion',
+    references: 'P&W Ho 22; CNM 2.28.66.',
   },  {
     id: '11',
     title: 'Athenian tetradrachm',
@@ -129,7 +145,10 @@ export const items = [
     date:
       '165-150/49 BCE',
     body:
-      'ATTICA. Athens. AR Tetradrachm (16.63 gms), VERY FINE. Flan Flaw. HGC-4, 1602; Thompson-37. New style type. Obverse: Helmeted head of Athena right; Reverse: Owl, with head facing, standing right on overturned amphora; trophy to left; all within wreath. This example has good luster with a beautiful obverse. An unfortune and prominent flan flaw in the form of lamination is centrally located on the reverse.',
+      'ATTICA. Athens. AR Tetradrachm (16.63 gms), VERY FINE. Flan Flaw. This example has good luster with a beautiful obverse. An unfortune and prominent flan flaw in the form of lamination is centrally located on the reverse.',
+    obverse: 'Bust of Athena, helmeted',
+    reverse: 'Owl, with head facing, standing right on overturned amphora; trophy to left; all within wreath',
+    references: 'HGC-4, 1602; Thompson-37',
   }, {
     id: '13',
     title: 'Akarnania (Tyrrhion) Stater',
@@ -139,7 +158,10 @@ export const items = [
     date:
       '320-280 BCsE',
     body:
-      'Akarnania, Thyrreion AR Stater. Pegasos flying to left; ΘY below / Helmeted head of Athena to left; Θ-Y across fields, Boeotian shield behind. Pegasi 22; BCD Akarnania 370. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
+      'Akarnania, Thyrreion AR Stater. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
+    obverse: 'Pegasos flying to left; ΘY below',
+    reverse: 'Θ-Y across fields, Boeotian shield behind',
+    references: 'Pegasi 22; BCD Akarnania 370',
   }, {
     id: '14',
     title: 'Theban Stater',
@@ -149,7 +171,10 @@ export const items = [
     date:
       '363-338 BCE',
     body:
-      'BOEOTIA, Thebes. Circa 363-338 BC. AR Stater (21.5mm, 12.03 g). Diok-, magistrate. Boeotian shield / Amphora; ΔI-OK across field; all within incuse concave circle. Hepworth 28; BCD Boiotia 550; HGC 4, 1334. Old collection tone, off center on reverse. VF.',
+      'BOEOTIA, Thebes. Circa 363-338 BC. AR Stater (21.5mm, 12.03 g). Diok-, magistrate. Old collection tone, off center on reverse. VF.',
+    obverse: ' Boeotian shield',
+    reverse: 'ΔI-OK across field; all within incuse concave circle',
+    references: 'Hepworth 28; BCD Boiotia 550; HGC 4, 1334',
   }, {
     id: '15',
     title: 'Kyme, Aeolis Tetradrachm',
@@ -159,9 +184,10 @@ export const items = [
     date:
       '155-143 BCE',
     body:
-      'Aeolis, Cyme, Tetradrachm, 16.87g. SNG Cop-104. Obv: Head of Amazon Kyme r. wearing hairband. Rx: Horse stepping r., one-handled cup below horse\'s raised l. foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath. Purchased from Spink, 1 May 2005. Mint State',
+      'Aeolis, Cyme, Tetradrachm, 16.87g. Purchased from Spink, 1 May 2005. Mint State',
     obverse: 'Bust of the Amazon Kyme',
-    reverse: 'Image of a horse, reminiscent of the region\'s role in constructing the Trojan Horse of the Iliad',
+    reverse: 'Horse stepping right, one-handled cup below horse\'s raised left foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath',
+    references: 'SNG Cop-104',
   }, {
     id: '16',
     title: 'Lysimachus tetradrachm',
