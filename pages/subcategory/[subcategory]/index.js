@@ -30,7 +30,7 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
 }
 
 export const getStaticPaths = async () => {
-  const subcategories = ['argead', 'antigonid','bactrian', 'seleucid', 'pergamon', 'thrace', 'ptolemaic', 'greek']
+  const subcategories = ['argead', 'antigonid','bactrian', 'seleucid', 'pergamon', 'thrace', 'ptolemaic', 'greek', 'imperatorial', 'imperial', 'byzantine', 'french', 'dutch', 'german', 'spanish']
   const paths = subcategories.map((s) => ({ params: {subcategory: s } }))
   
   return {
