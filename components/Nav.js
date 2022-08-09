@@ -22,42 +22,42 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/category/hellenistic/argead" css={{color: '$black'}}>
+                <Link href="/subcategory/argead" css={{color: '$black'}}>
                     Argead
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/antigonid" css={{color: '$black'}}>
+                <Link href="/subcategory/antigonid" css={{color: '$black'}}>
                     Antigonid
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/bactrian" css={{color: '$black'}}>
+                <Link href="/subcategory/bactrian" css={{color: '$black'}}>
                     Bactrian
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/greek" css={{color: '$black'}}>
+                <Link href="/subcategory/greek" css={{color: '$black'}}>
                     Greek
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/pergamon" css={{color: '$black'}}>
+                <Link href="/subcategory/pergamon" css={{color: '$black'}}>
                     Pergamene
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/ptolemaic" css={{color: '$black'}}>
+                <Link href="/subcategory/ptolemaic" css={{color: '$black'}}>
                     Ptolemaic
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/seleucid" css={{color: '$black'}}>
+                <Link href="/subcategory/seleucid" css={{color: '$black'}}>
                     Seleucid
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/thrace" css={{color: '$black'}}>
+                <Link href="/subcategory/thrace" css={{color: '$black'}}>
                     Thracian
                 </Link>
             </Dropdown.Item>
@@ -72,17 +72,17 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/category/roman/imperatorial" css={{color: '$black'}}>
+                <Link href="/subcategory/imperatorial" css={{color: '$black'}}>
                     Imperatorial
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/roman/imperial" css={{color: '$black'}}>
+                <Link href="/subcategory/imperial" css={{color: '$black'}}>
                     Imperial
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/roman/byzantine" css={{color: '$black'}}>
+                <Link href="/subcategory/byzantine" css={{color: '$black'}}>
                     Byzantine
                 </Link>
             </Dropdown.Item>
@@ -97,7 +97,7 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/category/medieval/french" css={{color: '$black'}}>
+                <Link href="/subcategory/french" css={{color: '$black'}}>
                     French
                 </Link>
             </Dropdown.Item>
@@ -112,22 +112,22 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item withDivider>
-                <Link href="/category/earlymodern/french" css={{color: '$black'}}>
+                <Link href="/subcategory/french" css={{color: '$black'}}>
                     French
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/earlymodern/spanish" css={{color: '$black'}}>
+                <Link href="/subcategory/spanish" css={{color: '$black'}}>
                     Spanish
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/earlymodern/german" css={{color: '$black'}}>
+                <Link href="/subcategory/german" css={{color: '$black'}}>
                     German
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/earlymodern/dutch" css={{color: '$black'}}>
+                <Link href="/subcategory/dutch" css={{color: '$black'}}>
                     Dutch
                 </Link>
             </Dropdown.Item>
