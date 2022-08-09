@@ -9,6 +9,9 @@ import Header from '../../../components/Header'
 import Item from '../../../components/Item'
 
 const category = ({ result, header }) => {
+  const router = useRouter()
+  const { cat } = router.query
+
   return (
     <>
       <div>

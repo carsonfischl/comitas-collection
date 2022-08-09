@@ -17,13 +17,3 @@ export default function Home({items, main}) {
     </div>
   )
 }
-
-// export const getStaticProps = async () => {
-//   const res = items.json;
-
-//   return {
-//     props: {
-//       res,
-//     },
-//   }
-// }
