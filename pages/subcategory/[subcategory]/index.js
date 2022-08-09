@@ -7,9 +7,6 @@ import ItemList from '../../../components/ItemList'
 
 const subcategory = ({ result }) => {
 
-  const router = useRouter()
-  const { category, subcategory } = router.query
-
   return (
     <>
       <div>
