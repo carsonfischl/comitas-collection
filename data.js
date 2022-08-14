@@ -188,17 +188,22 @@ export const items = [
     obverse: 'Bust of the Amazon Kyme',
     reverse: 'Horse stepping right, one-handled cup below horse\'s raised left foreleg, magistrate\'s name MHTPOΦANHΣ in exergue, mint name downwards before horse, all in laurel wreath',
     references: 'SNG Cop-104',
-  }, {
+  }, 
+  {
     id: '16',
     title: 'Lysimachus tetradrachm',
     category: 'hellenistic',
     subcategory: 'thrace',
     pic: '/images/hellenistic1.jpeg',
     date:
-      '305-281 BCE',
+      '397-281 BCE',
     body:
-      'KINGS OF THRACE. Lysimachos, Tetradrachm (Silver, 31 mm, 17.16 g, 11 h), Lampsakos, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟY Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; to outer left, herm to left; in inner left field, monogram. Müller 91. Thompson 50. Slightly porous, otherwise, very fine.',
-  }, {
+      'KINGS OF THRACE. Lysimachos, Tetradrachm (Silver, 31 mm, 17.16 g, 11 h), Lampsakos. Slightly porous, otherwise, very fine.',
+    obverse: 'Diademed bust of Alexander the Great to right with horn of Ammon',
+    reverse: 'ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟY Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; to outer left, herm to left; in inner left field, monogram',
+    references: 'Thompson 50; Müller 91',
+  }, 
+  {
     id: '17',
     title: 'Cistophoric Tetradrachm',
     category: 'hellenistic',
