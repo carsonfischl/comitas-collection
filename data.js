@@ -210,9 +210,12 @@ export const items = [
     subcategory: 'pergamon',
     pic: '/images/hellenistic2.jpeg',
     date:
-      '180-67 BCE',
+      '133/2 BCE (CY 2)',
     body:
-      'IONIA, Ephesos. AR Tetradrachm (29.5mm, 12.36 g, 1h). Cistophoric standard. Dated CY 2 (133/2 BC). Cista mystica with serpent; all within ivy wreath / Two serpents entwined around bow and bowcase; bee above, B (date) to upper left, torch to right. Kleiner & Noe Series 41; SNG Copenhagen 316. Toned, traces of find patina, flan cracks, some smoothing on reverse. VF.',
+      'IONIA, Ephesos. AR Tetradrachm (29.5mm, 12.36 g, 1h). Cistophoric standard. Toned, traces of find patina, flan cracks, some smoothing on reverse. VF.',
+    obverse: 'Cista mystica with serpent; all within ivy wreath',
+    reverse: 'Two serpents entwined around bow and bowcase; bee above, B (date) to upper left, torch to right',
+    references: 'Kleiner & Noe Series 41; SNG Copenhagen 316',
   }, {
     id: '18',
     title: 'Azes I',
