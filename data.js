@@ -225,7 +225,10 @@ export const items = [
     date:
       '58-12 BCE',
     body:
-      'INDO-SKYTHIANS. Azes. AR Tetradrachm (25mm, 9.56 g, 6h). Azes right on horseback, holding whip; jha in Kharosthi to right / Athena standing right, raising hand and holding spear and shield; monogram to left; to right, va in Kharosthi above second monogram. Senior 98.325T; HGC 12, 637. Toned. VF.',
+      'INDO-SKYTHIANS. Azes. AR Tetradrachm (25mm, 9.56 g, 6h). Toned. VF.',
+    obverse: 'Azes right on horseback, holding whip; jha in Kharosthi to right',
+    reverse: 'Athena standing right, raising hand and holding spear and shield; monogram to left; to right, va in Kharosthi above second monogram',
+    references: 'Senior 98.325T; HGC 12, 637',
   }, {
     id: '19',
     title: 'Attalos I Tetradrachm',
