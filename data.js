@@ -238,9 +238,10 @@ export const items = [
     date:
       '269/8-263 BCE',
     body:
-      'KINGS of PERGAMON. Philetairos. 282-263 BC. AR Tetradrachm (27mm, 16.80 g, 12h). Pergamon mint. Struck circa 269/8-263 BC. Diademed head right / Athena enthroned left, holding shield in right hand, left elbow resting on sphinx seated right; spear diagonally in background, bow to outer right, monogram on throne, ivy leaf in exergue. Westermark Group II, obv. die II; SNG BN 1603–5 (Eumenes I). Lightly toned, previously gilded, mount and bezel removed. VF. From the Dr. Jay M. Galst Collection.',
-    obverse: 'Laureate bust of Philetairos',
-    reverse: 'Athena, seated, crowning Attalos\' name',
+      'KINGS of PERGAMON. Philetairos. 282-263 BC. AR Tetradrachm (27mm, 16.80 g, 12h). Pergamon mint. Lightly toned, previously gilded, mount and bezel removed. VF. From the Dr. Jay M. Galst Collection.',
+    obverse: 'Diamdemed bust of Philetairos',
+    reverse: 'Athena enthroned left, holding shield in right hand, left elbow resting on sphinx seated right; spear diagonally in background, bow to outer right, monogram on throne, ivy leaf in exergue',
+    references: 'Westermark Group II, obv. die II; SNG BN 1603–5 (Eumenes I)',
   }, {
     id: '20',
     title: 'Eumenes II Tetradrachm',
