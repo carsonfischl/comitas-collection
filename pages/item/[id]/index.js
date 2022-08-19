@@ -8,7 +8,7 @@ import { items } from '../../../data'
 import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
-
+  console.log(result)
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
@@ -16,18 +16,11 @@ const item = ({ result }) => {
         <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }}/>
         <Card.Body>
           <Card.Header>{result.title}</Card.Header>
-          <Card.Text>
             {result.body}
-          </Card.Text>
-          <Card.Text>
-            <strong>Date: </strong>{result.date}
-          </Card.Text>
-          <Card.Text>
-            <strong>Obverse: </strong>{result.obverse}
-          </Card.Text>
-          <Card.Text>
-            <strong>Reverse: </strong>{result.reverse}
-          </Card.Text>
+            <strong>Date: </strong>{result.date}<br/>
+
+            <strong>Obverse: </strong>{result.obverse}<br/>
+            <strong>Reverse: </strong>{result.reverse}<br/>
         </Card.Body>
       </Card>
       <br />

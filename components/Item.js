@@ -3,7 +3,8 @@ import { Card, Grid, Text, Loading } from "@nextui-org/react";
 import { useState, useEffect } from 'react';
 
 const Item = ({ item }) => {
-  const [isLoading, setIsLoading] = useState(false);
+  //console.log(item)
+  //const [isLoading, setIsLoading] = useState(false);
  
   // useEffect(() => {
   //   const fetchData = async ({item}) => {

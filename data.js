@@ -251,9 +251,10 @@ export const items = [
     date:
       '241-197 BCE',
     body:
-      'Kings of Pergamum, Attalos I, Tetradrachm, AR 17.10 g. Laureate head of Philetarus r. Rev. ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes. SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R.– Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
-    obverse: 'Diademed bust of Philetairos',
-    reverse: 'Athena, seated, crowning Philetairos\' name',
+      'Kings of Pergamum, Attalos I, Tetradrachm, AR 17.10 g. Struck in very high relief and with a lovely iridescent tone. Extremely fine Ex NAC sale 106, 2018, 260. Privately purchased from Spink & Son at the NYICC in 1999. From the Harald Salvesen collection.',
+    obverse: 'Laureate bust of Philetairos',
+    reverse: 'ΦΙΛΕΤΑIΡΟΥ Helmeted Athena seated l., holding spear with l. hand and crowning with r. the legend; behind, bow, in inner l. field A and in outer l. field, bunch of grapes',
+    references: 'SNG von Aulock 1358. SNG France 615. Westermark V.LXVIII/R',
   }, {
     id: '22',
     title: 'Marcus Antonius Denarius',
@@ -263,9 +264,10 @@ export const items = [
     date:
       'Autumn 32-Spring 31 BCE',
     body:
-      'The Triumvirs. Mark Antony. AR Denarius (17mm, 3.34 g, 5h). Legionary issue. Patrae(?) mint. Praetorian galley right / Aquila between two signa; LEG IV across lower field. Crawford 544/17; CRI 352; Sydenham 1219; RSC 30; RBW –. Iridescent toning, graffito. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1255.',
-    obverse: 'Trireme',
-    reverse: 'Legionary standards and aquila',
+      'The Triumvirs. Mark Antony. AR Denarius (17mm, 3.34 g, 5h). Legionary issue. Patrae(?) mint. Iridescent toning, graffito. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1255.',
+    obverse: 'Praetorian galley',
+    reverse: 'Aquila between two signa; LEG IV across lower field',
+    references: 'Crawford 544/17; CRI 352; Sydenham 1219; RSC 30',
   }, {
     id: '23',
     title: 'Julius Caesar Denarius',
