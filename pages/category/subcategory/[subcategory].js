@@ -31,5 +31,15 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
   }
 }
 
+export const getStaticPaths = async () => {
+
+    const subcategories = Array.from(new Set(items.map(items => items.subcategory)))
+    const paths = subcategories.map((subcategory) => ({params:{ category: String(subcategory)}}))
+    return {  
+      paths,
+      fallback: false,
+    }
+  }
+
 
 export default subcategory
