@@ -32,7 +32,7 @@ export const getStaticPaths = async ( ) => {
     const pathObj = categories.map((category) => subcategories.map((subcategory) => ({params:{ category: String(category), subcategory: String(subcategory)}})))
 
     return {  
-      paths: [...pathObj[0]],
+      paths: [...pathObj[0], ...pathObj[1], ...pathObj[2], ...pathObj[3]],
       fallback: false,
     }
   }
