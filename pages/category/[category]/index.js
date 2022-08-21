@@ -1,9 +1,9 @@
 import { useRouter } from "next/router"
-import Header from "../../components/Header"
-import ItemList from "../../components/ItemList"
+import Header from "../../../components/Header"
+import ItemList from "../../../components/ItemList"
 import Link from "next/link"
-import { items } from "../../data"
-import { headers } from "../../headers"
+import { items } from "../../../data"
+import { headers } from "../../../headers"
 
 const Category = ({ result, header}) => {
     const router = useRouter()
