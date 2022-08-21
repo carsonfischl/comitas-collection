@@ -6,6 +6,8 @@ import { items } from '../../../data'
 import ItemList from '../../../components/ItemList'
 
 const subcategory = ({ result }) => {
+    const router = useRouter()
+    const category = router.query.category
 
   return (
     <>
@@ -18,7 +20,10 @@ const subcategory = ({ result }) => {
 }
 
 export const getStaticProps = async ({ params: { subcategory } }) => {
-  const result = items.filter(items => items.subcategory === subcategory)
+    const router = useRouter()
+    const category = router.query.category
+    const subcategory = router.query.subcategory
+  const result = items.filter(items => items.subcategory === subcategory && items.category === category)
   return {
     props: {
       result,
@@ -26,14 +31,5 @@ export const getStaticProps = async ({ params: { subcategory } }) => {
   }
 }
 
-export const getStaticPaths = async () => {
-  const subcategories = ['argead', 'antigonid','bactrian', 'seleucid', 'pergamon', 'thrace', 'ptolemaic', 'greek', 'imperatorial', 'imperial', 'byzantine', 'french', 'dutch', 'german', 'spanish']
-  const paths = subcategories.map((s) => ({ params: {subcategory: s } }))
-  
-  return {
-    paths,
-    fallback: false,
-  }
-}
 
 export default subcategory
