@@ -128,11 +128,11 @@ export default function App() {
             </Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
-        <Button auto onClick={handler} css={{margin: '1rem', background: '$black', color: '$white'}} size="lg">Contact Me</Button>
+        {/* <Button auto onClick={handler} css={{margin: '1rem', background: '$black', color: '$white'}} size="lg">Contact Me</Button>
       <Modal closeButton aria-labelledby="modal-title" open={visible} onClose={closeHandler}>
         <Modal.Header>
           <Text id="modal-title" size={18}>
-              Carson
+              Title
           </Text>
         </Modal.Header>
         <Modal.Body>
@@ -141,7 +141,7 @@ export default function App() {
         <Modal.Footer css={{alignContent: "center", margin: "auto"}}>
             <Button onClick={closeHandler} css={{margin: '1rem', background: '$black', color: '$gray100'}}>Close</Button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
     </span>
   );
 }

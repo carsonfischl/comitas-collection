@@ -15,7 +15,7 @@ export const headers = [
         subcategory: 'roman',
         pic: '/images/forum.jpeg',
         body:
-          'The legendary history of Rome is chronicled in Virgil\'s <i>Aeneid</i>. With the traditional founding of Rome dated to 753 BCE, Roman civilization lasted for over two millennia, with the fall of Constantinople to the Ottomans in 1453 CE under emperor Constantine X.',
+          'The legendary history of Rome is chronicled in Virgil\'s Aeneid. With the traditional founding of Rome dated to 753 BCE, Roman civilization lasted for over two millennia, with the fall of Constantinople to the Ottomans in 1453 CE under emperor Constantine X.',
       },
       {
         id: '3',
