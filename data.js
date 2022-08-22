@@ -275,11 +275,12 @@ export const items = [
     subcategory: 'imperatorial',
     pic: '/images/imperatorial3.jpeg',
     date:
-      '49-44 BCE',
+      '48 BCE',
     body:
-      'Julius Caesar. Denarius (Silver, 18 mm, 3.63 g, 1 h), military mint traveling with Caesar in Illyria (Apollonia?), early to mid 48 BC. Diademed female head (Clementia?) to right, wearing oak wreath; behind, III. Rev. CAESAR Trophy of Gallic arms; oval shield to left, axe surmounted by animal’s head to right. Babelon (Julia) 26. Crawford 452/2. RBW -. Sydenham 1009. Minor deposits and with light marks, otherwise, nearly very fine.',
-    obverse: 'Bust of Clementia',
-    reverse: 'Trophy, shields - CAESAR in exergue',
+      'Julius Caesar. Denarius (Silver, 18 mm, 3.63 g, 1 h), military mint traveling with Caesar in Illyria (Apollonia?). Minor deposits and with light marks, otherwise, nearly very fine.',
+    obverse: 'Diademed female head (Clementia?) to right, wearing oak wreath; behind, III',
+    reverse: 'Trophy of Gallic arms; oval shield to left, axe surmounted by animal’s head to right - CAESAR in exergue',
+    references: 'Babelon (Julia) 26. Crawford 452/2. RBW -. Sydenham 1009',
   }, 
   {
     id: '24',
