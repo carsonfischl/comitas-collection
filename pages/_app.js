@@ -18,7 +18,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <NextUIProvider>
-      {isLoading ? <Loader /> : <Layout><Component {...pageProps} /></Layout>}
+      <Layout>
+      {isLoading ? <Loader /> : <Component {...pageProps} />}
+      </Layout>
     </NextUIProvider>
   );
 }
