@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <NextUIProvider>
       <Layout>
-      {isLoading ? <Loader /> : <Component {...pageProps} />}
+      {isLoading ? <Loader size='xl' css={{ color: '$black'}}/> : <Component {...pageProps} />}
       </Layout>
     </NextUIProvider>
   );

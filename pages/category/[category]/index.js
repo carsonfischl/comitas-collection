@@ -26,7 +26,6 @@ const Category = ({ result, header}) => {
     const result = items.filter(items => items.category === category)
     const single = headers.filter(headers => headers.category === category)
     const header = JSON.stringify(single[0])
-    console.log(header)
     return {
       props: {
         result,
