@@ -8,11 +8,12 @@ import { items } from '../../../data'
 import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
+
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
-        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }}/>
+        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur'/>
         <Card.Body>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
