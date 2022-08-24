@@ -8,7 +8,6 @@ import { items } from '../../../data'
 import { useState, useEffect } from 'react'
 
 const item = ({ result }) => {
-  console.log(result)
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
