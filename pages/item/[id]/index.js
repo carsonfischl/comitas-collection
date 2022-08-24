@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Card, Grid, Text, Loading } from "@nextui-org/react"
 import { items } from '../../../data'
 import { useState, useEffect } from 'react'
+import spinner from '../../../public/images/spinner.svg'
 
 const item = ({ result }) => {
 
@@ -13,7 +14,7 @@ const item = ({ result }) => {
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
-        <Card.Image src={result.pic} alt={result.id} layout='fill' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur'/>
+        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
