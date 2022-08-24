@@ -4,6 +4,7 @@ import ItemList from "../../../components/ItemList"
 import Link from "next/link"
 import { items } from "../../../data"
 import { headers } from "../../../headers"
+import Meta from "../../../components/Meta"
 
 const Category = ({ result, header}) => {
     const router = useRouter()
@@ -11,6 +12,7 @@ const Category = ({ result, header}) => {
     
   return (
       <>
+       <Meta title={header.title}/>
         <div>
           <Header header={header}/>
         </div>

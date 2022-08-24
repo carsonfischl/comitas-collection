@@ -9,6 +9,7 @@ const subcategory = ({ result }) => {
 
   return (
     <>
+      <Meta title={result[0].subcategory}/>
       <div>
         <ItemList items={result}/>
       </div>
