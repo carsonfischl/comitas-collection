@@ -291,9 +291,10 @@ export const items = [
     date:
       '82 BCE',
     body:
-      '. Manlius Torquatus. Denarius (Silver, 17.5 mm, 3.93 g, 7 h), with L. Cornelius Sulla, military mint moving with Sulla. L•MANLI – PRO Q Head of Roma to right, wearing crested and winged helmet. Rev. L•SVLLA•IMP Sulla driving triumphal quadriga to right, holding branch and scepter: above, Victory flying left, crowning him with laurel wreath. Babelon (Manlia) 7 and (Cornelia) 42. Crawford 367/3. RBW 1384. Sydenham 759. Lightly toned. Minor marks, otherwise, nearly very fine.',
-    obverse: 'Bust of Dea Roma',
-    reverse: 'Chariot - SULLA in exergue',
+      'Manlius Torquatus. Denarius (Silver, 17.5 mm, 3.93 g, 7 h), with L. Cornelius Sulla, military mint moving with Sulla.. Lightly toned. Minor marks, otherwise, nearly very fine.',
+    obverse: 'L•MANLI – PRO Q Head of Roma to right, wearing crested and winged helmet',
+    reverse: 'L•SVLLA•IMP Sulla driving triumphal quadriga to right, holding branch and scepter: above, Victory flying left, crowning him with laurel wreath; SULLA in exergue',
+    references: 'Babelon (Manlia) 7 and (Cornelia) 42. Crawford 367/3. RBW 1384. Sydenham 759',
   }, {
     id: '25',
     title: 'Marcus Aemilius Scaurus denarius',
