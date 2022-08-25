@@ -8,11 +8,11 @@ import Meta from "../../../components/Meta"
 
 const Category = ({ result, header}) => {
     const router = useRouter()
-    const category = router.query.category
-    
+    const category = router.query.category;
+    const text = JSON.parse(header);
   return (
       <>
-       <Meta title={header.title}/>
+       <Meta title={text.title}/>
         <div>
           <Header header={header}/>
         </div>
