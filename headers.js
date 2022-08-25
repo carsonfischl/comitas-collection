@@ -6,7 +6,7 @@ export const headers = [
       subcategory: 'hellenistic',
       pic: '/images/pergamonheader.jpeg',
       body:
-        'Hellenistic civilization is generally dated to the Death of Alexander III of Macedon in 323 BCE in Babylon. Following his death, the kingdoms left in the wake of his conquests continued to proselize Hellenistic values and culture acrooss the old world.',
+        'Hellenistic civilization is generally dated to the Death of Alexander III of Macedon in 323 BCE in Babylon. Following his death, the kingdoms left in the wake of his conquests continued to proselize Hellenistic values and culture across the old world.',
     },
     {
         id: '2',
