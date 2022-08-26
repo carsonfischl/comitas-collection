@@ -304,9 +304,10 @@ export const items = [
     date:
       '58 BCE',
     body:
-      'M. Aemilius Scaurus and Pub. Plautius Hypsaeus, Denarius (Silver, 18 mm, 3.84 g, 4 h), Rome. M SCAVR / AED CVR / [EX] - S C / [REX] ARETAS Nabatean king Aretas kneeling right, holding olive branch and reins of camel standing beside him. Rev. P HVPSAE / AED CVR / CAPTV / C HVPSAE COS / PREIVE Jupiter in quadriga left, holding reins in his left hand and hurling thunderbolt with his right; below the horses, scorpion. Babelon (Aemilia) 9 and (Plautia) 10. Crawford 422/1b. RBW 1519. Sydenham 912. Minor nicks, otherwise, about very fine.',
-    obverse: 'King paying tribute',
-    reverse: 'Charioteer',
+      'M. Aemilius Scaurus and Pub. Plautius Hypsaeus, Denarius (Silver, 18 mm, 3.84 g, 4 h), Rome. Minor nicks, otherwise, about very fine.',
+    obverse: 'M SCAVR / AED CVR / [EX] - S C / [REX] ARETAS Nabatean king Aretas kneeling right, holding olive branch and reins of camel standing beside him',
+    reverse: 'P HVPSAE / AED CVR / CAPTV / C HVPSAE COS / PREIVE Jupiter in quadriga left, holding reins in his left hand and hurling thunderbolt with his right; below the horses, scorpion',
+    references: 'Babelon (Aemilia) 9 and (Plautia) 10. Crawford 422/1b. RBW 1519. Sydenham 912',
   }, {
     id: '26',
     title: 'Decimus Albinus Brutus',
