@@ -330,9 +330,10 @@ export const items = [
     date:
       'Late 46-early 45 BCE',
     body:
-      'The Caesarians. Julius Caesar. AR Denarius (20mm, 3.62 g, 3h). Military mint traveling with Caesar in Spain. Head of Venus right, wearing stephane, with Cupid over her shoulder / Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him. Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639. Toned, minor marks. Near VF. From the Kermit C. Smyth Collection, purchased from Brian Kritt, 19 April 1986.',
-    obverse: 'Bust of Venus',
-    reverse: 'Trophaeion - CAESAR in exergue',
+      'The Caesarians. Julius Caesar. AR Denarius (20mm, 3.62 g, 3h). Military mint traveling with Caesar in Spain. Toned, minor marks. Near VF. From the Kermit C. Smyth Collection, purchased from Brian Kritt, 19 April 1986.',
+    obverse: 'Head of Venus right, wearing stephane, with Cupid over her shoulder',
+    reverse: 'Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him - CAESAR in exergue',
+    references: 'Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639',
   }, {
     id: '28',
     title: 'Philip I (the Arab) Tetradrachm',
