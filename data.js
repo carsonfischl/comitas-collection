@@ -317,9 +317,10 @@ export const items = [
     date:
       '48 BCE',
     body:
-      'Albinus Bruti f. Denarius (Silver, 20 mm, 3.16 g, 6 h), Rome. PIETAS Head of Pietas to right. Rev. ALBINVS•BRVTI•F Two right hands clasped around winged caduceus. Babelon (Junia) 25 and (Postumia) 10. Crawford 450/2. RBW 1577. Sydenham 942. Somewhat crystallized , otherwise, very fine.',
-    obverse: 'Bust of Venus?',
-    reverse: 'Shaking hands - ALBINI in exergue',
+      'Albinus Bruti f. Denarius (Silver, 20 mm, 3.16 g, 6 h), Rome. Somewhat crystallized , otherwise, very fine.',
+    obverse: 'PIETAS Head of Pietas to right',
+    reverse: 'ALBINVS•BRVTI•F Two right hands clasped around winged caduceus',
+    references: 'Babelon (Albina) 9 and (Postumia) 10. Crawford 450/2. RBW 1577. Sydenham 942',
   }, {
     id: '27',
     title: 'Julius Caesar Denarius',
