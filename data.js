@@ -334,7 +334,8 @@ export const items = [
     obverse: 'Head of Venus right, wearing stephane, with Cupid over her shoulder',
     reverse: 'Trophy of Gallic arms, composed of helmet and cuirass, oval shield and carnyx in each hand; two seated captives at base, the one on left a female in attitude of dejection, the one on right a bearded male with hands bound behind him - CAESAR in exergue',
     references: 'Crawford 468/1; CRI 58; Sydenham 1014; RSC 13; RBW 1639',
-  }, {
+  }, 
+  {
     id: '28',
     title: 'Philip I (the Arab) Tetradrachm',
     category: 'roman',
@@ -344,10 +345,12 @@ export const items = [
       '247 CE',
     mint: 'Antioch',
     body:
-      'SELEUCIS and PIERIA, Antioch. Philip I. AR Tetradrachm (25.5mm, 11.66 g, 2h). Laureate, draped, and cuirassed bust right / Eagle standing right, wings spread with left wing behind leg, head right and holding wreath in beak; ANTIOXIA/S C in two lines in exergue. McAlee 908; Prieur 368. Lightly toned, typical light porosity, obverse lamination flaw. Near EF.',
-    obverse: 'Laureate bust of Philip I',
-    reverse: 'Imperial Eagle',
-  }, {
+      'SELEUCIS and PIERIA, Antioch. Philip I. AR Tetradrachm (25.5mm, 11.66 g, 2h). Lightly toned, typical light porosity, obverse lamination flaw. Near EF.',
+    obverse: 'Laureate, draped and cuirassed bust of Philip I right',
+    reverse: 'Eagle standing right, wings spread with left wing behind leg, head right and holding wreath in beak; ANTIOXIA/S C in two lines in exergue',
+    references: 'McAlee 908; Prieur 368',
+  },
+  {
     id: '29',
     title: 'Caracalla Tetradrachm',
     category: 'roman',
