@@ -36,3 +36,15 @@ export const headers = [
           'Frequently dated to the fall of Constantinople in 1453 CE, the rise of the Ottomans resulted in European expansion and exploration around the Cape of Good Hope and, eventually, the colonization of the Americas. The American and French Revolutions in the late 18th century effectively ended the period and ushered in the rise of democratic institutions as the primary carriers of the western tradition.',
       },
 ]
+
+export const subheaders = [
+    {
+      id: '1',
+      title: 'Hellenistic',
+      category: 'hellenistic',
+      subcategory: 'argead',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The House of Alexander III',
+    },
+]
