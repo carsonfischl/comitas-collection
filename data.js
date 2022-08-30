@@ -360,10 +360,12 @@ export const items = [
       '198-217 CE',
     mint: 'Seleucia Pieria',
     body:
-      'SYRIA, Seleucis and Pieria. Seleucia Pieria. Caracalla. Tetradrachm (Billon, 28 mm, 13.35 g, 6 h), 215-217. ΑΥΤ•Κ•Μ•Α••ΑΝΤΩΝЄΙΝΟC CЄΒ Laureate head of Caracalla to right. Rev. ΔΗΜΑΡΧ•ЄΞ•ΥΠΑ ΤΟ Δ Eagle with spread wings standing facing on thunderbolt, head to right and holding wreath in beak. Prieur 1188. Some doubling on the reverse, otherwise, good very fine.',
-    obverse: 'Laureate bust of Caracalla',
-    reverse: 'Imperial eagle',
-  }, {
+      'SYRIA, Seleucis and Pieria. Seleucia Pieria. Caracalla. Tetradrachm (Billon, 28 mm, 13.35 g, 6 h), 215-217. Some doubling on the reverse, otherwise, good very fine.',
+    obverse: 'ΑΥΤ•Κ•Μ•Α••ΑΝΤΩΝЄΙΝΟC CЄΒ; Laureate head of Caracalla to right',
+    reverse: 'ΔΗΜΑΡΧ•ЄΞ•ΥΠΑ ΤΟ Δ Eagle with spread wings standing facing on thunderbolt, head to right and holding wreath in beak',
+    references: 'Prieur 1188',
+  }, 
+   {
     id: '30',
     title: 'Trajan Decius Tetradrachm',
     category: 'roman',
