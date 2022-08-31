@@ -375,9 +375,10 @@ export const items = [
       '249-251 CE',
     mint: 'Antioch',
     body:
-      'Trajan Decius BI Tetradrachm of Antioch, Seleucis and Pieria. AYT K Γ MЄ KY TPAIANOC ΔЄKIOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; uncertain mark below bust (two pellets?) / ΔHMAPX ЄΞOYCIAC, eagle standing to left on palm, with wings spread, holding wreath in beak; SC in exergue. Cf. RPC IX 1701; McAlee 1126; cf. Prieur 578. 13.48g, 26mm, 3h. Extremely Fine. From a private North American collection.',
-    obverse: 'Laureate bust of Trajan Decius',
-    reverse: 'Imperial eagle',
+      'Trajan Decius BI Tetradrachm of Antioch, Seleucis and Pieria. 13.48g, 26mm, 3h. Extremely Fine. From a private North American collection.',
+    obverse: 'AYT K Γ MЄ KY TPAIANOC ΔЄKIOC CЄB, laureate, draped and cuirassed bust of Trajan Decius to right, seen from behind; uncertain mark below bust (two pellets?)',
+    reverse: 'ΔHMAPX ЄΞOYCIAC, eagle standing to left on palm, with wings spread, holding wreath in beak; SC in exergue',
+    references: 'RPC IX 1701; McAlee 1126; cf. Prieur 578',
   }, {
     id: '31',
     title: 'Trebonianus Gallus Tetradrachm',
