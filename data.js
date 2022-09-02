@@ -389,9 +389,10 @@ export const items = [
       '252-253 CE',
     mint: 'Antioch',
     body:
-      'Trebonianus Gallus BI Tetradrachm of Antioch, Seleucis and Pieria. AYTOK K Γ OYIB TPЄB ΓAΛΛOC CЄB, laureate, draped and cuirassed bust to right, seen from behind; • below bust / ΔHMAPX ЄΞOYCIAC ΥΠΑ ΤΟ Β, eagle standing facing, head to left, with wings spread, holding wreath in beak; A between legs, SC below. RPC IX 1822; McAlee 1176a; Prieur 671. 11.44g, 24mm, 12h. Extremely Fine. From a private North American collection.',
-    obverse: 'Laureate bust of Trebonianus Gallus',
-    reverse: 'Imperial eagle',
+      'Trebonianus Gallus BI Tetradrachm of Antioch, Seleucis and Pieria. 11.44g, 24mm, 12h. Extremely Fine. From a private North American collection.',
+    obverse: 'AYTOK K Γ OYIB TPЄB ΓAΛΛOC CЄB, laureate, draped and cuirassed bust of Trebonaius Gallus to right, seen from behind; • below bust',
+    reverse: 'ΔHMAPX ЄΞOYCIAC ΥΠΑ ΤΟ Β, eagle standing facing, head to left, with wings spread, holding wreath in beak; A between legs, SC below',
+    references: 'RPC IX 1822; McAlee 1176a; Prieur 671',
   }, 
   {
     id: '32',
