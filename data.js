@@ -404,9 +404,10 @@ export const items = [
       '1422-1461 CE',
     mint: 'Paris',
     body:
-      'FRANCE, Royal. Charles VII le Victorieux (the Victorious). AR Blanc à la couronne (26mm, 2.15 g, 9h). Toulouse mint; mm: annulet under 5th letter. 1st emission, authorized 28 January 1346. Coat-of-arms within trilobe; crowns in voids / Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe. Duplessy 519; Ciani 686. Toned, green and brown deposits. Near VF. From the Todd Hansen Collection, purchased from Alex G. Malloy.',
-    obverse: 'Stuff',
-    reverse: 'Maltese cross, other stuff',
+      'FRANCE, Royal. Charles VII le Victorieux (the Victorious). AR Blanc à la couronne (26mm, 2.15 g, 9h). Toulouse mint; mm: annulet under 5th letter. 1st emission, authorized 28 January 1346. Toned, green and brown deposits. Near VF. From the Todd Hansen Collection, purchased from Alex G. Malloy.',
+    obverse: 'Coat-of-arms within trilobe; crowns in voids',
+    reverse: 'Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe',
+    references: 'Duplessy 519; Ciani 686',
   }, {
     id: '33',
     title: 'Quintus Cassius Longinus Tetradrachm',
