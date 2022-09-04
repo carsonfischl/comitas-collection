@@ -408,7 +408,8 @@ export const items = [
     obverse: 'Coat-of-arms within trilobe; crowns in voids',
     reverse: 'Cross pattée; crown in first and fourth quarters, lis in second and third quarters; all within quadrilobe',
     references: 'Duplessy 519; Ciani 686',
-  }, {
+  }, 
+  {
     id: '33',
     title: 'Quintus Cassius Longinus Tetradrachm',
     category: 'roman',
@@ -418,10 +419,12 @@ export const items = [
       '60 BCE',
     mint: 'Rome',
     body:
-      'L. Cassius Longinus. AR Denarius (19mm, 3.79 g, 6h). Rome mint. Veiled and draped bust of Vesta left; C (or G) to left, cylix to right / Voter standing left, dropping tablet inscribed V (Uti rogas) into cista to left. Crawford 413/1; Sydenham 935; Cassia 10; RBW 1493 var. (letter on obv.). Toned, scratches, graffiti on the reverse. VF. From the Peter J. Merani Collection. Ex Malloy XLVIII (17 April 1998), lot 483.',
-    obverse: 'Bust of the Goddess Vesta',
-    reverse: 'Voter casting his ballot',
-  }, {
+      'L. Cassius Longinus. AR Denarius (19mm, 3.79 g, 6h). Rome mint. Toned, scratches, graffiti on the reverse. VF. From the Peter J. Merani Collection. Ex Malloy XLVIII (17 April 1998), lot 483.',
+    obverse: 'Veiled and draped bust of Vesta left; C (or G) to left, cylix to right',
+    reverse: 'Voter standing left, dropping tablet inscribed V (Uti rogas) into cista to left',
+    references: 'Crawford 413/1; Sydenham 935; Cassia 10; RBW 1493 var. (letter on obv.)',
+  },
+  {
     id: '34',
     title: 'Antiochos VIII Grypos Tetradrachm',
     category: 'hellenistic',
