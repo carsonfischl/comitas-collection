@@ -40,11 +40,20 @@ export const headers = [
 export const subheaders = [
     {
       id: '1',
-      title: 'Hellenistic',
+      title: 'Argead',
       category: 'hellenistic',
       subcategory: 'argead',
       pic: '/images/pergamonheader.jpeg',
       body:
         'The House of Alexander III',
+    },
+    {
+      id: '2',
+      title: 'Antigonid',
+      category: 'hellenistic',
+      subcategory: 'antigonid',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'After the death of Antigonus Monopthalmus at the Battle of Ipsus in 301 BCE, Demetrius Poliorketes moved to Greece, eventually establishing Antigonid Macedon as a sustained power in the Eastern Mediterranean.',
     },
 ]
