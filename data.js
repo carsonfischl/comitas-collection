@@ -434,9 +434,10 @@ export const items = [
       '109-96 BCE',
     mint: 'Antioch',
     body:
-      'SELEUKID EMPIRE. Antiochos VIII Epiphanes (Grypos). AR Tetradrachm (29mm, 15.35 g, 12h). Antioch on the Orontes mint. Third reign at Antioch, Diademed head right / Zeus Nikephoros seated left, pellet within wreath of Nike; to outer left, monogram above A; monogram below throne; all within laurel wreath. SC 2309.1b; HGC 9, 1200. Toned, flan crack, light scratches and marks, struck with worn obverse die, double struck on reverse. VF.',
-    obverse: 'Diademed bust of Antiochos VIII',
-    reverse: 'Zeus enthroned, holding Nike',
+      'SELEUKID EMPIRE. Antiochos VIII Epiphanes (Grypos). AR Tetradrachm (29mm, 15.35 g, 12h). Antioch on the Orontes mint. Third reign at Antioch. Toned, flan crack, light scratches and marks, struck with worn obverse die, double struck on reverse. VF.',
+    obverse: 'Diademed bust of Antiochos VIII right',
+    reverse: 'Zeus Nikephoros seated left, pellet within wreath of Nike; to outer left, monogram above A; monogram below throne; all within laurel wreath',
+    references: 'SC 2309.1b; HGC 9, 1200',
   }, {
     id: '35',
     title: 'Philip I Philadelphos Tetradrachm',
