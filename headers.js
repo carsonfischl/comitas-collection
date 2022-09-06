@@ -56,4 +56,13 @@ export const subheaders = [
       body:
         'After the death of Antigonus Monopthalmus at the Battle of Ipsus in 301 BCE, Demetrius Poliorketes moved to Greece, eventually establishing Antigonid Macedon as a sustained power in the Eastern Mediterranean.',
     },
+    {
+      id: '3',
+      title: 'Bactria',
+      category: 'hellenistic',
+      subcategory: 'bactrian',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The Hellenistic kingdom of Bactria was located in what is now Afghanistan, southern Uzbekistan and southen Tajikistan.',
+    },
 ]
