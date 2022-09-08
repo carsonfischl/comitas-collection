@@ -452,7 +452,8 @@ export const items = [
     obverse: 'Diademed bust of Philip I',
     reverse: 'Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath',
     references: 'SC 2463.2c; HGC 9, 1319',
-  }, {
+  }, 
+  {
     id: '36',
     title: 'Antiochios VII Epiphanes Tetradrachm',
     category: 'hellenistic',
@@ -462,10 +463,12 @@ export const items = [
       '138-129 BCE',
     mint: 'Antioch',
     body:
-      'SELEUKID KINGS OF SYRIA. Antiochos VII Euergetes (Sidetes), Tetradrachm (Silver, 29 mm, 15.75 g, 12 h), Antiochia on the Orontes. Diademed head of Antiochos VII to right. Rev. ΒΑΣΙΛΕΩΣ / ΑΝΤΙΟΧΟY - EYEPΓETOY Athena standing front, head to left, holding Nike in her right hand and resting her left on shield decorated with gorgoneion and set on ground; spear leaning against her left arm; to outer left, monogram above A; in inner right field, Φ; all within laurel wreath. SC 2061.4b. Somewhat rough, otherwise, very fine.',
-    obverse: 'Diademed bust of Antiochos VII',
-    reverse: 'Goddess Athena standing, holding Nike',
-  }, {
+      'SELEUKID KINGS OF SYRIA. Antiochos VII Euergetes (Sidetes), Tetradrachm (Silver, 29 mm, 15.75 g, 12 h), Antiochia on the Orontes. Somewhat rough, otherwise, very fine.',
+    obverse: 'Diademed bust of Antiochos VII to right',
+    reverse: 'ΒΑΣΙΛΕΩΣ / ΑΝΤΙΟΧΟY - EYEPΓETOY Athena standing front, head to left, holding Nike in her right hand and resting her left on shield decorated with gorgoneion and set on ground; spear leaning against her left arm; to outer left, monogram above A; in inner right field, Φ; all within laurel wreath',
+    references: 'SC 2061.4b',
+  },
+  {
     id: '37',
     title: 'Antiochos III ("the Great") Tetradrachm',
     category: 'hellenistic',
