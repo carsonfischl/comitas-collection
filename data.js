@@ -478,9 +478,10 @@ export const items = [
       '223-210 CE',
     mint: 'Antioch',
     body:
-      'Seleukid Empire, Antiochos III \'the Great\' AR Tetradrachm. Antioch. Diademed head to right / Apollo Delphios seated to left on omphalos; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΟΧΟΥ to left, monogram to outer left. SC 1041.1; HGC 9, 447u. 17.00g, 29mm, 12h. Very Fine. From the Neil Collection.',
+      'Seleukid Empire, Antiochos III \'the Great\' AR Tetradrachm. Antioch. 17.00g, 29mm, 12h. Very Fine. From the Neil Collection.',
     obverse: 'Diademed bust of Antiochos III',
-    reverse: 'God Apollo, sitting on the Amphalos',
+    reverse: 'Apollo Delphios seated to left on omphalos; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΟΧΟΥ to left, monogram to outer left',
+    references: 'SC 1041.1; HGC 9, 447u',
   }, {
     id: '38',
     title: 'Charles IV 8 Reales',
