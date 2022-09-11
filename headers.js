@@ -65,4 +65,13 @@ export const subheaders = [
       body:
         'The Hellenistic kingdom of Bactria was located in what is now Afghanistan, southern Uzbekistan and southen Tajikistan.',
     },
+    {
+      id: '4',
+      title: 'Greek',
+      category: 'hellenistic',
+      subcategory: 'greek',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Following Platonist philosophy, independent Greek city states dominated the Peloppenese during the classical era.',
+    },
 ]
