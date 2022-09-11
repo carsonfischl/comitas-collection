@@ -9,7 +9,6 @@ import items from '../data'
 import mainphoto from '../public/images/mainheader.jpeg'
 
 const Home = ({result, main}) => {
-  console.log(result)
   return (
     <>
       <div className={homeStyles.container}>

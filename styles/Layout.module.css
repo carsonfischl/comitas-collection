@@ -26,3 +26,9 @@
     align-items: center;
     font-size: 1.25rem;
   }
+
+  .navbargroup{
+    margin:auto;
+    align-content: left;
+    justify-content: left;
+  }
