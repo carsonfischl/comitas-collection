@@ -489,12 +489,13 @@ export const items = [
     subcategory: 'spanish',
     pic: '/images/spanish1.jpeg',
     date:
-      '1621-1665 CE',
+      '1630s-1640s CE',
     mint: 'Mexico City',
     body:
-      'BOLIVIA, Colonial (as Alto Perú). Felipe IV. King of Spain. AR 8 Reales (41mm, 26.92 g, 12h). Cob issue. Potosí mint. Struck 16302-1640s. Crowned coat-of-arms; P/(TR) to left / Arms of Spain within angled quadrilobe. Calicó y Trigo 480-490 (for type); KM 19a. Sea salvaged, rough. Fine.',
-    obverse: 'Coat of Arms',
-    reverse: 'Coat of Arms',
+      'BOLIVIA, Colonial (as Alto Perú). Felipe IV. King of Spain. AR 8 Reales (41mm, 26.92 g, 12h). Cob issue. Potosí mint. Struck 1630s-1640s. Sea salvaged, rough. Fine.',
+    obverse: 'Crowned coat-of-arms',
+    reverse: 'P/(TR) to left / Arms of Spain within angled quadrilobe',
+    references: 'Calicó y Trigo 480-490 (for type); KM 19a',
   }, {
     id: '39',
     title: 'Charles IV 8 Reales',
