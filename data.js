@@ -506,9 +506,10 @@ export const items = [
       '1700-1724 CE',
     mint: 'Mexico City',
     body:
-      'MEXICO, Colonial. Felipe V. King of Spain, first reign. AR 8 Reales (40mm, 26.34 g, 2h). Ciudad de México (Mexico City) mint. Crowned coat-of-arms; [J to right] / Quartered arms within polylobe. BW 15.7; KM 47. Toned, cleaned scratches. VF. Usual crude strike. From the Todd Hansen Collection, purchased from Stack’s. Reportedly ex 1715 Plate Fleet Hoard.',
-    obverse: 'Coat of Arms',
-    reverse: 'Coat of Arms',
+      'MEXICO, Colonial. Felipe V. King of Spain, first reign. AR 8 Reales (40mm, 26.34 g, 2h). Ciudad de México (Mexico City) mint. Toned, cleaned scratches. VF. Usual crude strike. From the Todd Hansen Collection, purchased from Stack’s. Reportedly ex 1715 Plate Fleet Hoard.',
+    obverse: 'Crowned coat-of-arms; [J to right]',
+    reverse: 'Quartered arms within polylobe',
+    references: 'BW 15.7; KM 47',
   }, {
     id: '40',
     title: 'Philip II 2 Escudos',
