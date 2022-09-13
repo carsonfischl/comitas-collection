@@ -37,8 +37,8 @@ export default function App() {
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/bythinian" css={{color: '$black'}}>
-                    Bythinian
+                <Link href="/category/hellenistic/subcategory/bithynian" css={{color: '$black'}}>
+                    Bithynian
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>

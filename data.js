@@ -613,11 +613,11 @@ export const items = [
     id: '45',
     title: 'Nikomedes IV tetradrachm',
     category: 'hellenistic',
-    subcategory: 'bythinian',
-    pic: '/images/bythinian1.jpeg',
+    subcategory: 'bithynian',
+    pic: '/images/bithynian1.jpeg',
     date:
       '92/91 BCE',
-    mint: 'Constantinople',
+    mint: 'Bithynia',
     body:
       'KINGS OF BITHYNIA. Nikomedes IV Philopator (94-74 BC). Tetradrachm. Condition: Good very fine; minor cracks on obverse. Weight: 16.51 g. Diameter: 35 mm.',
     obverse: 'Diademed head of Nikomedes right',
