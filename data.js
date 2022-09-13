@@ -520,9 +520,10 @@ export const items = [
       '1556-1598 CE',
     mint: 'Sevilla',
     body:
-      'SPAIN, Reino de España. Felipe II el Prudente. 2 Escudos (Gold, 21 mm, 6.68 g), Sevilla. Crowned coat of arms. Rev. Coat of arms within polylobe. Friedberg 169. Very fine.',
-    obverse: 'Coat of Arms',
-    reverse: 'Maltese cross',
+      'SPAIN, Reino de España. Felipe II el Prudente. 2 Escudos (Gold, 21 mm, 6.68 g), Sevilla. Very fine.',
+    obverse: 'Crowned coat of arms',
+    reverse: 'Coat of arms within polylobe',
+    references: 'Friedberg 169',
   }, 
   {
     id: '41',
