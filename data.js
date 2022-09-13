@@ -609,4 +609,19 @@ export const items = [
     obverse: 'Bust of Anastasius I in military dress',
     reverse: 'Nike with cross. CONOB in exergue',
   }, 
+  {
+    id: '45',
+    title: 'Nikomedes IV tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'bythinian',
+    pic: '/images/bythinian1.jpeg',
+    date:
+      '92/91 BCE',
+    mint: 'Constantinople',
+    body:
+      'KINGS OF BITHYNIA. Nikomedes IV Philopator (94-74 BC). Tetradrachm. Condition: Good very fine; minor cracks on obverse. Weight: 16.51 g. Diameter: 35 mm.',
+    obverse: 'Diademed head of Nikomedes right',
+    reverse: 'ΒΑΣΙΛΕΩΣ / ΕΠΙΦΑΝΟΥΣ ΝΙΚΟΜΗΔΟΥ. Zeus standing left, holding wreath and sceptre. Controls: To inner left, eagle standing left on thunderbolt, monogram and ZΣ (date)',
+    references: 'De Callataÿ p. 62; HGC 6, 646',
+  }, 
 ]
