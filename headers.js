@@ -74,4 +74,13 @@ export const subheaders = [
       body:
         'Following Platonist philosophy, independent Greek city states dominated the Peloppenese during the classical era.',
     },
+    {
+      id: '5',
+      title: 'Pergamene',
+      category: 'hellenistic',
+      subcategory: 'pergamene',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Pergamon was a Hellenistic rump state ruled by the Attalid Dynasty. It achieved de facto independence in 281 from the Thracian kingdom of Lysimachus, and ended with bequeathal to the Roman Republic in 133 BCE.',
+    },
 ]
