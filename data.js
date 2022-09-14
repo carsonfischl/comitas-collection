@@ -535,9 +535,10 @@ export const items = [
       '265 BCE',
     mint: 'Alexandria',
     body:
-      'PTOLEMAIC KINGS of EGYPT. Ptolemy II Philadelphos. 285-246 BC. AR Tetradrachm (26.5mm, 13.72 g, 12h). Tyre mint. Dated regnal year 21. Diademed head of Ptolemy I right, wearing aegis around neck / Eagle standing left; to left, Tyre monogram above club; KA monogram (date) to right. CPE 563; Svoronos 646; SNG Copenhagen 484; DCA 20. Lightly toned, some redeposited silver. Good Fine.',
-    obverse: 'Diademed bust of Ptolemy I Soter',
-    reverse: 'Eagle',
+      'PTOLEMAIC KINGS of EGYPT. Ptolemy II Philadelphos. 285-246 BC. AR Tetradrachm (26.5mm, 13.72 g, 12h). Tyre mint. Dated regnal year 21. Lightly toned, some redeposited silver. Good Fine.',
+    obverse: 'Diademed head of Ptolemy I Soter right, wearing aegis around neck',
+    reverse: 'Eagle standing left; to left, Tyre monogram above club; KA monogram (date) to right',
+    references: 'CPE 563; Svoronos 646; SNG Copenhagen 484; DCA 20',
   }, 
   {
     id: '42',
