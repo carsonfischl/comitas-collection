@@ -550,9 +550,10 @@ export const items = [
       '323-315 BCE',
     mint: 'Amphipolis',
     body:
-      'KINGS OF MACEDON. Philip II, 359-336 BC. Tetradrachm (Silver, 23 mm, 14.41 g, 6 h), Amphipolis, struck under Antipater, Polyperchon, or Kassander, circa 323/2-316/5. Laureate head of Zeus to right. Rev. ΦΙΛΙΠΠΟΥ Young jockey, holding palm frond in his right hand and reins in his left, riding horse to right; below horse, Macedonian shield; below raised foreleg, Π. Le Rider p. 124 and pl. 46, 7. Flan crack on the obverse and test cut on the reverse, otherwise, good very fine.',
-    obverse: 'Laureate bust of Zeus',
-    reverse: 'Horseman',
+      'KINGS OF MACEDON. Philip II, 359-336 BC. Tetradrachm (Silver, 23 mm, 14.41 g, 6 h), Amphipolis, struck under Antipater, Polyperchon, or Kassander, circa 323/2-316/5. Flan crack on the obverse and test cut on the reverse, otherwise, good very fine.',
+    obverse: 'Laureate bust of Zeus to right',
+    reverse: 'ΦΙΛΙΠΠΟΥ Young jockey, holding palm frond in his right hand and reins in his left, riding horse to right; below horse, Macedonian shield; below raised foreleg, Π',
+    references: 'Le Rider p. 124 and pl. 46, 7',
   }, 
   {
     id: '43',
