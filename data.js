@@ -565,9 +565,10 @@ export const items = [
       '297-281 BCE',
     mint: 'Thrace',
     body:
-      'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 27 mm, 16.94 g, 1 h), Magnesia ad Maeandrum, circa 297/6-282/1. Diademed head of Alexander the Great to right with horn of Ammon over his ear. Rev. ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟ[Υ] Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; behind, transverse spear; to outer left, monogram in wreath; to inner left, Σ; on throne, ornament. Müller -. Thompson 102. Beautifully toned and with a fantastic portrait. Flan crack and with a scuff on the obverse, otherwise, good very fine.',
-    obverse: 'Bust of Alexander with horns of Ammon',
-    reverse: 'Athena, seated',
+      'KINGS OF THRACE. Lysimachos, 305-281 BC. Tetradrachm (Silver, 27 mm, 16.94 g, 1 h), Magnesia ad Maeandrum, circa 297/6-282/1. Beautifully toned and with a fantastic portrait. Flan crack and with a scuff on the obverse, otherwise, good very fine.',
+    obverse: 'Diademed bust of Alexander the Great to right with horn of Ammon over his ear',
+    reverse: 'ΒΑΣΙΛΕΩΣ - ΛΥΣΙΜΑΧΟ[Υ] Athena seated left, holding Nike, crowning the king\'s name, in her right hand and leaning with her left arm on shield decorated with lion\'s head; behind, transverse spear; to outer left, monogram in wreath; to inner left, Σ; on throne, ornament',
+    references: 'Müller -. Thompson 102',
   }, 
   {
     id: '44',
