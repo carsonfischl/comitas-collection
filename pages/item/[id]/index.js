@@ -14,8 +14,8 @@ const item = ({ result }) => {
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
-        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center', display: 'grid', placeItems: 'center'}} placeholder='blur' blurDataURL={spinner}/>
-        <Card.Body>
+        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
+        <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
             <strong>Date: </strong>{result.date}<br/>
