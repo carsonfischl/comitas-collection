@@ -14,15 +14,9 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-<<<<<<< HEAD
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
-=======
-      <Card className={styles.card}>
-        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur' blurDataURL={spinner}/>
-        <Card.Body className={styles.card}>
->>>>>>> 29bb285507fc58732b3ce82fe6553213a5b6e64a
           <Card.Header>{result.title}</Card.Header>
             {result.body}
             <strong>Date: </strong>{result.date}<br/>
