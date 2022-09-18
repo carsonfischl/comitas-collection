@@ -11,14 +11,16 @@ import mainphoto from '../public/images/mainheader.jpeg'
 const Home = ({result, main}) => {
   console.log(result)
   return (
-    <div className={homeStyles.container}>
-      <h1 className={headerStyles.title}>Comitas Collection</h1>
-      <Image src={mainphoto} alt='mainphoto' style={{ width: '80%', padding: '1rem' }} />
-      <h3 className={headerStyles.subtitle}>A Global Historiography through Numismatics</h3>
+    <>
+      <div className={homeStyles.container}>
+        <h1 className={headerStyles.title}>Comitas Collection</h1>
+        <Image src={mainphoto} alt='mainphoto' style={{ width: '80%', padding: '1rem' }} />
+        <h3 className={headerStyles.subtitle}>A Global Historiography through Numismatics</h3>
+      </div>
       <div>
         <ItemList items={result}/>
       </div>
-    </div>
+    </>
   )
 }
 

@@ -36,3 +36,51 @@ export const headers = [
           'Frequently dated to the fall of Constantinople in 1453 CE, the rise of the Ottomans resulted in European expansion and exploration around the Cape of Good Hope and, eventually, the colonization of the Americas. The American and French Revolutions in the late 18th century effectively ended the period and ushered in the rise of democratic institutions as the primary carriers of the western tradition.',
       },
 ]
+
+export const subheaders = [
+    {
+      id: '1',
+      title: 'Argead',
+      category: 'hellenistic',
+      subcategory: 'argead',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The House of Alexander III',
+    },
+    {
+      id: '2',
+      title: 'Antigonid',
+      category: 'hellenistic',
+      subcategory: 'antigonid',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'After the death of Antigonus Monopthalmus at the Battle of Ipsus in 301 BCE, Demetrius Poliorketes moved to Greece, eventually establishing Antigonid Macedon as a sustained power in the Eastern Mediterranean.',
+    },
+    {
+      id: '3',
+      title: 'Bactria',
+      category: 'hellenistic',
+      subcategory: 'bactrian',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The Hellenistic kingdom of Bactria was located in what is now Afghanistan, southern Uzbekistan and southen Tajikistan.',
+    },
+    {
+      id: '4',
+      title: 'Greek',
+      category: 'hellenistic',
+      subcategory: 'greek',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Following Platonist philosophy, independent Greek city states dominated the Peloppenese during the classical era.',
+    },
+    {
+      id: '5',
+      title: 'Pergamene',
+      category: 'hellenistic',
+      subcategory: 'pergamene',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Pergamon was a Hellenistic rump state ruled by the Attalid Dynasty. It achieved de facto independence in 281 from the Thracian kingdom of Lysimachus, and ended with bequeathal to the Roman Republic in 133 BCE.',
+    },
+]

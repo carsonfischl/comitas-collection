@@ -7,15 +7,22 @@ import { Card, Grid, Text, Loading } from "@nextui-org/react"
 import { items } from '../../../data'
 import { useState, useEffect } from 'react'
 import spinner from '../../../public/images/spinner.svg'
+import styles from '../../../styles/Item.module.css'
 
 const item = ({ result }) => {
 
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
+<<<<<<< HEAD
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
+=======
+      <Card className={styles.card}>
+        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur' blurDataURL={spinner}/>
+        <Card.Body className={styles.card}>
+>>>>>>> 29bb285507fc58732b3ce82fe6553213a5b6e64a
           <Card.Header>{result.title}</Card.Header>
             {result.body}
             <strong>Date: </strong>{result.date}<br/>
@@ -25,7 +32,7 @@ const item = ({ result }) => {
         </Card.Body>
       </Card>
       <br />
-      <Link href='/' css={{color: '$black', paddingBottom: '1rem' }}>Go Back</Link>
+      <Link href='/' css={{paddingBottom: '1rem' }} className={styles.link}>Go Back</Link>
     </>
   )
 }
@@ -48,7 +55,7 @@ function* range(start, end, step) {
 }
 
 export const getStaticPaths = async () => {
-  const ids = Array.from(range(1,45,1))
+  const ids = Array.from(range(1,46,1))
   const paths = ids.map((i) => ({params:{ id: String(i)}}))
   return {
     paths,
