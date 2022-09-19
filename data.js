@@ -580,9 +580,10 @@ export const items = [
       '170-145 BCE',
     mint: 'Ai-Khanoum',
     body:
-      'Greco-Baktrian Kingdom, Eukratides I Megas AR Tetradrachm. Circa 170-145 BC. Draped and cuirassed bust to right, wearing crested helmet adorned with bull\'s horn and ear; all within bead-and-reel border / The Dioskouroi on horses prancing to right, each holding spear and palm; ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ above, ΕΥΚΡΑΤΙΔΟΥ below, monogram in right field. Bopearachchi 6U; Mitchiner 177w; Bopearachchi & Rahman 244; SNG ANS -; HGC 12, 131. 16.86g, 33mm, 12h. Extremely Fine. From a private European collection.',
-    obverse: 'Bust of Eukratides with helmet',
-    reverse: 'Dioscuri on horseback',
+      'Greco-Baktrian Kingdom, Eukratides I Megas AR Tetradrachm. Circa 170-145 BC. Extremely Fine. From a private European collection.',
+    obverse: 'Draped and cuirassed bust of Eukratides to right, wearing crested helmet adorned with bull\'s horn and ear; all within bead-and-reel border',
+    reverse: 'The Dioskouroi on horses prancing to right, each holding spear and palm; ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ above, ΕΥΚΡΑΤΙΔΟΥ below, monogram in right field',
+    references: 'Bopearachchi 6U; Mitchiner 177w; Bopearachchi & Rahman 244; SNG ANS -; HGC 12, 131',
   }, 
   {
     id: '12',
