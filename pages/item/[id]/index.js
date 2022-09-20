@@ -19,10 +19,10 @@ const item = ({ result }) => {
         <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
-            <strong>Date: </strong>{result.date}<br/>
+            <strong css={{ alignSelf: 'center' }}>Date: </strong>{result.date}<br/>
 
-            <strong>Obverse: </strong>{result.obverse}<br/>
-            <strong>Reverse: </strong>{result.reverse}<br/>
+            <strong css={{ alignSelf: 'center' }}>Obverse: </strong>{result.obverse}<br/>
+            <strong css={{ alignSelf: 'center' }}>Reverse: </strong>{result.reverse}<br/>
         </Card.Body>
       </Card>
       <br />
