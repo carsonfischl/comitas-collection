@@ -595,9 +595,10 @@ export const items = [
       '252-246 BCE',
     mint: 'Amphipolis',
     body:
-      'Kingdom of Macedon, Antigonos II Gonatas AR Tetradrachm. Amphipolis. Horned head of Pan to left, lagobolon over shoulder, on boss of Macedonian shield / Athena Alkidemos advancing to left, holding shield decorated with aegis, preparing to cast thunderbolt; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΓΟΝΟΥ to left, crested Macedonian helmet to inner left, monogram to inner right. Panagopoulou Period II, 63 (O10/R62); HGC 3.1, 1042 (Pella). 17.05g, 31mm, 11h. Extremely Fine; lightly toned. From a private UK collection.',
-    obverse: 'Bust of Antigonus II within Macedonian shield',
-    reverse: 'Athena, striding forward with spear at the ready',
+      'Kingdom of Macedon, Antigonos II Gonatas AR Tetradrachm. Amphipolis. 17.05g, 31mm, 11h. Extremely Fine; lightly toned. From a private UK collection.',
+    obverse: 'Horned head of Pan to left, lagobolon over shoulder, on boss of Macedonian shield',
+    reverse: 'Athena Alkidemos advancing to left, holding shield decorated with aegis, preparing to cast thunderbolt; ΒΑΣΙΛΕΩΣ to right, ΑΝΤΙΓΟΝΟΥ to left, crested Macedonian helmet to inner left, monogram to inner right',
+    references: 'Panagopoulou Period II, 63 (O10/R62); HGC 3.1, 1042 (Pella)',
   }, 
   {
     id: '21',
