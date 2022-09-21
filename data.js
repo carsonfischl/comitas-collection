@@ -610,9 +610,10 @@ export const items = [
       '491-518 CE',
     mint: 'Constantinople',
     body:
-      'Anastasius I AV Solidus. Constantinople, AD 491-518. D N ANASTASIVS P P AVG, helmeted, pearl-diademed and cuirassed bust facing three-quarters to right, holding spear over shoulder and shield decorated with horseman motif / VICTORIA AVGGG S, Victory standing facing, head to left, holding voided cross; star in right field, CONOB in exergue. MIBE 4a; DOC 3f; Sear 3. 4.51g, 22mm, 6h. Good Extremely Fine. From the inventory of Roma Numismatics Ltd.',
-    obverse: 'Bust of Anastasius I in military dress',
-    reverse: 'Nike with cross. CONOB in exergue',
+      'Anastasius I AV Solidus. Constantinople, AD 491-518. 4.51g, 22mm, 6h. Good Extremely Fine. From the inventory of Roma Numismatics Ltd.',
+    obverse: 'D N ANASTASIVS P P AVG, helmeted, pearl-diademed and cuirassed bust of Anastasius I facing three-quarters to right, holding spear over shoulder and shield decorated with horseman motif',
+    reverse: 'VICTORIA AVGGG S, Victory standing facing, head to left, holding voided cross; star in right field, CONOB in exergue',
+    references: 'MIBE 4a; DOC 3f; Sear 3',
   }, 
   {
     id: '45',
