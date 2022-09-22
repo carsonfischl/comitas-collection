@@ -14,7 +14,7 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
+      <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '1rem' }}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
           <Card.Header>{result.title}</Card.Header>
