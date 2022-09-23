@@ -92,4 +92,13 @@ export const subheaders = [
       body:
         'Following the Wars of the Diadocian Succession, Ptolemy I Soter established the Ptolemaic Kingdom in 305 BCE. It lasted until the Roman conquest of Egypt in 30 BCE.',
     },
+    {
+      id: '7',
+      title: 'Seleucid',
+      category: 'hellenistic',
+      subcategory: 'seleucid',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The Seleucid Empire was founded by Seleucus I Nicator in 312 BCE. Rome would eventually conquer the Seleucid Empire in 64 BCE, although remnants would continue as a puppet state.',
+    },
 ]
