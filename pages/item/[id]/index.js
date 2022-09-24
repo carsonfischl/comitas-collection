@@ -16,13 +16,13 @@ const item = ({ result }) => {
       <Meta title={result.title} description={result.excerpt} />
       <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
-        <Card.Body css={{ display: 'contents', placeItems: 'center' }}>
+        <Card.Body css={{ display: 'contents', placeItems: 'center', textAlign: 'center' }}>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
-            <strong css={{ alignSelf: 'center' }}>Date: </strong>{result.date}<br/>
+            <strong>Date: </strong>{result.date}<br/>
 
-            <strong css={{ alignSelf: 'center' }}>Obverse: </strong>{result.obverse}<br/>
-            <strong css={{ alignSelf: 'center' }}>Reverse: </strong>{result.reverse}<br/>
+            <strong>Obverse: </strong>{result.obverse}<br/>
+            <strong>Reverse: </strong>{result.reverse}<br/>
         </Card.Body>
       </Card>
       <br />
