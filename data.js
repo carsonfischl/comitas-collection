@@ -191,7 +191,7 @@ export const items = [
   }, 
   {
     id: '16',
-    title: 'Lysimachus tetradrachm',
+    title: 'Lysimachus Tetradrachm',
     category: 'hellenistic',
     subcategory: 'thrace',
     pic: '/images/hellenistic1.jpeg',

@@ -17,7 +17,7 @@ const item = ({ result }) => {
       <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '1rem' }}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center', textAlign: 'center' }}>
-          <Card.Header>{result.title}</Card.Header>
+          <Card.Header css={{ fontSize: '$lg', fontWeight: 'bold', display: 'block', fontSize: 'xx-large'}}>{result.title}</Card.Header>
             {result.body}
             <strong>Date: </strong>{result.date}<br/>
 
