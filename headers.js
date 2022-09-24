@@ -83,4 +83,22 @@ export const subheaders = [
       body:
         'Pergamon was a Hellenistic rump state ruled by the Attalid Dynasty. It achieved de facto independence in 281 from the Thracian kingdom of Lysimachus, and ended with bequeathal to the Roman Republic in 133 BCE.',
     },
+    {
+      id: '6',
+      title: 'Ptolemaic',
+      category: 'hellenistic',
+      subcategory: 'ptolemaic',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Following the Wars of the Diadocian Succession, Ptolemy I Soter established the Ptolemaic Kingdom in 305 BCE. It lasted until the Roman conquest of Egypt in 30 BCE.',
+    },
+    {
+      id: '7',
+      title: 'Seleucid',
+      category: 'hellenistic',
+      subcategory: 'seleucid',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'The Seleucid Empire was founded by Seleucus I Nicator in 312 BCE. Rome would eventually conquer the Seleucid Empire in 64 BCE, although remnants would continue as a puppet state.',
+    },
 ]

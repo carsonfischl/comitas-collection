@@ -14,7 +14,7 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card style={{ alignContent: 'center', justifyContent: 'center'}}>
+      <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '1rem' }}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center', textAlign: 'center' }}>
           <Card.Header>{result.title}</Card.Header>
@@ -49,7 +49,7 @@ function* range(start, end, step) {
 }
 
 export const getStaticPaths = async () => {
-  const ids = Array.from(range(1,46,1))
+  const ids = Array.from(range(1,47,1))
   const paths = ids.map((i) => ({params:{ id: String(i)}}))
   return {
     paths,

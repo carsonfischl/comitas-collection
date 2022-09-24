@@ -630,4 +630,19 @@ export const items = [
     reverse: 'ΒΑΣΙΛΕΩΣ / ΕΠΙΦΑΝΟΥΣ ΝΙΚΟΜΗΔΟΥ. Zeus standing left, holding wreath and sceptre. Controls: To inner left, eagle standing left on thunderbolt, monogram and ZΣ (date)',
     references: 'De Callataÿ p. 62; HGC 6, 646',
   }, 
+  {
+    id: '46',
+    title: 'Antimachos I Theos AR Tetradrachm',
+    category: 'hellenistic',
+    subcategory: 'bactrian',
+    pic: '/images/bactrian2.jpg',
+    date:
+      '180-170 BCE',
+    mint: 'Possibly Ai-Khanoum',
+    body:
+      'Greco-Baktrian Kingdom. 17.10g, 35mm, 12h. Extremely Fine; an attractive example. From a private UK collection.',
+    obverse: 'Diademed and draped bust of Antimachos to right, wearing kausia',
+    reverse: 'Poseidon, laureate, standing facing, holding trident and filleted palm; BAΣIΛEΩΣ ΘEOY to right, ANTIMAXOY to left, monogram to inner right',
+    references: 'Bopearachchi 1D; Mitchiner 124b; SNG ANS 276-7; Glenn, Group III; HGC 12, 106',
+  }, 
 ]
