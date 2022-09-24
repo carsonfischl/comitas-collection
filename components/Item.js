@@ -12,7 +12,7 @@ const Item = ({ item }) => {
     <Link href={`/item/${item.id}`}>
       <Card flat isHoverable isPressable css={{ mw: "400px", alignContent: 'center'}}>
          <Card.Image src={item.pic} alt={item.id} layout='responsive' css={{ alignContent: 'center'}} placeholder='blur' blurDataURL='/../public/images/spinner.svg'/>
-            <Card.Body css={{ display: 'contents', textAlign: 'center'}}>
+            <Card.Body css={{ display: 'contents', textAlign: 'center', display: 'inline-grid'}}>
                 <Text>{item.title}</Text>
                 <Text>{item.date}</Text>
             </Card.Body>

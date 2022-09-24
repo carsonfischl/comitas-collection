@@ -14,15 +14,26 @@ const item = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '1rem' }}>
+      <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '3rem' }}>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body css={{ display: 'contents', placeItems: 'center', textAlign: 'center' }}>
           <Card.Header css={{ fontSize: '$lg', fontWeight: 'bold', display: 'block', fontSize: 'xx-large'}}>{result.title}</Card.Header>
-            {result.body}
-            <strong>Date: </strong>{result.date}<br/>
-
-            <strong>Obverse: </strong>{result.obverse}<br/>
-            <strong>Reverse: </strong>{result.reverse}<br/>
+          <br></br>
+            <div>
+              {result.body}
+            </div>
+            <br></br>
+            <div>
+              <strong>Date: </strong>{result.date}<br/>
+            </div>
+            <br></br>
+            <div>
+              <strong>Obverse: </strong>{result.obverse}<br/>
+            </div>
+            <br></br>
+            <div>
+             <strong>Reverse: </strong>{result.reverse}<br/>
+            </div>
         </Card.Body>
       </Card>
       <br />
