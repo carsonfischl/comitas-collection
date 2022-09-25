@@ -7,11 +7,13 @@ import { server } from '../config'
 import ItemList from '../components/ItemList'
 import items from '../data'
 import mainphoto from '../public/images/mainheader.jpeg'
+import Meta from '../components/Meta'
 
 const Home = ({result, main}) => {
   console.log(result)
   return (
     <>
+      <Meta title='Comitas Collection' description='Home page' keywords='Comitas Collection'/>
       <div className={homeStyles.container}>
         <h1 className={headerStyles.title}>Comitas Collection</h1>
         <Image src={mainphoto} alt='mainphoto' style={{ width: '80%', padding: '1rem' }} />

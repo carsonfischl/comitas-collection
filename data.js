@@ -239,7 +239,7 @@ export const items = [
       '269/8-263 BCE',
     body:
       'KINGS of PERGAMON. Philetairos. 282-263 BC. AR Tetradrachm (27mm, 16.80 g, 12h). Pergamon mint. Lightly toned, previously gilded, mount and bezel removed. VF. From the Dr. Jay M. Galst Collection.',
-    obverse: 'Diamdemed bust of Philetairos',
+    obverse: 'Diademed bust of Philetairos',
     reverse: 'Athena enthroned left, holding shield in right hand, left elbow resting on sphinx seated right; spear diagonally in background, bow to outer right, monogram on throne, ivy leaf in exergue',
     references: 'Westermark Group II, obv. die II; SNG BN 1603–5 (Eumenes I)',
   }, {
