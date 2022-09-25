@@ -29,7 +29,7 @@ export const items = [
     },    
     {
       id: '3',
-      title: 'Silver Rider',
+      title: 'Dutch Dukaton (60 Stuivers)',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch1.jpeg',
@@ -43,7 +43,7 @@ export const items = [
     },    
     {
       id: '4',
-      title: 'Dutch Republic',
+      title: 'Dutch Leeuwendaalder (32 Stuivers)',
       category: 'earlymodern',
       subcategory: 'dutch',
       pic: '/images/dutch2.jpeg',
@@ -111,7 +111,7 @@ export const items = [
     references: 'Schönert-Geiss 1111–4 var. (V35/R– [unlisted rev. die]); HGC 3, 1556; Ars Classica XV, lot 551 (same dies)',
   },{
     id: '9',
-    title: 'Dutch Republic',
+    title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
     pic: '/images/dutch4.jpeg',
@@ -125,7 +125,7 @@ export const items = [
   },    
   {
     id: '10',
-    title: 'Dutch Republic',
+    title: 'Dutch Leeuwendaalder (32 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
     pic: '/images/dutch3.jpeg',
