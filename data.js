@@ -218,7 +218,7 @@ export const items = [
     references: 'Kleiner & Noe Series 41; SNG Copenhagen 316',
   }, {
     id: '18',
-    title: 'Azes I',
+    title: 'Azes I Tetradrachm',
     category: 'hellenistic',
     subcategory: 'bactrian',
     pic: '/images/hellenistic3.jpeg',
