@@ -101,4 +101,13 @@ export const subheaders = [
       body:
         'The Seleucid Empire was founded by Seleucus I Nicator in 312 BCE. Rome would eventually conquer the Seleucid Empire in 64 BCE, although remnants would continue as a puppet state.',
     },
+    {
+      id: '8',
+      title: 'Thracian',
+      category: 'hellenistic',
+      subcategory: 'thracian',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Thrace, modern day Bulgaria, was ruled by a variety of foreign entities prior to being governed by Lysimachus during the Wars of the Diadochi. In 168 BCE, following the Third Macedonian War, the Thracian kingdom was annexed by the Roman Republic.',
+    },
 ]
