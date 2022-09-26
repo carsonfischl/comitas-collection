@@ -632,7 +632,7 @@ export const items = [
   }, 
   {
     id: '46',
-    title: 'Antimachos I Theos AR Tetradrachm',
+    title: 'Antimachos I Theos Tetradrachm',
     category: 'hellenistic',
     subcategory: 'bactrian',
     pic: '/images/bactrian2.jpg',
