@@ -110,4 +110,13 @@ export const subheaders = [
       body:
         'Thrace, modern day Bulgaria, was ruled by a variety of foreign entities prior to being governed by Lysimachus during the Wars of the Diadochi. In 168 BCE, following the Third Macedonian War, the Thracian kingdom was annexed by the Roman Republic.',
     },
+    {
+      id: '9',
+      title: 'Bithynian',
+      category: 'hellenistic',
+      subcategory: 'bithynian',
+      pic: '/images/pergamonheader.jpeg',
+      body:
+        'Bithynia was a Hellenistic rump state ruled by the Attalid Dynasty. It achieved de facto independence in 297 BCE, and was annexed by the Roman Republic in 74 BCE.',
+    },
 ]
