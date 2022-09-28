@@ -29,12 +29,10 @@ const Home = ({result, main}) => {
 export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/items`)
   const result = await res.json()
-
   return {
     props: {
-      result,
-    },
+      result
+    }
   }
 }
-
 export default Home
