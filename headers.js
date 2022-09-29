@@ -119,4 +119,13 @@ export const subheaders = [
       body:
         'Bithynia was a Hellenistic rump state ruled by the Attalid Dynasty. It achieved de facto independence in 297 BCE, and was annexed by the Roman Republic in 74 BCE.',
     },
+    {
+      id: '10',
+      title: 'Republican',
+      category: 'roman',
+      subcategory: 'republican',
+      pic: '/images/forum.jpeg',
+      body:
+        'The Roman Republic was founded in 509 BCE, and lasted until the establishment of the Roman Empire in 27 BCE.',
+    },
 ]
