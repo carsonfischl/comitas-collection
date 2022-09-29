@@ -12,9 +12,9 @@ const Item = ({ item }) => {
     const fetchData = async () => {
       setIsLoading(true);
       const result = await {item};   
-      setIsLoading(false);
     };
     fetchData();
+    setIsLoading(false);
   }, []);
   
   return (
