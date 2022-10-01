@@ -10,7 +10,6 @@ import mainphoto from '../public/images/mainheader.jpeg'
 import Meta from '../components/Meta'
 
 const Home = ({result, main}) => {
-  console.log(result)
   return (
     <>
       <Meta title='Comitas Collection' description='Home page' keywords='Comitas Collection'/>
