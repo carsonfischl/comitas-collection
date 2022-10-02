@@ -141,9 +141,17 @@ export const subheaders = [
       id: '12',
       title: 'Byzantine',
       category: 'roman',
-      subcategory: 'byzantine',
+      subcategory: 'imperial',
       pic: '/images/forum.jpeg',
       body:
-        'The Byzantine Empire, a term coined by later German scholars to describe the surviving Eastern half of the Roman Empire, was founded in 330 CE, and lasted until the fall of Constantinople in 1453 CE to the Ottomans. Even after the capture of Constantinople, many monarchs continued to claim the title of Roman Emperor, including Ottoman Sultans.',
+        'The Roman Empire was founded in 27 BCE, and lasted until the fall of Constantinople in 1453 CE.',
+    },
+    {
+      id: '13',
+      title: 'Frankish',
+      category: 'medieval',
+      subcategory: 'frankish',
+      pic: '/images/pergamonheader.jpeg',
+      body: 'The Frankish Empire was founded in 486 CE, and lasted until the fall of the Carolingian Empire in 987 CE.',
     },
 ]
