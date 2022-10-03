@@ -154,4 +154,12 @@ export const subheaders = [
       pic: '/images/pergamonheader.jpeg',
       body: 'The Frankish Empire was founded in 486 CE, and lasted until the fall of the Carolingian Empire in 987 CE.',
     },
+    {
+      id: '14',
+      title: 'French',
+      category: 'earlymodern',
+      subcategory: 'french',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The French Revolution was a period of radical social and political upheaval in France that lasted from 1789 until 1799.',
+    },
 ]
