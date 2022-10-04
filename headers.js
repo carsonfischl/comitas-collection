@@ -162,4 +162,12 @@ export const subheaders = [
       pic: '/images/earlymodern.jpeg',
       body: 'The French Revolution was a period of radical social and political upheaval in France that lasted from 1789 until 1799.',
     },
+    {
+      id: '15',
+      title: 'Dutch',
+      category: 'earlymodern',
+      subcategory: 'dutch',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The Dutch Republic was founded in 1581, and lasted until the establishment of the Kingdom of the Netherlands in 1815.',
+    },
 ]
