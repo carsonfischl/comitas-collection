@@ -26,14 +26,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar isBordered={isDark} variant={variant}>
-        <Navbar.Content hideIn="xs" className={styles.navbargroup}>
-          <Navbar.Link href="/category/hellenistic">Hellenistic</Navbar.Link>
-          <Navbar.Link href="/category/roman">Roman</Navbar.Link>
-          <Navbar.Link href="/category/medieval">Medieval</Navbar.Link>
-          <Navbar.Link href="/category/earlymodern">Early Modern</Navbar.Link>
-        </Navbar.Content>
-      </Navbar>
       <div className={styles.container}>
         <main className={styles.main}>
           {children}
