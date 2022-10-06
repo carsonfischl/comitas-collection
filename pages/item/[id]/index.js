@@ -6,15 +6,13 @@ import Image from 'next/image'
 import { Card, Grid, Text, Loading } from "@nextui-org/react"
 import { items } from '../../../data'
 import { useState, useEffect } from 'react'
-import spinner from '../../../public/images/spinner.svg'
-import styles from '../../../styles/Item.module.css'
 
 const item = ({ result }) => {
 
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card className={styles.card}>
+      <Card>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur' blurDataURL={spinner}/>
         <Card.Body className={styles.card}>
           <Card.Header>{result.title}</Card.Header>
