@@ -13,7 +13,7 @@ const item = ({ result }) => {
     <>
       <Meta title={result.title} description={result.excerpt} />
       <Card>
-        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur' blurDataURL={spinner}/>
+        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur'/>
         <Card.Body className={styles.card}>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
