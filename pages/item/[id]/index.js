@@ -14,7 +14,7 @@ const item = ({ result }) => {
       <Meta title={result.title} description={result.excerpt} />
       <Card>
         <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center' }} placeholder='blur'/>
-        <Card.Body className={styles.card}>
+        <Card.Body>
           <Card.Header>{result.title}</Card.Header>
             {result.body}
             <strong>Date: </strong>{result.date}<br/>
@@ -24,7 +24,7 @@ const item = ({ result }) => {
         </Card.Body>
       </Card>
       <br />
-      <Link href='/' css={{paddingBottom: '1rem' }} className={styles.link}>Go Back</Link>
+      <Link href='/' css={{paddingBottom: '1rem' }}>Go Back</Link>
     </>
   )
 }
