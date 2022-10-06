@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Router from 'next/router';
 import { useState } from 'react';
 import { NextUIProvider } from '@nextui-org/react';
+import { Loader } from '@nextui-org/react';
 
 function MyApp({ Component, pageProps }) {
 
