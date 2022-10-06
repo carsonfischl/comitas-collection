@@ -170,4 +170,12 @@ export const subheaders = [
       pic: '/images/earlymodern.jpeg',
       body: 'The Dutch Republic was founded in 1581, and lasted until the establishment of the Kingdom of the Netherlands in 1815.',
     },
+    {
+      id: '16',
+      title: 'Spanish',
+      category: 'earlymodern',
+      subcategory: 'spanish',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The Spanish Empire was founded in 1492, and lasted until the establishment of the Spanish Republic in 1931.',
+    },
 ]
