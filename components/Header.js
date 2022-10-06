@@ -1,4 +1,3 @@
-import headerStyles from '../styles/Header.module.css'
 import { Button, Image } from '@nextui-org/react';
 import { handleClientScriptLoad } from 'next/script';
 

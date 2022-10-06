@@ -2,9 +2,7 @@ import '../styles/globals.css'
 import Layout from '../components/Layout'
 import Router from 'next/router';
 import { useState } from 'react';
-import Loader from '../components/Loader';
 import { NextUIProvider } from '@nextui-org/react';
-import spinner from '../public/images/spinner.svg';
 
 function MyApp({ Component, pageProps }) {
 
