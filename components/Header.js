@@ -5,11 +5,11 @@ const Header = ( {header} ) => {
   const text = JSON.parse(header);
   return (
     <div style={{ alignContent: 'center', justifyContent: 'center' }}>
-      <h1 className={headerStyles.title}>
+      <h1>
           {text.title}
       </h1>
       <Image src={text.pic} alt='mainphoto' style={{ width: '100%', padding: '1rem' }} />
-      <h3 className={headerStyles.subtitle}>{text.body}</h3>
+      <h3>{text.body}</h3>
     </div>
   )
 }
