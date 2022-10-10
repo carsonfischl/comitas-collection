@@ -178,4 +178,12 @@ export const subheaders = [
       pic: '/images/earlymodern.jpeg',
       body: 'The Spanish Empire was founded in 1492, and lasted until the establishment of the Spanish Republic in 1931.',
     },
+    {
+      id: '17',
+      title: 'German',
+      category: 'earlymodern',
+      subcategory: 'german',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The German Empire was founded in 1871, and lasted until the establishment of the Weimar Republic in 1919.',
+    },
 ]
