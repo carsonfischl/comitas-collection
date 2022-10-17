@@ -186,4 +186,12 @@ export const subheaders = [
       pic: '/images/earlymodern.jpeg',
       body: 'The German Empire was founded in 1871, and lasted until the establishment of the Weimar Republic in 1919.',
     },
+    {
+      id: '18',
+      title: 'English',
+      category: 'earlymodern',
+      subcategory: 'english',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The British Empire was founded in 1707 through the Act of Union, signed by Queen Anne, and lasted until the establishment of the Commonwealth of Nations in 1949.',
+    },
 ]
