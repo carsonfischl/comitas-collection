@@ -148,14 +148,22 @@ export const subheaders = [
     },
     {
       id: '13',
-      title: 'Frankish',
+      title: 'French',
       category: 'medieval',
-      subcategory: 'frankish',
+      subcategory: 'French',
       pic: '/images/pergamonheader.jpeg',
       body: 'The Frankish Empire was founded in 486 CE, and lasted until the fall of the Carolingian Empire in 987 CE.',
     },
     {
       id: '14',
+      title: 'Byzantine',
+      category: 'medieval',
+      subcategory: 'byzantine',
+      pic: '/images/pergamonheader.jpeg',
+      body: 'The Byzantine Empire was founded in 330 CE, and lasted until the fall of Constantinople in 1453 CE.',
+    },
+    {
+      id: '15',
       title: 'French',
       category: 'earlymodern',
       subcategory: 'french',
@@ -163,7 +171,7 @@ export const subheaders = [
       body: 'The French Revolution was a period of radical social and political upheaval in France that lasted from 1789 until 1799.',
     },
     {
-      id: '15',
+      id: '16',
       title: 'Dutch',
       category: 'earlymodern',
       subcategory: 'dutch',
@@ -171,7 +179,7 @@ export const subheaders = [
       body: 'The Dutch Republic was founded in 1581, and lasted until the establishment of the Kingdom of the Netherlands in 1815.',
     },
     {
-      id: '16',
+      id: '17',
       title: 'Spanish',
       category: 'earlymodern',
       subcategory: 'spanish',
@@ -179,7 +187,7 @@ export const subheaders = [
       body: 'The Spanish Empire was founded in 1492, and lasted until the establishment of the Spanish Republic in 1931.',
     },
     {
-      id: '17',
+      id: '18',
       title: 'German',
       category: 'earlymodern',
       subcategory: 'german',
@@ -187,7 +195,7 @@ export const subheaders = [
       body: 'The German Empire was founded in 1871, and lasted until the establishment of the Weimar Republic in 1919.',
     },
     {
-      id: '18',
+      id: '19',
       title: 'English',
       category: 'earlymodern',
       subcategory: 'english',
