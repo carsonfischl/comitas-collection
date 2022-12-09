@@ -313,7 +313,7 @@ export const items = [
     '88-75 CE',
     mint: 'Antioch',
     body:
-    'SELEUKID EMPIRE. Philip I Philadelphos. AR Tetrdrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
+    'SELEUKID EMPIRE. Philip I Philadelphos. AR Tetradrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
     obverse: 'Diademed bust of Philip I',
     reverse: 'Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath',
     references: 'SC 2463.2c; HGC 9, 1319',
