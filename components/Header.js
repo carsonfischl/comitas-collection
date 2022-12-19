@@ -8,7 +8,7 @@ const Header = ( {header} ) => {
       <h1>
           {text.title}
       </h1>
-      <Image src={text.pic} alt='mainphoto' style={{ width: '100%', padding: '1rem' }} />
+      <Image src={text.pic} alt='mainphoto' style={{ width: '100%', padding: '1rem' }} className="z-0"/>
       <h3>{text.body}</h3>
     </div>
   )
