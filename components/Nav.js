@@ -133,6 +133,12 @@ export default function App() {
             </Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
+        <Button flat css={{margin: '1rem', background: '$black', color: '$white'}} auto>
+          Sign In
+        </Button>
+        <Button flat css={{margin: '1rem', background: '$black', color: '$white'}} auto>
+          Sign Out
+        </Button>
         {/* <Button auto onClick={handler} css={{margin: '1rem', background: '$black', color: '$white'}} size="lg">Contact Me</Button>
       <Modal closeButton aria-labelledby="modal-title" open={visible} onClose={closeHandler}>
         <Modal.Header>
