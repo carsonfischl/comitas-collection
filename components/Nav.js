@@ -2,15 +2,10 @@ import { Dropdown, Navbar, Link, Button, Modal, Text } from "@nextui-org/react";
 import navStyles from "../styles/Nav.module.css";
 import React from "react";
 import { signIn, signOut, useSession } from "next-auth/react";
+import Login from "./Login";
 
 export default function App() {
-    const [visible, setVisible] = React.useState(false);
-    const handler = () => setVisible(true);
-  
-    const closeHandler = () => {
-      setVisible(false);
-      console.log("closed");
-    };
+    const { data: session } = useSession()
   return (
     <span className={navStyles.bar}>
         <Dropdown>
@@ -133,30 +128,7 @@ export default function App() {
             </Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
-        <Link href="/api/auth/signin">
-            <a onClick={ e => { e.preventDefault(); signIn(); } } css={{margin: '1rem', background: '$black', color: '$white', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none'}}>
-                Sign In
-            </a>
-        </Link>
-        <Link href="/api/auth/signout">
-            <a onClick={ e => { e.preventDefault(); signOut(); } } css={{margin: '1rem', background: '$black', color: '$white', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none'}}>
-                Sign Out
-            </a>
-        </Link>
-        {/* <Button auto onClick={handler} css={{margin: '1rem', background: '$black', color: '$white'}} size="lg">Contact Me</Button>
-      <Modal closeButton aria-labelledby="modal-title" open={visible} onClose={closeHandler}>
-        <Modal.Header>
-          <Text id="modal-title" size={18}>
-              Title
-          </Text>
-        </Modal.Header>
-        <Modal.Body>
-            <Form />
-        </Modal.Body>
-        <Modal.Footer css={{alignContent: "center", margin: "auto"}}>
-            <Button onClick={closeHandler} css={{margin: '1rem', background: '$black', color: '$gray100'}}>Close</Button>
-        </Modal.Footer>
-      </Modal> */}
+        <Login css={{ color: '$white', background: '$black'}}/>
     </span>
   );
 }
