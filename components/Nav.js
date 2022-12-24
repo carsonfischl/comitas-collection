@@ -1,7 +1,7 @@
 import { Dropdown, Navbar, Link, Button, Modal, Text } from "@nextui-org/react";
 import navStyles from "../styles/Nav.module.css";
 import React from "react";
-import Form from "./Form";
+import { signIn, signOut, useSession } from "next-auth/react";
 
 export default function App() {
     const [visible, setVisible] = React.useState(false);
@@ -133,12 +133,16 @@ export default function App() {
             </Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
-        <Button flat css={{margin: '1rem', background: '$black', color: '$white'}} auto>
-          Sign In
-        </Button>
-        <Button flat css={{margin: '1rem', background: '$black', color: '$white'}} auto>
-          Sign Out
-        </Button>
+        <Link href="/api/auth/signin">
+            <a onClick={ e => { e.preventDefault(); signIn(); } } css={{margin: '1rem', background: '$black', color: '$white', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none'}}>
+                Sign In
+            </a>
+        </Link>
+        <Link href="/api/auth/signout">
+            <a onClick={ e => { e.preventDefault(); signOut(); } } css={{margin: '1rem', background: '$black', color: '$white', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none'}}>
+                Sign Out
+            </a>
+        </Link>
         {/* <Button auto onClick={handler} css={{margin: '1rem', background: '$black', color: '$white'}} size="lg">Contact Me</Button>
       <Modal closeButton aria-labelledby="modal-title" open={visible} onClose={closeHandler}>
         <Modal.Header>
