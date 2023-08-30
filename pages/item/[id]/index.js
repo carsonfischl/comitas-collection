@@ -60,7 +60,7 @@ function* range(start, end, step) {
 }
 
 export const getStaticPaths = async () => {
-  const ids = Array.from(range(1,47,1))
+  const ids = Array.from(range(1,48,1)) //increment every time
   const paths = ids.map((i) => ({params:{ id: String(i)}}))
   return {
     paths,
