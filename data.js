@@ -663,4 +663,16 @@ export const items = [
     reverse: '.The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.',
     references: 'Davenport 1953',
   },      
+  {
+    id: '47',
+    title: 'Spanish Netherlands Patagon',
+    category: 'earlymodern',
+    subcategory: 'dutch',
+    pic: '/images/patagon.jpg',
+    date: '1621 CE',
+    body: 'LOW COUNTRIES, Spanish Netherlands. Albrecht & Isabella. 1598-1621. AR Patagon (42.5mm, 27.43 g, 3h). Bruxelles (Brussels) in Brabant mint; mm: head. Toned, minor doubling, edge split, minor deposits. Near VF.',
+    obverse: 'Vuurijzer over Bugundian cross; crown above, crowned monograms flanking',
+    reverse: 'Crowned and collared coat-of-arms',
+    references: 'Vanhoudt 619.BS; G&H 311.3a; Delmonte, Argent 256; Davenport 4432; KM 35.3.',
+  }
 ]
