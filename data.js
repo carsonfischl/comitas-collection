@@ -15,7 +15,7 @@ export const items = [
   },
   {
     id: '2',
-    title: 'Philip III Tetradrachm',
+    title: 'Philip II Tetradrachm',
     category: 'hellenistic',
     subcategory: 'argead',
     pic: '/images/argead2.jpeg',
@@ -298,7 +298,7 @@ export const items = [
     '92/91 BCE',
     mint: 'Bithynia',
     body:
-    'KINGS OF BITHYNIA. Nikomedes IV Philopator (94-74 BC). Tetradrachm. Condition: Good very fine; minor cracks on obverse. Weight: 16.51 g. Diameter: 35 mm.',
+    'KINGS OF BITHYNIA. Nikomedes IV Philopator (94-74 BC). Tetradrachm. Condition: Good very fine; minor cracks on obverse. Weight: 16.51 g. Diameter: 35 mm. SOLD BY CNG at Electronic Auction 534, February 22nd, 2023, lot #78, for $750.',
     obverse: 'Diademed head of Nikomedes right',
     reverse: 'ΒΑΣΙΛΕΩΣ / ΕΠΙΦΑΝΟΥΣ ΝΙΚΟΜΗΔΟΥ. Zeus standing left, holding wreath and sceptre. Controls: To inner left, eagle standing left on thunderbolt, monogram and ZΣ (date)',
     references: 'De Callataÿ p. 62; HGC 6, 646',
@@ -313,7 +313,7 @@ export const items = [
     '88-75 CE',
     mint: 'Antioch',
     body:
-    'SELEUKID EMPIRE. Philip I Philadelphos. AR Tetradrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215.',
+    'SELEUKID EMPIRE. Philip I Philadelphos. AR Tetradrachm (24.5mm, 15.82 g, 1h). Antioch on the Orontes mint. Toned, minor flan flaw on obverse. VF. From the Stein A. Evensen Collection. Ex Oslo Mynthandel 58 (21 April 2007), lot 1215. SOLD BY CNG at Electronic Auction 534, February 22nd, 2023, lot #179, for $100.',
     obverse: 'Diademed bust of Philip I',
     reverse: 'Zeus Nikephoros seated left; [to outer left, Φ above A]; Δ to inner left, monogram below throne; all within wreath',
     references: 'SC 2463.2c; HGC 9, 1319',
