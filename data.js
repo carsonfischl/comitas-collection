@@ -566,6 +566,18 @@ export const items = [
   }, 
   {
     id: '40',
+    title: 'Spanish Netherlands Patagon',
+    category: 'earlymodern',
+    subcategory: 'dutch',
+    pic: '/images/patagon.jpg',
+    date: '1621 CE',
+    body: 'LOW COUNTRIES, Spanish Netherlands. Albrecht & Isabella. 1598-1621. AR Patagon (42.5mm, 27.43 g, 3h). Bruxelles (Brussels) in Brabant mint; mm: head. Toned, minor doubling, edge split, minor deposits. Near VF.',
+    obverse: 'Vuurijzer over Bugundian cross; crown above, crowned monograms flanking',
+    reverse: 'Crowned and collared coat-of-arms',
+    references: 'Vanhoudt 619.BS; G&H 311.3a; Delmonte, Argent 256; Davenport 4432; KM 35.3.',
+  },
+  {
+    id: '41',
     title: 'Charles IV 8 Reales',
     category: 'earlymodern',
     subcategory: 'spanish',
@@ -580,7 +592,7 @@ export const items = [
     references: 'Calicó y Trigo 480-490 (for type); KM 19a',
   }, 
   {
-    id: '41',
+    id: '42',
     title: 'Dutch Leeuwendaalder (32 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -594,7 +606,7 @@ export const items = [
     references: 'P&W Fr24, CNM 2.46.24, KM 14.2',
   },
   {
-    id: '42',
+    id: '43',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -608,7 +620,7 @@ export const items = [
     references: 'P&W Ze 43; CNM 2.49.56; KM 41.1',
   },  
   {
-    id: '43',
+    id: '44',
     title: 'Charles IV 8 Reales',
     category: 'earlymodern',
     subcategory: 'spanish',
@@ -623,7 +635,7 @@ export const items = [
     references: 'BW 15.7; KM 47',
   },   
   {
-    id: '44',
+    id: '45',
     title: 'Louis XV Écu',
     category: 'earlymodern',
     subcategory: 'french',
@@ -636,7 +648,7 @@ export const items = [
     reverse: 'Coats of Arms',
   },
   {
-    id: '45',
+    id: '46',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -650,7 +662,7 @@ export const items = [
     references: 'P&W Ov49, CNM 2.38.79, KM 80',
   },       
   {
-    id: '46',
+    id: '47',
     title: 'Madonnenthaler',
     category: 'earlymodern',
     subcategory: 'german',
@@ -662,17 +674,5 @@ export const items = [
     obverse: 'Bust of Maximilian III. D G MAX IOS U B D S RIA & EL L L.',
     reverse: '.The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.',
     references: 'Davenport 1953',
-  },      
-  {
-    id: '47',
-    title: 'Spanish Netherlands Patagon',
-    category: 'earlymodern',
-    subcategory: 'dutch',
-    pic: '/images/patagon.jpg',
-    date: '1621 CE',
-    body: 'LOW COUNTRIES, Spanish Netherlands. Albrecht & Isabella. 1598-1621. AR Patagon (42.5mm, 27.43 g, 3h). Bruxelles (Brussels) in Brabant mint; mm: head. Toned, minor doubling, edge split, minor deposits. Near VF.',
-    obverse: 'Vuurijzer over Bugundian cross; crown above, crowned monograms flanking',
-    reverse: 'Crowned and collared coat-of-arms',
-    references: 'Vanhoudt 619.BS; G&H 311.3a; Delmonte, Argent 256; Davenport 4432; KM 35.3.',
   }
 ]
