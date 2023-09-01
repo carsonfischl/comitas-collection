@@ -672,7 +672,7 @@ export const items = [
     body:
     'GERMANY. Bavaria. Maximilian III Joseph (1745-1777). Condition: Near very fine. Weight: 27.80 g. Diameter: 43 mm.',
     obverse: 'Bust of Maximilian III. D G MAX IOS U B D S RIA & EL L L.',
-    reverse: '.The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.',
+    reverse: '.The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.', 
     references: 'Davenport 1953',
   }
 ]
