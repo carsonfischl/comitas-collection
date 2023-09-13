@@ -202,4 +202,28 @@ export const subheaders = [
       pic: '/images/earlymodern.jpeg',
       body: 'The British Empire was founded in 1707 through the Act of Union, signed by Queen Anne, and lasted until the establishment of the Commonwealth of Nations in 1949.',
     },
+    {
+      id: '20',
+      title: 'Italian',
+      category: 'earlymodern',
+      subcategory: 'italian',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The Italian Republic was founded in 1946, and lasted until the establishment of the Italian Republic in 1948.',
+    },
+    {
+      id: '21',
+      title: 'Portuguese',
+      category: 'earlymodern',
+      subcategory: 'portuguese',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The Portuguese Empire was founded in 1415, and lasted until the establishment of the Portuguese Republic in 1910.',
+    },
+    {
+      id: '22',
+      title: 'Belgian',
+      category: 'earlymodern',
+      subcategory: 'belgian',
+      pic: '/images/earlymodern.jpeg',
+      body: 'The Belgian Empire was founded in 1830, and lasted until the establishment of the Belgian Republic in 1831.',
+    },
 ]

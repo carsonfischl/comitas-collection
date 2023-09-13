@@ -568,7 +568,7 @@ export const items = [
     id: '40',
     title: 'Spanish Netherlands Patagon',
     category: 'earlymodern',
-    subcategory: 'dutch',
+    subcategory: 'belgian',
     pic: '/images/patagon.jpg',
     date: '1621 CE',
     body: 'LOW COUNTRIES, Spanish Netherlands. Albrecht & Isabella. 1598-1621. AR Patagon (42.5mm, 27.43 g, 3h). Bruxelles (Brussels) in Brabant mint; mm: head. Toned, minor doubling, edge split, minor deposits. Near VF.',
