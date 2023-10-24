@@ -14,3 +14,5 @@ body {
   align-content: center;
   justify-content: center;
 }
+
+#map { height: 180px; }

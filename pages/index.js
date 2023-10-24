@@ -8,6 +8,7 @@ import ItemList from '../components/ItemList'
 import items from '../data'
 import mainphoto from '../public/images/mainheader.jpeg'
 import Meta from '../components/Meta'
+import map from '../components/Map'
 
 const Home = ({result, header}) => {
   return (
@@ -15,6 +16,7 @@ const Home = ({result, header}) => {
       <Meta title='Comitas Collection' description='Home page' keywords='Comitas Collection'/>
       <div>
         <Header header={header}/>
+        <Map />
       </div>
       <div>
         <ItemList items={result}/>
