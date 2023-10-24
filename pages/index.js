@@ -9,14 +9,12 @@ import items from '../data'
 import mainphoto from '../public/images/mainheader.jpeg'
 import Meta from '../components/Meta'
 
-const Home = ({result, main}) => {
+const Home = ({result, header}) => {
   return (
     <>
       <Meta title='Comitas Collection' description='Home page' keywords='Comitas Collection'/>
-      <div className={homeStyles.container}>
-        <h1 className={headerStyles.title}>Comitas Collection</h1>
-        <Image src={mainphoto} alt='mainphoto' style={{ width: '80%', padding: '1rem' }} />
-        <h3 className={headerStyles.subtitle}>A Global Historiography through Numismatics</h3>
+      <div>
+        <Header header={header}/>
       </div>
       <div>
         <ItemList items={result}/>
@@ -28,10 +26,22 @@ const Home = ({result, main}) => {
 export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/items`)
   const result = await res.json()
+  var header = {
+    id: '1',
+    title: 'Comitas Collection',
+    category: 'None',
+    subcategory: 'None',
+    pic: '/images/mainheader.jpeg',
+    body:
+      'A Global Historiography Through Numismatics',
+  }
+  header = JSON.stringify(header)
   return {
     props: {
-      result
+      result,
+      header
     }
   }
 }
+
 export default Home

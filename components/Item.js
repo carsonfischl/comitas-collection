@@ -19,11 +19,11 @@ const Item = ({ item }) => {
   
   return (
     <Link href={`/item/${item.id}`}>
-      <Card flat isHoverable isPressable css={{ mw: "400px", alignContent: 'center'}}>
+      <Card flat isHoverable isPressable css={{ alignContent: 'center', width: '14rem', minHeight: '12rem', height: '16rem'}}>
         {isLoading ? (
           <Loader />
         ) : (
-         <Card.Image src={item.pic} alt={item.id} layout='responsive' css={{ alignContent: 'center'}} placeholder='blur' blurDataURL='/../public/images/spinner.svg'/>
+         <Card.Image src={item.pic} alt={item.id} layout='responsive' css={{ alignContent: 'center', padding: '1rem'}} placeholder='blur' blurDataURL='/../public/images/spinner.svg'/>
         )}
             <Card.Body css={{ display: 'contents', textAlign: 'center', display: 'inline-grid'}}>
                 <Text>{item.title}</Text>
