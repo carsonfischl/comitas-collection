@@ -9,3 +9,16 @@
 .button{
   padding:1rem;
 }
+
+@media screen and (max-width: 600px) {
+  .bar{
+    display: grid;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bar{
+    display: flex;
+  }
+}

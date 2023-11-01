@@ -2,7 +2,6 @@ import { Dropdown, Navbar, Link, Button, Modal, Text } from "@nextui-org/react";
 import navStyles from "../styles/Nav.module.css";
 import React from "react";
 import { signIn, signOut, useSession } from "next-auth/react";
-import Login from "./Login";
 
 export default function App() {
     const { data: session } = useSession()

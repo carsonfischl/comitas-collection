@@ -40,3 +40,39 @@
 .link{
     color: black;
 }
+
+
+@media screen and (min-width: 600px) {
+    .itemgrid{
+        display: grid;
+        grid-template-areas:
+          'side-left header header header side-right'
+          'side-left main main main side-right'
+          'side-left footer footer footer side-right';
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .itemgrid{
+        display: grid;
+        grid-template-areas:
+          'side-left header header header side-right'
+          'side-left main main main side-right'
+          'side-left footer footer footer side-right';
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .itemgrid{
+        display: grid;
+        grid-template-areas:
+          'header'
+          'main'
+          'footer';
+          padding: 0.2rem;
+    }
+}
