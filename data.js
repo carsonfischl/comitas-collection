@@ -51,7 +51,7 @@ export const items = [
     date:
     '320-280 BCE',
     body:
-    'Akarnania, Thyrreion AR Stater. 8.28g, 22mm, 12h. Very Fine. From the collection of Z.P., Austria.',
+    'Akarnania, Thyrreion AR Stater. 8.28g, 22mm, 12h. Very Fine.',
     obverse: 'Pegasos flying to left; ΘY below',
     reverse: 'Θ-Y across fields, Boeotian shield behind',
     references: 'Pegasi 22; BCD Akarnania 370',
