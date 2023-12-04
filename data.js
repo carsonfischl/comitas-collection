@@ -607,6 +607,20 @@ export const items = [
   },
   {
     id: '43',
+    title: 'Louis XIV Écu',
+    category: 'earlymodern',
+    subcategory: 'french',
+    pic: '/images/french2.jpeg',
+    date:
+    '1649 CE',
+    body:
+    'FRANCE / CAPÉTIENS - FRANCE / ROYAL Louis XIV (1643-1715). Écu à la mèche longue, H, La Rochelle. Argent - 26,97 g - 39 mm - 6 h. TB.',
+    obverse: 'Bust "à la mèche longue" of Louis XIV',
+    reverse: 'French crown on a shield containing three fleurs-de-lis', 
+    references: 'Dy.1469 - G.202 - Dav. 3799',
+  },
+  {
+    id: '44',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -620,7 +634,7 @@ export const items = [
     references: 'P&W Ze 43; CNM 2.49.56; KM 41.1',
   },  
   {
-    id: '44',
+    id: '45',
     title: 'Charles IV 8 Reales',
     category: 'earlymodern',
     subcategory: 'spanish',
@@ -635,7 +649,7 @@ export const items = [
     references: 'BW 15.7; KM 47',
   },   
   {
-    id: '45',
+    id: '46',
     title: 'Louis XV Écu',
     category: 'earlymodern',
     subcategory: 'french',
@@ -648,7 +662,7 @@ export const items = [
     reverse: 'Coats of Arms',
   },
   {
-    id: '46',
+    id: '47',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -662,7 +676,7 @@ export const items = [
     references: 'P&W Ov49, CNM 2.38.79, KM 80',
   },       
   {
-    id: '47',
+    id: '48',
     title: 'Madonnenthaler',
     category: 'earlymodern',
     subcategory: 'german',
@@ -674,20 +688,6 @@ export const items = [
     obverse: 'Bust of Maximilian III. D G MAX IOS U B D S RIA & EL L L.',
     reverse: 'The Madonna seated seated slightly right among the clouds, with feet set upon crescent, holding sceptre and Holy Infant, holding orb. PATRONA BAVARIAE.', 
     references: 'Davenport 1953',
-  },
-  {
-    id: '48',
-    title: 'Louis XIV Écu',
-    category: 'earlymodern',
-    subcategory: 'french',
-    pic: '/images/french2.jpeg',
-    date:
-    '1649 CE',
-    body:
-    'FRANCE / CAPÉTIENS - FRANCE / ROYAL Louis XIV (1643-1715). Écu à la mèche longue, H, La Rochelle. Argent - 26,97 g - 39 mm - 6 h. TB.',
-    obverse: 'Bust "à la mèche longue" of Louis XIV',
-    reverse: 'French crown on a shield containing three fleurs-de-lis', 
-    references: 'Dy.1469 - G.202 - Dav. 3799',
   },
   {
     id: '49',
