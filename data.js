@@ -684,9 +684,23 @@ export const items = [
     date:
     '1649 CE',
     body:
-    'FRANCE / CAPÉTIENS - FRANCE / ROYAL Louis XIV (1643-1715). Écu à la mèche longue, H, La Rochelle. Argent - 26,97 g - 39 mm - 6 h',
+    'FRANCE / CAPÉTIENS - FRANCE / ROYAL Louis XIV (1643-1715). Écu à la mèche longue, H, La Rochelle. Argent - 26,97 g - 39 mm - 6 h. TB.',
     obverse: 'Bust "à la mèche longue" of Louis XIV',
     reverse: 'French crown on a shield containing three fleurs-de-lis', 
     references: 'Dy.1469 - G.202 - Dav. 3799',
+  },
+  {
+    id: '49',
+    title: 'Louis XVI Écu',
+    category: 'earlymodern',
+    subcategory: 'french',
+    pic: '/images/french3.jpeg',
+    date:
+    '1783 CE',
+    body:
+    'FRANCE / CAPÉTIENS - FRANCE / ROYAL. Louis XVI (1774-1792). Écu aux rameaux d\'olivier 1783, K, Bordeaux. Argent - 28,8 g - 41 mm - 6 h. TB à TTB.',
+    obverse: 'Dressed bust of Louis XVI',
+    reverse: 'Three fleurs-de-lis surrounded by an olive wreath and crowned', 
+    references: 'Dy.1708 - G.356',
   }
 ]
