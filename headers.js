@@ -22,7 +22,7 @@ export const headers = [
         title: 'Medieval',
         category: 'medieval',
         subcategory: 'medieval',
-        pic: '/images/pergamonheader.jpeg',
+        pic: '/images/ghent.png',
         body:
           'The fall of the Western Roman Empire to Germanic invaders in 476 CE resulted in the rise of petty kingdoms until the rise of the Frankish empire in the late 8th century. After centuries of dynastic feuding, the royal houses of Europe formed the proto-states that would become the precursors to many modern European countries.',
       },
