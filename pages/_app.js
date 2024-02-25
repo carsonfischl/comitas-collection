@@ -4,7 +4,7 @@ import Router from 'next/router';
 import { useState } from 'react';
 import Loader from '../components/Loader';
 import { NextUIProvider } from '@nextui-org/react';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { SessionProvider } from "next-auth/react"
 
 export default function App({
@@ -25,6 +25,7 @@ export default function App({
         <Layout>
         {isLoading ? <Loader size='xl' css={{ color: '$black'}}/> : <Component {...pageProps} />}
         </Layout>
+        <SpeedInsights />
       </SessionProvider>
     </NextUIProvider>
   )
