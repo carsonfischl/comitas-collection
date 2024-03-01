@@ -116,7 +116,7 @@ export const items = [
   },
   {
     id: '9',
-    title: 'Antogonus II Gonatas Tetradrachm',
+    title: 'Antigonus II Gonatas Tetradrachm',
     category: 'hellenistic',
     subcategory: 'antigonid',
     pic: '/images/antigonid2.jpg',
