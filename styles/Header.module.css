@@ -1,0 +1,17 @@
+.construction{
+    color: orange;
+    font-style: bold;
+    font-size: 5rem;
+    padding: 3rem;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #666;
+    padding: 1rem;
+}
+
+.title{
+    align-content: center;
+}
