@@ -607,6 +607,20 @@ export const items = [
   },
   {
     id: '43',
+    title: 'João IV Cruzado',
+    category: 'earlymodern',
+    subcategory: 'portuguese',
+    pic: '/images/portugal.png',
+    date:
+    '1642 CE',
+    body:
+    'PORTUGAL. João IV (1640-1656). Cruzado (400 reis; silver, 40 mm, 22.94 g), Lisbon. Very fine. Saltwater damage.',
+    obverse: 'Crowned coat of arms',
+    reverse: 'Cross of the Order of Christ', 
+    references: 'KM-52, Gomes-J4.98.03',
+  },
+  {
+    id: '44',
     title: 'Louis XIV Écu',
     category: 'earlymodern',
     subcategory: 'french',
@@ -620,7 +634,7 @@ export const items = [
     references: 'Dy.1469 - G.202 - Dav. 3799',
   },
   {
-    id: '44',
+    id: '45',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -633,8 +647,22 @@ export const items = [
     reverse: 'Crowned coat-of-arms with leonine supporters',
     references: 'P&W Ze 43; CNM 2.49.56; KM 41.1',
   },  
+    {
+    id: '46',
+    title: 'Genoese Scudo',
+    category: 'earlymodern',
+    subcategory: 'italian',
+    pic: '/images/genoa.jpg',
+    date:
+    '1692 CE',
+    body:
+    'Republic of the GENOVA Dogi Biennali, 1528-1797. III Fase, 1637-1797. Scudo stretto.',
+    obverse: 'Dr. ✶ET✶ REGE✶ EOS ✶1692✶ I •T •C • ✶. The Blessed Virgin with Child on the clouds',
+    reverse: ' + DVX✶ ET✶ GVB✶ REIP ✶GENV. Cross patent set aside by four stars',
+    references: 'CNI 20/24; Lunardi 260 (R1); MIR 294/55',
+  },  
   {
-    id: '45',
+    id: '47',
     title: 'Charles IV 8 Reales',
     category: 'earlymodern',
     subcategory: 'spanish',
@@ -649,7 +677,7 @@ export const items = [
     references: 'BW 15.7; KM 47',
   },   
   {
-    id: '46',
+    id: '48',
     title: 'Louis XV Écu',
     category: 'earlymodern',
     subcategory: 'french',
@@ -662,7 +690,7 @@ export const items = [
     reverse: 'Coats of Arms',
   },
   {
-    id: '47',
+    id: '49',
     title: 'Dutch Dukaton (60 Stuivers)',
     category: 'earlymodern',
     subcategory: 'dutch',
@@ -676,7 +704,7 @@ export const items = [
     references: 'P&W Ov49, CNM 2.38.79, KM 80',
   },       
   {
-    id: '48',
+    id: '50',
     title: 'Madonnenthaler',
     category: 'earlymodern',
     subcategory: 'german',
@@ -690,7 +718,7 @@ export const items = [
     references: 'Davenport 1953',
   },
   {
-    id: '49',
+    id: '51',
     title: 'Louis XVI Écu',
     category: 'earlymodern',
     subcategory: 'french',
