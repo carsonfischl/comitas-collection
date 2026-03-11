@@ -130,6 +130,11 @@ export default function App() {
                     Belgian
                 </Link>
             </Dropdown.Item>
+            <Dropdown.Item>
+                <Link href="/category/earlymodern/subcategory/italian" css={{color: '$black'}}>
+                    Italian
+                </Link>
+            </Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
         {/* <Login css={{ color: '$white', background: '$black'}}/> */}
