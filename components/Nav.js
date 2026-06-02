@@ -25,16 +25,18 @@ function NavDropdown({ label, items }) {
 export default function Nav() {
   return (
     <Group className={navStyles.bar} gap={0}>
-      <ActionIcon
-        component={Link}
-        href="/"
-        variant="subtle"
-        size="lg"
-        aria-label="Home"
-        style={{ color: '#000', marginRight: '0.5rem' }}
-      >
-        <AiOutlineHome size={24} />
-      </ActionIcon>
+      <div className={navStyles.homeIcon}>
+        <ActionIcon
+          component={Link}
+          href="/"
+          variant="subtle"
+          size="lg"
+          aria-label="Home"
+          style={{ color: '#000', marginRight: '0.5rem' }}
+        >
+          <AiOutlineHome size={24} />
+        </ActionIcon>
+      </div>
       <NavDropdown label="Hellenistic" items={[
         { href: '/category/hellenistic', label: 'All' },
         { href: '/category/hellenistic/subcategory/argead', label: 'Argead' },

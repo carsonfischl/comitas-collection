@@ -1,5 +1,6 @@
-.bar{
+.bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center !important;
   align-items: center !important;
   background: #fff;
@@ -7,19 +8,20 @@
   padding-top: 0.75rem;
 }
 
-.button{
-  padding:1rem;
+.button {
+  padding: 1rem;
 }
 
 @media screen and (max-width: 600px) {
-  .bar{
-    display: grid;
-    padding-bottom: 2rem;
+  .bar {
+    padding-bottom: 1rem;
+    justify-content: center !important;
   }
-}
 
-@media screen and (min-width: 600px) {
-  .bar{
+  .homeIcon {
+    flex: 0 0 100%;
     display: flex;
+    justify-content: center;
+    margin-bottom: 0.25rem;
   }
 }

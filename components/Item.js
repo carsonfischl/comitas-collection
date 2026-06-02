@@ -10,7 +10,7 @@ const Item = ({ item }) => {
   return (
     <div ref={ref} className={`${styles.fadeItem} ${visible ? styles.fadeVisible : ''}`}>
       <Link href={`/item/${item.id}`} style={{ textDecoration: 'none' }}>
-        <Card shadow="sm" padding="sm" radius="md" withBorder className={styles.card} style={{ width: '14rem', height: '16rem' }}>
+        <Card shadow="sm" padding="sm" radius="md" withBorder className={styles.card}>
           <div style={{ position: 'relative', width: '100%', height: '9rem', overflow: 'hidden', borderRadius: '4px', flexShrink: 0 }}>
             <Image src={item.pic} alt={item.title} fill style={{ objectFit: 'cover' }} />
           </div>
