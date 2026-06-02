@@ -9,8 +9,11 @@ const Header = ({ header }) => {
 
   return (
     <div style={{ width: '100%' }}>
-      <h1 className={headerStyles.title} style={{ minHeight: '1.4em' }}>
-        <TypeWriter text={text.title} speed={70} onComplete={() => setTitleDone(true)} />
+      <h1 className={headerStyles.title} style={{ position: 'relative', margin: 0, paddingBottom: '0.2em' }}>
+        <span style={{ visibility: 'hidden', display: 'block' }}>{text.title}</span>
+        <span style={{ position: 'absolute', top: 0, left: 0, right: 0 }}>
+          <TypeWriter text={text.title} speed={70} onComplete={() => setTitleDone(true)} />
+        </span>
       </h1>
       <div style={{ position: 'relative', width: '100%', height: '400px', flexShrink: 0, overflow: 'hidden', marginBottom: '1.5rem' }}>
         <Image src={text.pic} alt='mainphoto' fill style={{ objectFit: 'cover' }} />
