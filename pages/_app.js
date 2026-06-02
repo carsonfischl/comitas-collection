@@ -1,9 +1,9 @@
 import '../styles/globals.css'
+import '@mantine/core/styles.css'
 import Layout from '../components/Layout'
 import Router from 'next/router';
-import { useState } from 'react';
-import Loader from '../components/Loader';
-import { NextUIProvider } from '@nextui-org/react';
+import { useState, useEffect } from 'react';
+import { MantineProvider } from '@mantine/core';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { SessionProvider } from "next-auth/react"
 
@@ -11,41 +11,29 @@ export default function App({
   Component,
   pageProps: { session, ...pageProps },
 }) {
-
   const [isLoading, setIsLoading] = useState(false);
-  Router.events.on('routeChangeStart', (url) => {
-    setIsLoading(true);
-  })
-  Router.events.on('routeChangeComplete', (url) => {
-    setIsLoading(false);
-  })
+
+  useEffect(() => {
+    const handleStart = () => setIsLoading(true);
+    const handleComplete = () => setIsLoading(false);
+    Router.events.on('routeChangeStart', handleStart);
+    Router.events.on('routeChangeComplete', handleComplete);
+    Router.events.on('routeChangeError', handleComplete);
+    return () => {
+      Router.events.off('routeChangeStart', handleStart);
+      Router.events.off('routeChangeComplete', handleComplete);
+      Router.events.off('routeChangeError', handleComplete);
+    };
+  }, []);
+
   return (
-    <NextUIProvider>
+    <MantineProvider>
       <SessionProvider session={session}>
-        <Layout>
-        {isLoading ? <Loader size='xl' css={{ color: '$black'}}/> : <Component {...pageProps} />}
+        <Layout isLoading={isLoading}>
+          <Component {...pageProps} />
         </Layout>
         <SpeedInsights />
       </SessionProvider>
-    </NextUIProvider>
+    </MantineProvider>
   )
 }
-
-/**
- * `MyApp` is a function that returns a `NextUIProvider` component that wraps a `Layout` component that
- * wraps a `Loader` component that wraps a `Component` component
- * @returns A Layout component with a Loader component or a Component component.
- */
-// function MyApp({ Component, pageProps }) {
-
-//   return (
-//     <NextUIProvider>
-//       <Layout>
-//       {isLoading ? <Loader size='xl' css={{ color: '$black'}}/> : <Component {...pageProps} />}
-//       </Layout>
-//     </NextUIProvider>
-//   );
-// }
-
-//export default MyApp;
-

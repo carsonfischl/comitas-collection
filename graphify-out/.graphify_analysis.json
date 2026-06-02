@@ -1,0 +1,151 @@
+{
+  "communities": {
+    "0": [
+      "pages_document_document",
+      "pages_document_js",
+      "pages_document_mydocument",
+      "pages_document_mydocument_getinitialprops",
+      "pages_document_mydocument_render"
+    ],
+    "1": [
+      "category_index_category",
+      "category_index_getstaticpaths",
+      "category_index_getstaticprops",
+      "pages_category_category_index_js"
+    ],
+    "2": [
+      "pages_category_category_subcategory_subcategory_js",
+      "subcategory_subcategory_getstaticpaths",
+      "subcategory_subcategory_getstaticprops",
+      "subcategory_subcategory_subcategory"
+    ],
+    "3": [
+      "id_index_getstaticpaths",
+      "id_index_getstaticprops",
+      "id_index_item",
+      "pages_item_id_index_js"
+    ],
+    "4": [
+      "pages_index_getstaticprops",
+      "pages_index_home",
+      "pages_index_js"
+    ],
+    "5": [
+      "components_layout_js",
+      "components_layout_layout"
+    ],
+    "6": [
+      "components_background_background",
+      "components_background_js"
+    ],
+    "7": [
+      "components_itemlist_itemlist",
+      "components_itemlist_js"
+    ],
+    "8": [
+      "components_header_header",
+      "components_header_js"
+    ],
+    "9": [
+      "components_meta_js",
+      "components_meta_meta"
+    ],
+    "10": [
+      "components_item_item",
+      "components_item_js"
+    ],
+    "11": [
+      "components_form_form",
+      "components_form_js"
+    ],
+    "12": [
+      "components_nav_app",
+      "components_nav_js"
+    ],
+    "13": [
+      "components_loader_app",
+      "components_loader_js"
+    ],
+    "14": [
+      "pages_app_app",
+      "pages_app_js"
+    ],
+    "15": [
+      "pages_login_js",
+      "pages_login_loginpage"
+    ],
+    "16": [
+      "headers_index_handler",
+      "pages_api_headers_index_js"
+    ],
+    "17": [
+      "headers_headers_handler",
+      "pages_api_headers_headers_js"
+    ],
+    "18": [
+      "items_id_handler",
+      "pages_api_items_id_js"
+    ],
+    "19": [
+      "items_index_handler",
+      "pages_api_items_index_js"
+    ],
+    "20": [
+      "next_config_js"
+    ],
+    "21": [
+      "headers_js"
+    ],
+    "22": [
+      "data_js"
+    ],
+    "23": [
+      "config_index_js"
+    ],
+    "24": [
+      "components_login_tsx"
+    ]
+  },
+  "cohesion": {
+    "0": 0.4,
+    "1": 0.5,
+    "2": 0.5,
+    "3": 0.5,
+    "4": 0.67,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0
+  },
+  "gods": [
+    {
+      "id": "pages_document_mydocument",
+      "label": "MyDocument",
+      "degree": 3
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "no_signal",
+      "question": null,
+      "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+    }
+  ]
+}

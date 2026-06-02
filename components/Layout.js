@@ -1,18 +1,16 @@
-
 import Nav from './Nav'
-import Header from './Header'
+import Loader from './Loader'
 import styles from '../styles/Layout.module.css'
-import Background from './Background'
 import { Analytics } from '@vercel/analytics/react';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isLoading }) => {
   return (
     <>
       <Nav />
       <div className={styles.container}>
         <main className={styles.main}>
-          {children}
-          <Analytics/>
+          {isLoading ? <Loader /> : children}
+          <Analytics />
         </main>
       </div>
     </>

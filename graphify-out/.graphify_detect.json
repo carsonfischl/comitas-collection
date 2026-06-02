@@ -1,0 +1,39 @@
+{
+  "total_files": 25,
+  "total_words": 7226,
+  "warning": null,
+  "skipped_sensitive": [],
+  "files": {
+    "code": [
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/next.config.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/headers.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/data.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/config/index.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Layout.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Login.tsx",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Background.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/ItemList.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Header.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Meta.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Item.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Form.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Nav.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/components/Loader.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/_app.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/index.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/login.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/_document.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/category/[category]/index.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/category/[category]/subcategory/[subcategory].js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/item/[id]/index.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/api/headers/index.js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/api/headers/[headers].js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/api/items/[id].js",
+      "/Users/carson/Desktop/Projects/NextJS/comitas-collection/pages/api/items/index.js"
+    ],
+    "document": [],
+    "paper": [],
+    "image": [],
+    "video": []
+  }
+}

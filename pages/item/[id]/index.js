@@ -1,43 +1,27 @@
-import { server } from '../../../config'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import Meta from '../../../components/Meta'
 import Image from 'next/image'
-import { Card, Grid, Text, Loading } from "@nextui-org/react"
+import { Card, Text, Title } from '@mantine/core'
 import { items } from '../../../data'
-import { useState, useEffect } from 'react'
-import spinner from '../../../public/images/spinner.svg'
 import styles from '../../../styles/Item.module.css'
 
-const item = ({ result }) => {
-
+const ItemPage = ({ result }) => {
   return (
     <>
       <Meta title={result.title} description={result.excerpt} />
-      <Card style={{ alignContent: 'center', justifyContent: 'center', padding: '3rem' }}>
-        <Card.Image src={result.pic} alt={result.id} layout='responsive' css={{ padding: '1rem', alignContent: 'center'}} placeholder='blur' blurDataURL={spinner}/>
-        <Card.Body css={{ display: 'contents', placeItems: 'center', textAlign: 'center' }}>
-          <Card.Header css={{ fontSize: '$lg', fontWeight: 'bold', display: 'block', fontSize: 'xx-large'}}>{result.title}</Card.Header>
-          <br></br>
-            <div>
-              {result.body}
-            </div>
-            <br></br>
-            <div>
-              <strong>Date: </strong>{result.date}<br/>
-            </div>
-            <br></br>
-            <div>
-              <strong>Obverse: </strong>{result.obverse}<br/>
-            </div>
-            <br></br>
-            <div>
-             <strong>Reverse: </strong>{result.reverse}<br/>
-            </div>
-        </Card.Body>
+      <Card shadow="sm" padding="xl" radius="md" withBorder style={{ maxWidth: '800px', margin: '2rem auto' }}>
+        <Title order={2} ta="center" mb="md">{result.title}</Title>
+        <div style={{ position: 'relative', width: '100%', height: '350px', marginBottom: '1.5rem' }}>
+          <Image src={result.pic} alt={result.title} fill style={{ objectFit: 'contain' }} />
+        </div>
+        <Text mb="sm">{result.body}</Text>
+        <Text mb="xs"><strong>Date:</strong> {result.date}</Text>
+        <Text mb="xs"><strong>Obverse:</strong> {result.obverse}</Text>
+        <Text mb="xs"><strong>Reverse:</strong> {result.reverse}</Text>
       </Card>
-      <br />
-      <Link href='/' css={{paddingBottom: '1rem' }} className={styles.link}>Go Back</Link>
+      <div style={{ textAlign: 'center', margin: '1rem' }}>
+        <Link href='/' className={styles.link}>Go Back</Link>
+      </div>
     </>
   )
 }
@@ -45,27 +29,17 @@ const item = ({ result }) => {
 export const getStaticProps = async ({ params: { id } }) => {
   const single = items.filter(items => items.id === id)
   const result = single[0]
-  return {
-    props: {
-      result,
-    },
-  }
+  return { props: { result } }
 }
 
 function* range(start, end, step) {
-  while (start < end) {
-    yield start;
-    start += step;
-  }
+  while (start < end) { yield start; start += step; }
 }
 
 export const getStaticPaths = async () => {
-  const ids = Array.from(range(1,52,1)) //increment every time 
-  const paths = ids.map((i) => ({params:{ id: String(i)}}))
-  return {
-    paths,
-    fallback: false,
-  }
+  const ids = Array.from(range(1, 52, 1))
+  const paths = ids.map((i) => ({ params: { id: String(i) } }))
+  return { paths, fallback: false }
 }
 
-export default item
+export default ItemPage

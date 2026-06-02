@@ -1,0 +1,1347 @@
+{
+  "nodes": [
+    {
+      "id": "next_config_js",
+      "label": "next.config.js",
+      "file_type": "code",
+      "source_file": "next.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "headers_js",
+      "label": "headers.js",
+      "file_type": "code",
+      "source_file": "headers.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "data_js",
+      "label": "data.js",
+      "file_type": "code",
+      "source_file": "data.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "config_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "config/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_layout_js",
+      "label": "Layout.js",
+      "file_type": "code",
+      "source_file": "components/Layout.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_layout_layout",
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "components/Layout.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "components_login_tsx",
+      "label": "Login.tsx",
+      "file_type": "code",
+      "source_file": "components/Login.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_background_js",
+      "label": "Background.js",
+      "file_type": "code",
+      "source_file": "components/Background.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_background_background",
+      "label": "Background()",
+      "file_type": "code",
+      "source_file": "components/Background.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_itemlist_js",
+      "label": "ItemList.js",
+      "file_type": "code",
+      "source_file": "components/ItemList.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_itemlist_itemlist",
+      "label": "ItemList()",
+      "file_type": "code",
+      "source_file": "components/ItemList.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_header_js",
+      "label": "Header.js",
+      "file_type": "code",
+      "source_file": "components/Header.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_header_header",
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "components/Header.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_meta_js",
+      "label": "Meta.js",
+      "file_type": "code",
+      "source_file": "components/Meta.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_meta_meta",
+      "label": "Meta()",
+      "file_type": "code",
+      "source_file": "components/Meta.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_item_js",
+      "label": "Item.js",
+      "file_type": "code",
+      "source_file": "components/Item.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_item_item",
+      "label": "Item()",
+      "file_type": "code",
+      "source_file": "components/Item.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "components_form_js",
+      "label": "Form.js",
+      "file_type": "code",
+      "source_file": "components/Form.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_form_form",
+      "label": "Form()",
+      "file_type": "code",
+      "source_file": "components/Form.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "components_nav_js",
+      "label": "Nav.js",
+      "file_type": "code",
+      "source_file": "components/Nav.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_nav_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "components/Nav.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "components_loader_js",
+      "label": "Loader.js",
+      "file_type": "code",
+      "source_file": "components/Loader.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_loader_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "components/Loader.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "pages_app_js",
+      "label": "_app.js",
+      "file_type": "code",
+      "source_file": "pages/_app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "pages/_app.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "pages_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "pages/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_index_home",
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "pages/index.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "pages_index_getstaticprops",
+      "label": "getStaticProps()",
+      "file_type": "code",
+      "source_file": "pages/index.js",
+      "source_location": "L26"
+    },
+    {
+      "id": "pages_login_js",
+      "label": "login.js",
+      "file_type": "code",
+      "source_file": "pages/login.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_login_loginpage",
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "pages/login.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "pages_document_js",
+      "label": "_document.js",
+      "file_type": "code",
+      "source_file": "pages/_document.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_document_document",
+      "label": "_document()",
+      "file_type": "code",
+      "source_file": "pages/_document.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "pages_document_mydocument",
+      "label": "MyDocument",
+      "file_type": "code",
+      "source_file": "pages/_document.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "pages_document_mydocument_getinitialprops",
+      "label": ".getInitialProps()",
+      "file_type": "code",
+      "source_file": "pages/_document.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "pages_document_mydocument_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "pages/_document.js",
+      "source_location": "L21"
+    },
+    {
+      "id": "pages_category_category_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "category_index_category",
+      "label": "Category()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "category_index_getstaticprops",
+      "label": "getStaticProps()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L27"
+    },
+    {
+      "id": "category_index_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L39"
+    },
+    {
+      "id": "pages_category_category_subcategory_subcategory_js",
+      "label": "[subcategory].js",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L1"
+    },
+    {
+      "id": "subcategory_subcategory_subcategory",
+      "label": "subcategory()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L8"
+    },
+    {
+      "id": "subcategory_subcategory_getstaticprops",
+      "label": "getStaticProps()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L21"
+    },
+    {
+      "id": "subcategory_subcategory_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L30"
+    },
+    {
+      "id": "pages_item_id_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "id_index_item",
+      "label": "item()",
+      "file_type": "code",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "id_index_getstaticprops",
+      "label": "getStaticProps()",
+      "file_type": "code",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L45"
+    },
+    {
+      "id": "id_index_getstaticpaths",
+      "label": "getStaticPaths()",
+      "file_type": "code",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L62"
+    },
+    {
+      "id": "pages_api_headers_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "pages/api/headers/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "headers_index_handler",
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "pages/api/headers/index.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "pages_api_headers_headers_js",
+      "label": "[headers].js",
+      "file_type": "code",
+      "source_file": "pages/api/headers/[headers].js",
+      "source_location": "L1"
+    },
+    {
+      "id": "headers_headers_handler",
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "pages/api/headers/[headers].js",
+      "source_location": "L3"
+    },
+    {
+      "id": "pages_api_items_id_js",
+      "label": "[id].js",
+      "file_type": "code",
+      "source_file": "pages/api/items/[id].js",
+      "source_location": "L1"
+    },
+    {
+      "id": "items_id_handler",
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "pages/api/items/[id].js",
+      "source_location": "L3"
+    },
+    {
+      "id": "pages_api_items_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "pages/api/items/index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "items_index_handler",
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "pages/api/items/index.js",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "components_layout_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_nav",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_header",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_layout_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_background",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_js",
+      "target": "components_layout_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "components_login_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Login.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_login_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Login.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_login_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Login.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_background_js",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Background.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_background_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_home_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Background.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_background_js",
+      "target": "components_background_background",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Background.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_itemlist_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_item",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ItemList.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_itemlist_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_itemgrid_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ItemList.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_itemlist_js",
+      "target": "components_itemlist_itemlist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ItemList.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_header_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_header_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Header.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_header_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Header.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_header_js",
+      "target": "script",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Header.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_header_js",
+      "target": "components_header_header",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Header.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_meta_js",
+      "target": "head",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Meta.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_meta_js",
+      "target": "components_meta_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Meta.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_loader",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_public_images_spinner_svg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_item_js",
+      "target": "components_item_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Item.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "components_form_js",
+      "target": "components_form_form",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Form.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_nav_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Nav.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_nav_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_nav_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Nav.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_nav_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Nav.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_nav_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Nav.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_nav_js",
+      "target": "components_nav_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Nav.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_loader_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Loader.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_loader_js",
+      "target": "components_loader_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Loader.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_layout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "router",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_loader",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_app_js",
+      "target": "pages_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_app.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "head",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_layout_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_header_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_header",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_itemlist",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_public_images_mainheader_jpeg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_meta",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "pages_index_home",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_index_js",
+      "target": "pages_index_getstaticprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/index.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_login_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/login.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_login_js",
+      "target": "router",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/login.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_login_js",
+      "target": "pages_login_loginpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/login.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_js",
+      "target": "pages_document_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_js",
+      "target": "document",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_js",
+      "target": "pages_document_mydocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_mydocument",
+      "target": "pages_document_mydocument_getinitialprops",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_document_mydocument",
+      "target": "pages_document_mydocument_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/_document.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "router",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_header",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_itemlist",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_headers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_meta",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "category_index_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "category_index_getstaticprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_index_js",
+      "target": "category_index_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/index.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "router",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_meta",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_itemlist",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "subcategory_subcategory_subcategory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "subcategory_subcategory_getstaticprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_category_category_subcategory_subcategory_js",
+      "target": "subcategory_subcategory_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/category/[category]/subcategory/[subcategory].js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "router",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_components_meta",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_public_images_spinner_svg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_styles_item_module_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "id_index_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "id_index_getstaticprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_item_id_index_js",
+      "target": "id_index_getstaticpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/item/[id]/index.js",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_headers_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_headers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/headers/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_headers_index_js",
+      "target": "headers_index_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/headers/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_headers_headers_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_headers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/headers/[headers].js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_headers_headers_js",
+      "target": "headers_headers_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/headers/[headers].js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_items_id_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/items/[id].js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_items_id_js",
+      "target": "items_id_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/items/[id].js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_items_index_js",
+      "target": "users_carson_desktop_projects_nextjs_comitas_collection_data",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/items/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_api_items_index_js",
+      "target": "items_index_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pages/api/items/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,143 +1,59 @@
-import { Dropdown, Navbar, Link, Button, Modal, Text } from "@nextui-org/react";
-import navStyles from "../styles/Nav.module.css";
-import React from "react";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { Menu, Button, Group } from '@mantine/core';
+import Link from 'next/link';
+import navStyles from '../styles/Nav.module.css';
 
-export default function App() {
-    const { data: session } = useSession()
+const btnStyle = { margin: '0.5rem', backgroundColor: '#d4d4d8', color: '#000' };
+
+function NavDropdown({ label, items }) {
   return (
-    <span className={navStyles.bar}>
-        <Dropdown>
-        <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Hellenistic</Dropdown.Button>
-        <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item>
-                <Link href="/category/hellenistic" css={{color: '$black'}}>
-                    All
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item withDivider>
-                <Link href="/category/hellenistic/subcategory/argead" css={{color: '$black'}}>
-                    Argead
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/antigonid" css={{color: '$black'}}>
-                    Antigonid
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/bactrian" css={{color: '$black'}}>
-                    Bactrian
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/bithynian" css={{color: '$black'}}>
-                    Bithynian
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/greek" css={{color: '$black'}}>
-                    Greek
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/pergamon" css={{color: '$black'}}>
-                    Pergamene
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/ptolemaic" css={{color: '$black'}}>
-                    Ptolemaic
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/seleucid" css={{color: '$black'}}>
-                    Seleucid
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/hellenistic/subcategory/thrace" css={{color: '$black'}}>
-                    Thracian
-                </Link>
-            </Dropdown.Item>
-        </Dropdown.Menu>
-        </Dropdown>
-        <Dropdown>
-        <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Roman</Dropdown.Button>
-        <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item href="/category/roman">
-                <Link href="/category/roman" css={{color: '$black'}}>
-                    All
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item withDivider>
-                <Link href="/category/roman/subcategory/imperatorial" css={{color: '$black'}}>
-                    Imperatorial
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/roman/subcategory/imperial" css={{color: '$black'}}>
-                    Imperial
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/roman/subcategory/byzantine" css={{color: '$black'}}>
-                    Byzantine
-                </Link>
-            </Dropdown.Item>
-        </Dropdown.Menu>
-        </Dropdown>
-        <Dropdown>
-        <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Medieval</Dropdown.Button>
-        <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item>
-                <Link href="/category/medieval" css={{color: '$black'}}>
-                    All
-                </Link>
-            </Dropdown.Item>
-        </Dropdown.Menu>
-        </Dropdown>
-        <Dropdown>
-        <Dropdown.Button flat css={{margin: '1rem', background: '$gray300', color: '$black'}}>Early Modern</Dropdown.Button>
-        <Dropdown.Menu aria-label="Static Actions">
-            <Dropdown.Item>
-                <Link href="/category/earlymodern" css={{color: '$black'}}>
-                    All
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item withDivider>
-                <Link href="/category/earlymodern/subcategory/french" css={{color: '$black'}}>
-                    French
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/earlymodern/subcategory/spanish" css={{color: '$black'}}>
-                    Spanish
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/earlymodern/subcategory/german" css={{color: '$black'}}>
-                    German
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/earlymodern/subcategory/dutch" css={{color: '$black'}}>
-                    Dutch
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/earlymodern/subcategory/belgian" css={{color: '$black'}}>
-                    Belgian
-                </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-                <Link href="/category/earlymodern/subcategory/italian" css={{color: '$black'}}>
-                    Italian
-                </Link>
-            </Dropdown.Item>
-        </Dropdown.Menu>
-        </Dropdown>
-        {/* <Login css={{ color: '$white', background: '$black'}}/> */}
-    </span>
+    <Menu shadow="md" width={180}>
+      <Menu.Target>
+        <Button variant="filled" style={btnStyle}>{label}</Button>
+      </Menu.Target>
+      <Menu.Dropdown>
+        {items.map(({ href, label: itemLabel }) => (
+          <Menu.Item key={href} component={Link} href={href}>
+            {itemLabel}
+          </Menu.Item>
+        ))}
+      </Menu.Dropdown>
+    </Menu>
+  );
+}
+
+export default function Nav() {
+  return (
+    <Group className={navStyles.bar} gap={0}>
+      <NavDropdown label="Hellenistic" items={[
+        { href: '/category/hellenistic', label: 'All' },
+        { href: '/category/hellenistic/subcategory/argead', label: 'Argead' },
+        { href: '/category/hellenistic/subcategory/antigonid', label: 'Antigonid' },
+        { href: '/category/hellenistic/subcategory/bactrian', label: 'Bactrian' },
+        { href: '/category/hellenistic/subcategory/bithynian', label: 'Bithynian' },
+        { href: '/category/hellenistic/subcategory/greek', label: 'Greek' },
+        { href: '/category/hellenistic/subcategory/pergamon', label: 'Pergamene' },
+        { href: '/category/hellenistic/subcategory/ptolemaic', label: 'Ptolemaic' },
+        { href: '/category/hellenistic/subcategory/seleucid', label: 'Seleucid' },
+        { href: '/category/hellenistic/subcategory/thrace', label: 'Thracian' },
+      ]} />
+      <NavDropdown label="Roman" items={[
+        { href: '/category/roman', label: 'All' },
+        { href: '/category/roman/subcategory/imperatorial', label: 'Imperatorial' },
+        { href: '/category/roman/subcategory/imperial', label: 'Imperial' },
+        { href: '/category/roman/subcategory/byzantine', label: 'Byzantine' },
+      ]} />
+      <NavDropdown label="Medieval" items={[
+        { href: '/category/medieval', label: 'All' },
+      ]} />
+      <NavDropdown label="Early Modern" items={[
+        { href: '/category/earlymodern', label: 'All' },
+        { href: '/category/earlymodern/subcategory/french', label: 'French' },
+        { href: '/category/earlymodern/subcategory/spanish', label: 'Spanish' },
+        { href: '/category/earlymodern/subcategory/german', label: 'German' },
+        { href: '/category/earlymodern/subcategory/dutch', label: 'Dutch' },
+        { href: '/category/earlymodern/subcategory/belgian', label: 'Belgian' },
+        { href: '/category/earlymodern/subcategory/italian', label: 'Italian' },
+      ]} />
+    </Group>
   );
 }
