@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.code {
+  font-size: 8rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: #e0e0e0;
+  margin: 0;
+  line-height: 1;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0.5rem 0 1rem;
+  min-height: 1.4em;
+  color: #1a1a1a;
+}
+
+.sub {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  min-height: 1.6em;
+  margin-bottom: 2.5rem;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease;
+}
+
+.link:hover {
+  background: #444;
+}

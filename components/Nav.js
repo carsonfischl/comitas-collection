@@ -1,5 +1,6 @@
-import { Menu, Button, Group } from '@mantine/core';
+import { Menu, Button, Group, ActionIcon } from '@mantine/core';
 import Link from 'next/link';
+import { AiOutlineHome } from 'react-icons/ai';
 import navStyles from '../styles/Nav.module.css';
 
 const btnStyle = { margin: '0.5rem', backgroundColor: '#d4d4d8', color: '#000' };
@@ -24,6 +25,16 @@ function NavDropdown({ label, items }) {
 export default function Nav() {
   return (
     <Group className={navStyles.bar} gap={0}>
+      <ActionIcon
+        component={Link}
+        href="/"
+        variant="subtle"
+        size="lg"
+        aria-label="Home"
+        style={{ color: '#000', marginRight: '0.5rem' }}
+      >
+        <AiOutlineHome size={24} />
+      </ActionIcon>
       <NavDropdown label="Hellenistic" items={[
         { href: '/category/hellenistic', label: 'All' },
         { href: '/category/hellenistic/subcategory/argead', label: 'Argead' },

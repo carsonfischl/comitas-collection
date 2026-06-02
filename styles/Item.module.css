@@ -1,6 +1,32 @@
-.card{
-    align-content: center;
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: calc(16rem - 9rem);
+    padding: 0.25rem 0;
+}
+
+.fadeItem {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fadeVisible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .link{

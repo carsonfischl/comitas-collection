@@ -5,13 +5,13 @@ import headerStyles from '../styles/Header.module.css'
 import Header from '../components/Header'
 import ItemList from '../components/ItemList'
 import { items } from '../data'
-import mainphoto from '../public/images/mainheader.jpeg'
+import mainphoto from '../public/images/out.png'
 import Meta from '../components/Meta'
 
 const Home = ({result, header}) => {
   return (
     <>
-      <Meta title='Comitas Collection' description='Home page' keywords='Comitas Collection'/>
+      <Meta title='The Comitas Collection' description='Home page' keywords='Comitas Collection'/>
       <div>
         <Header header={header}/>
       </div>
@@ -26,10 +26,10 @@ export const getStaticProps = async () => {
   const result = items
   var header = {
     id: '1',
-    title: 'Comitas Collection',
+    title: 'The Comitas Collection',
     category: 'None',
     subcategory: 'None',
-    pic: '/images/mainheader.jpeg',
+    pic: '/images/out.png',
     body:
       'A Global Historiography Through Numismatics',
   }
