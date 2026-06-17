@@ -3,17 +3,26 @@ import Link from 'next/link';
 import { AiOutlineHome } from 'react-icons/ai';
 import navStyles from '../styles/Nav.module.css';
 
-const btnStyle = { margin: '0.5rem', backgroundColor: '#d4d4d8', color: '#000' };
+const btnStyle = { margin: '0.5rem', backgroundColor: '#000', color: '#fff', transition: 'background-color 0.15s ease' };
 
 function NavDropdown({ label, items }) {
   return (
     <Menu shadow="md" width={180}>
       <Menu.Target>
-        <Button variant="filled" style={btnStyle}>{label}</Button>
+        <Button
+          variant="filled"
+          style={btnStyle}
+          styles={{ root: { '&:hover': { backgroundColor: '#2a2a2a' } } }}
+        >{label}</Button>
       </Menu.Target>
       <Menu.Dropdown>
         {items.map(({ href, label: itemLabel }) => (
-          <Menu.Item key={href} component={Link} href={href}>
+          <Menu.Item
+            key={href}
+            component={Link}
+            href={href}
+            styles={{ item: { '&:hover': { backgroundColor: '#000', color: '#fff' } } }}
+          >
             {itemLabel}
           </Menu.Item>
         ))}
@@ -33,6 +42,7 @@ export default function Nav() {
           size="lg"
           aria-label="Home"
           style={{ color: '#000', marginRight: '0.5rem' }}
+          styles={{ root: { '&:hover': { backgroundColor: '#e5e5e5' } } }}
         >
           <AiOutlineHome size={24} />
         </ActionIcon>
