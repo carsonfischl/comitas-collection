@@ -1,6 +1,7 @@
 import { Menu, Button, Group, ActionIcon } from '@mantine/core';
 import Link from 'next/link';
 import { AiOutlineHome } from 'react-icons/ai';
+import { FaInstagram, FaTiktok } from 'react-icons/fa6';
 import navStyles from '../styles/Nav.module.css';
 
 const btnStyle = { margin: '0.5rem', backgroundColor: '#000', color: '#fff', transition: 'background-color 0.15s ease' };
@@ -77,6 +78,34 @@ export default function Nav() {
         { href: '/category/earlymodern/subcategory/belgian', label: 'Belgian' },
         { href: '/category/earlymodern/subcategory/italian', label: 'Italian' },
       ]} />
+      <div className={navStyles.socialIcons}>
+        <ActionIcon
+          component="a"
+          href="https://www.instagram.com/the_comitas_collection/"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="subtle"
+          size="lg"
+          aria-label="Instagram"
+          style={{ color: '#000', marginLeft: '0.5rem' }}
+          styles={{ root: { '&:hover': { backgroundColor: '#e5e5e5' } } }}
+        >
+          <FaInstagram size={22} />
+        </ActionIcon>
+        <ActionIcon
+          component="a"
+          href="https://www.tiktok.com/@the_comitas_colle"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="subtle"
+          size="lg"
+          aria-label="TikTok"
+          style={{ color: '#000', marginLeft: '0.25rem' }}
+          styles={{ root: { '&:hover': { backgroundColor: '#e5e5e5' } } }}
+        >
+          <FaTiktok size={20} />
+        </ActionIcon>
+      </div>
     </Group>
   );
 }
